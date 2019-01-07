@@ -6,6 +6,18 @@
         <div class="col-md-10">
             <h3>Project Manager</h3>
         </div>
+
+        <div class="col-sm-2">
+                <form action="/search" method="GET">
+                <div class="input-group">
+                    <input type="search" name="search" class="form-control">
+                    <span class="input-group-prepend">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </span>
+                </div>
+            </form>
+        </div>
+
         <div class="col-sm-2">
                 <a class="btn btn-sm btn-success" href="{{ route('project.create') }}">Create New Project</a>
         </div>
@@ -15,7 +27,7 @@
     <div class="alert alert-success">
       <p>{{$message}}</p>
     </div>
-  @endif
+    @endif
 
   <table class="table table-hover table-sm">
         <tr>
@@ -30,7 +42,7 @@
 
         @foreach ($projects as $project)
           <tr>
-            <td><b>{{++$i}}.</b></td>
+            <td><b>{{$project->id}}.</b></td>
             <td>{{$project->name}}</td>
             <td>{{$project->developer}}</td>
             <td>{{$project->status}}</td>

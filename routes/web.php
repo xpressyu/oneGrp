@@ -20,6 +20,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('project', 'ProjectController');
+Route::get('/search', 'ProjectController@search');
 
 // Route for admin
 Route::get('admin/login', 'Admin\LoginController@showLoginForm')->name('admin.login');

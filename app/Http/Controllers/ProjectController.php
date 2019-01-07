@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Project;
+use DB;
 use Illuminate\Http\Request;
 
 class ProjectController extends Controller
@@ -115,6 +116,16 @@ class ProjectController extends Controller
         $project = Project::find($id);
         $project->delete();
         return redirect()->route('project.index')
-                         ->with('success', 'project deleted');
+            ->with('success', 'project deleted');
     }
+
+    // search function
+    public function search(Request $request)
+    {
+        $search = $request->get('search');
+        $projects = DB::table('projects')->where('name', 'like', '%' . $search . '%')
+                                         ->orWhere('developer', 'like', '%' . $search . '%')->paginate(5);
+        return view('project.index', compact('projects'));
+    }
+
 }
