@@ -19,7 +19,12 @@ class ProjectController extends Controller
         $projects = Project::latest()->paginate(5);
         return view('project.index', compact('projects'))
             ->with('i', (request()->input('page', 1) - 1) * 5);
+    }
 
+    // add authentication to project manager (admin only)
+    public function __construct()
+    {
+        $this->middleware('auth:admin');
     }
 
     /**
@@ -124,7 +129,7 @@ class ProjectController extends Controller
     {
         $search = $request->get('search');
         $projects = DB::table('projects')->where('name', 'like', '%' . $search . '%')
-                                         ->orWhere('developer', 'like', '%' . $search . '%')->paginate(5);
+            ->orWhere('developer', 'like', '%' . $search . '%')->paginate(5);
         return view('project.index', compact('projects'));
     }
 
