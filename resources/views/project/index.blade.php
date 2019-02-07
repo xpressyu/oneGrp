@@ -46,8 +46,8 @@
             <td>{{$project->name}}</td>
             <td>{{$project->developer}}</td>
             <td>{{$project->status}}</td>
-            <td>{{$project->priceList}}</td>
-            <td>{{$project->pic}}</td>
+            <td>{{$project->photoname}}</td>
+             <td>{{$project->pic}}</td>
             <td>
               <form action="{{ route('project.destroy', $project->id) }}" method="post">
                 <a class="btn btn-sm btn-success" href="{{route('project.show',$project->id)}}">Show</a>

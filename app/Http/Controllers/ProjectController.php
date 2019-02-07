@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Project;
 use DB;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class ProjectController extends Controller
 {
@@ -49,11 +50,20 @@ class ProjectController extends Controller
             'name' => 'required',
             'developer' => 'required',
             'status' => 'required',
-            // 'priceList' => 'required',
-            // 'pic' => 'required',
         ]);
 
-        Project::create($request->all());
+        // get current time and append the upload file extension to it,
+        // then put that name to $photoName variable.
+        $photoName = time() . '.' . $request->priceList->getClientOriginalExtension();
+
+        /*
+        talk the select file and move it public directory and make avatars
+        folder if doesn't exsit then give it that unique name.
+         */
+        $request->priceList->move(public_path('avatars'), $photoName);
+
+        // Project::create($request->all());
+
         return redirect()->route('project.index')->with('success', 'Project added');
 
     }
@@ -103,9 +113,7 @@ class ProjectController extends Controller
         $project->name = $request->get('name');
         $project->developer = $request->get('developer');
         $project->status = $request->get('status');
-        // $project->priceList = $request->get('priceList');
-        // $project->pic = $request->get('pic');
-        $project->save();
+
         return redirect()->route('project.index')
             ->with('success', 'Update done');
     }

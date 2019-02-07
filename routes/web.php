@@ -29,3 +29,8 @@ Route::get('admin/register', 'Admin\RegisterController@showRegistrationForm')->n
 Route::post('admin/register', 'Admin\RegisterController@register');
 Route::post('admin/logout', 'Admin\LoginController@logout')->name('admin.logout');
 Route::get('admin', 'AdminController@index')->name('admin.home');
+
+//Route for project detail
+Route::get('/projectDetail/Deicorp/grandH', function () {
+    return view('projectDetail.Deicorp.grandH');
+});

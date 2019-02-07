@@ -18,7 +18,7 @@
       </div>
     @endif
 
-    <form action="{{route('project.store')}}" method="post">
+    <form action="{{route('project.store')}}" method="post" enctype="multipart/form-data">
       @csrf
       <div class="row">
         <div class="col-md-12">
@@ -42,7 +42,8 @@
 
         <div class="col-md-12">
             <strong>Price List:</strong>
-            <textarea class="form-control" placeholder="Price List" name="priceList" rows="8" cols="80"></textarea>
+            {{-- <textarea class="form-control" placeholder="Price List" name="priceList" rows="8" cols="80"></textarea> --}}
+            <input type="file" class="form-control" name="priceList"/>
         </div>
 
         <div class="col-md-12">
