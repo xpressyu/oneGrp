@@ -40,11 +40,11 @@
 
 
 <div class="imgRoll" style="padding-top:20px; width: 100%">
-<img class="mySlides" src={{ URL::asset('/img/grandHHurstvl/J002551_Deicorp_Hurstville_Grandh_Close_Up_View.jpg') }} style="width:100%">
-  <img class="mySlides" src={{ URL::asset('/img/grandHHurstvl/J002551_Deicorp_Hurstville_Grandh_Rooftop.jpg') }} style="width:100%">
-  <img class="mySlides" src={{ URL::asset('/img/grandHHurstvl/J002551_Deicorp_Hurstville_Grandh_Living_R4.jpg') }} style="width:100%">
-  <img class="mySlides" src={{ URL::asset('/img/grandHHurstvl/J002551_Deicorp_Hurstville_Grandh_Bedroom.jpg') }} style="width:100%">
-  <img class="mySlides" src={{ URL::asset('/img/grandHHurstvl/J002551_Deicorp_Hurstville_Grandh_Balcony.jpg') }} style="width:100%">
+<img class="mySlides" src={{ URL::asset('/img/deicorp/grandHHurstvlAB/J002551_Deicorp_Hurstville_Grandh_Close_Up_View.jpg') }} style="width:100%">
+  <img class="mySlides" src={{ URL::asset('/img/deicorp/grandHHurstvlAB/J002551_Deicorp_Hurstville_Grandh_Rooftop.jpg') }} style="width:100%">
+  <img class="mySlides" src={{ URL::asset('/img/deicorp/grandHHurstvlAB/J002551_Deicorp_Hurstville_Grandh_Living_R4.jpg') }} style="width:100%">
+  <img class="mySlides" src={{ URL::asset('/img/deicorp/grandHHurstvlAB/J002551_Deicorp_Hurstville_Grandh_Bedroom.jpg') }} style="width:100%">
+  <img class="mySlides" src={{ URL::asset('/img/deicorp/grandHHurstvlAB/J002551_Deicorp_Hurstville_Grandh_Balcony.jpg') }} style="width:100%">
 
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
@@ -90,7 +90,7 @@ function showDivs(n) {
 <div class="w3-content w3-display-container" style="padding-top: 25px;">
 <h2>Devloper: Deicorp</h2>
 <br>
-<img src={{ URL::asset('img/grandHHurstvl/develperInfor.png') }} >
+<img src={{ URL::asset('img/deicorp/grandHHurstvlAB/develperInfor.png') }} >
 <br><br>
 <h3>DEICORP</h3>
 <p class="text-justify">Founded in 1999, Deicorp has been operating as a privately- owned property development and construction group for residential, commercial and retail real estate.<br>
@@ -102,7 +102,7 @@ Serving as testament to Deicorp’s experience is an incredibly diligent managem
 
 <div class="w3-content w3-display-container">
  <div class="left">
-	 <img src={{ URL::asset('img/grandHHurstvl/J002551_Deicorp_Hurstville_GrandH_Hero.jpg') }}>
+	 <img src={{ URL::asset('img/deicorp/grandHHurstvlAB/J002551_Deicorp_Hurstville_GrandH_Hero.jpg') }}>
  </div>
 
  <div class="right" style="width: 400px;" >
@@ -116,7 +116,7 @@ A grand life awaits you at GrandH.</p>
 
 <div class="w3-content w3-display-container">
 <div class="float-right" style="height: 520px;">
-	<img src={{ URL::asset('img/grandHHurstvl/worldsMeet-HustvilleH.png') }}>
+	<img src={{ URL::asset('img/deicorp/grandHHurstvlAB/worldsMeet-HustvilleH.png') }}>
 
 </div>
 
@@ -136,7 +136,7 @@ of Sichuan fare. In between restaurant banquets, take your pick from any of Hurs
 
 <div class="w3-content w3-dislay-container">
 
- <img src={{ URL::asset('img/grandHHurstvl/J002551_Deicorp_Hurstville_Grandh_Living_R4.jpg') }} style="width: 1000px;">
+ <img src={{ URL::asset('img/deicorp/grandHHurstvlAB/J002551_Deicorp_Hurstville_Grandh_Living_R4.jpg') }} style="width: 1000px;">
  <br>
  <h3>Live At New Heights</h3>
  <p class="text-justify">
@@ -148,7 +148,7 @@ of Sichuan fare. In between restaurant banquets, take your pick from any of Hurs
 <div class="w3-content w3-display-container">
 
  <div class="float-left" style="height: 550px">
-	 <img src={{ URL::asset('img/grandHHurstvl/AtTheCentreOfItAll.png') }}>
+	 <img src={{ URL::asset('img/deicorp/grandHHurstvlAB/AtTheCentreOfItAll.png') }}>
  </div>
 
  <div class="float-right" style="width: 400px; height: 550px;" >
@@ -160,13 +160,13 @@ Transport has been optimised to serve the daily commuters flocking to the vibran
 Need to pick up some groceries, or something more special?
 Westfield Hurstville is tantalisingly close by – only four minutes on foot, in fact. This impressive shopping centre has recently been redeveloped to accommodate 232 stores, plus al fresco dining and never-ending entertainment. If Westfield isn’t enough, even more shops can be found closer to home: Coles, Woolworths, Aldi, Target, and Kmart are right on GrandH’s doorstep.</p>
 </div>
-<img src={{ URL::asset('img/grandHHurstvl/food.png') }}>
+<img src={{ URL::asset('img/deicorp/grandHHurstvlAB/food.png') }}>
 <hr class="new1">
 </div>
 
 <div class="w3-content w3-display-container">
  <div class="left">
-	 <img src={{ URL::asset('img/grandHHurstvl/room.png') }}>
+	 <img src={{ URL::asset('img/deicorp/grandHHurstvlAB/room.png') }}>
  </div>
  <div class="right" style="width: 400px;" >
 	<h3>The Definition Of Style</h3>
@@ -175,15 +175,15 @@ The kitchens are fitted with stainless steel Smeg appliances and stone benchtops
  </p>
 </div>
 <hr class="new1">
-<img src={{ URL::asset('img/grandHHurstvl/TheHurstvilleLifestyle.png') }}>
+<img src={{ URL::asset('img/deicorp/grandHHurstvlAB/TheHurstvilleLifestyle.png') }}>
 <hr class="new1">
-<img src={{ URL::asset('img/grandHHurstvl/EverythingInArmsReach.png') }}>
+<img src={{ URL::asset('img/deicorp/grandHHurstvlAB/EverythingInArmsReach.png') }}>
 <hr class="new1">
 </div>
 
 <div class="w3-content w3-dislay-container">
 
- <img src={{ URL::asset('img/grandHHurstvl/J002551_Deicorp_Hurstville_Grandh_Rooftop.jpg') }} style="width: 1000px;">
+ <img src={{ URL::asset('img/deicorp/grandHHurstvlAB/J002551_Deicorp_Hurstville_Grandh_Rooftop.jpg') }} style="width: 1000px;">
  <br>
  <h3>Find Home in An Oasis</h3>
  <p class="text-justify">
@@ -194,7 +194,7 @@ The kitchens are fitted with stainless steel Smeg appliances and stone benchtops
 
 <div class="w3-content w3-display-container">
  <div class="float-left" style="height: 520px">
-	 <img src={{ URL::asset('img/grandHHurstvl/TheDefinitionOfStyle.png') }}>
+	 <img src={{ URL::asset('img/deicorp/grandHHurstvlAB/TheDefinitionOfStyle.png') }}>
  </div>
 
  <div class="float-right" style="width: 460px; height: 540px;" >
@@ -206,8 +206,10 @@ The kitchens are fitted with stainless steel Smeg appliances and stone benchtops
 </div>
 
 <div class="pricelist" style="padding-top: 50px;">
-<h1>Typical Floor Plan</h1>
+<h1>Typical Floor Plan</h1><br>
+<a href="{{ asset('documents/deicorp/grandHHurstvlAB/BuildingA-Level2.pdf') }}" target="_blank">Building A Level 2.pdf</a>
 </div>
+
 <hr class="new1">
 <h1>Additional Informatiion</h1>
 <div class="w3-content w3-display-container" >
@@ -228,15 +230,15 @@ The kitchens are fitted with stainless steel Smeg appliances and stone benchtops
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="FAQ" role="tabpanel" aria-labelledby="FAQ-tab">FAQ...</div>
   <div class="tab-pane fade" id="Depreciation" role="tabpanel" aria-labelledby="Depreciation-tab">
-  <a href="{{ asset('documents/grandHHurstvl/1Bed.pdf') }}" target="_blank">1 Bed.pdf</a>
+  <a href="{{ asset('documents/deicorp/grandHHurstvlAB/1Bed.pdf') }}" target="_blank">1 Bed.pdf</a>
   <br>
-  <a href="{{ asset('documents/grandHHurstvl/2Bed.pdf') }}" target="_blank">2 Bed.pdf</a>
+  <a href="{{ asset('documents/deicorp/grandHHurstvlAB/2Bed.pdf') }}" target="_blank">2 Bed.pdf</a>
   </div>
 
   <div class="tab-pane fade" id="Schedule" role="tabpanel" aria-labelledby="Schedule-tab">Schedule...</div>
 
   <div class="tab-pane fade" id="Strate" role="tabpanel" aria-labelledby="Strate-tab">
-    <a href="{{ asset('documents/grandHHurstvl/StrataLevy.pdf') }}" target="_blank">Strata Levy Estimate Summary.pdf</a>
+    <a href="{{ asset('documents/deicorp/grandHHurstvlAB/StrataLevy.pdf') }}" target="_blank">Strata Levy Estimate Summary.pdf</a>
   </div>
 </div>
 </div>

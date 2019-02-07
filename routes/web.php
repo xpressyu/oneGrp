@@ -31,6 +31,6 @@ Route::post('admin/logout', 'Admin\LoginController@logout')->name('admin.logout'
 Route::get('admin', 'AdminController@index')->name('admin.home');
 
 //Route for project detail
-Route::get('/projectDetail/Deicorp/grandH', function () {
-    return view('projectDetail.Deicorp.grandH');
+Route::get('/projectDetail/Deicorp/grandHAB', function () {
+    return view('projectDetail.Deicorp.grandHAB');
 });
