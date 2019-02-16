@@ -20,7 +20,7 @@
    <li><a href="##">Contact</a></li>
    <li><a href="#####">Login/Resgister</a></li>
    <li style="float: left; color: aliceblue; font-family:Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black,' sans-serif'; font-size: 30px;" >OneGroup</li>
- 
+
 </ul>
 </div>
 <nav class="site-header sticky-top py-1">
@@ -36,15 +36,15 @@
         <a class="py-2 d-none d-md-inline-block" href="#">Social Service</a>
       </div>
     </nav>
-    
+
 <div class="imgRoll" style="padding-top:20px; width: 100%">
 <img class="mySlides" src={{ URL::asset('/img/frasers/botany/B20132000x1125bedroom.jpg') }} style="width:100%">
 <img class="mySlides" src={{ URL::asset('/img/frasers/botany/D1004display4.jpg') }}  style="width:100%">
-			
-  
+
+
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-  
+
 <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
 <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
 <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
@@ -63,14 +63,14 @@ function plusDivs(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
+  if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+     x[i].style.display = "none";
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
 }
-	
+
 var slideIndex = 0;
 carousel();
 
@@ -78,15 +78,15 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
+      x[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
     setTimeout(carousel, 3000); // Change image every 2 seconds
 }
-	
-	
+
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -102,17 +102,17 @@ function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
+  if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+     x[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
      dots[i].className = dots[i].className.replace(" w3-white", "");
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-white";
-}	
+}
 </script>
 
 
@@ -136,7 +136,7 @@ of Botany. With a brand new collection of terrace homes and apartments, each dwe
 <img src={{ URL::asset('/img/frasers/botany/14688_AUSL_TailorsWalk_HeroBrochure_TEXT_FA_04_FINAL2.png') }} style="width: 1000px">
 <br><br>
 <h3>Take Some Time Out</h3>
-<p class="text-justify">	
+<p class="text-justify">
 There’s no space quite like the expanse of parkland that encircles Tailor’s Walk – and the beautiful beaches and coastal retreats that lie just beyond it.
 This, combined with the area’s proximity to the city
 makes for an unprecedented Eastern Suburb’s lifestyle.
@@ -162,7 +162,7 @@ Café or coast, city or suburb, Botany is alive with recreational activities. Wi
 <p> The lush green environment running through the heart of Tailor’s Walk is designed to complement the architecture and provide a direct link to Botany Village.
 <br><br>Paths criss-cross between the sites, shaded in dappled light, and each bottom-level dwelling has its own private front garden – a place to relax and unwind, or socialise with friends. Large communal gathering areas and a dedicated 3,000sqm neighbourhood public park deliver an activated space for people to wander, run or simply chill out for the afternoon.</p>
 
-<img src={{ URL::asset('/img/frasers/botany/flowerList.png') }}>	
+<img src={{ URL::asset('/img/frasers/botany/flowerList.png') }}>
 <hr class="new1">
 </div>
 
@@ -173,7 +173,7 @@ Café or coast, city or suburb, Botany is alive with recreational activities. Wi
 <h3>SCHOOLING FOR ALL STAGES</h3>
 <p class="text-justify"> Tailor’s Walk is ideally situated, with learning options for all stages of life close and convenient.
 From pre-school all the way through to graduation,
-there are highly regarded kindergartens, primary schools, secondary schools, and universities only moments away. 
+there are highly regarded kindergartens, primary schools, secondary schools, and universities only moments away.
 <br><br>
 St Bernard’s primary is just one example of the quality
 of learning in the area, with the school achieving strong Naplan results across the board for 2014, bettering the nation’s average in almost every discipline.</p>
@@ -196,7 +196,7 @@ it seems that this first landing point on Australian soil was indeed a great pla
 <hr class="new1">
 <img src={{ URL::asset('/img/frasers/botany/wirte.png') }} style="width: 1000px">
 
-</div>	
+</div>
 
 
 <div class="pricelist" style="padding-top: 50px;">
@@ -236,17 +236,16 @@ it seems that this first landing point on Australian soil was indeed a great pla
 </div>
 </div>
 <div class="down" style="background-color: #000000 ">
-<p style="color: aliceblue ; width: 900px; padding-left: 500px;"> One Group Global Investment&copy;
-<br>One Group Global Invest Company
-Address:  23 xxxxxxxxx wryard NSW AU
-Email: 12345@123.com
-Tel: 0123456788 </p>
-</div>
+        <p style="color: aliceblue ; width: 900px; padding-left: 500px;">One Group Global Investment Pty Ltd&copy;
+                <br>Address: Level 6, 201 Kent Street, Sydney, 2000
+                <br>Email: fiona.l.xing@gmail.com
+                Tel: 0413 384 119 </p>
+                </div>
 
-<a href="#" class="float">
-<i class="fa fa-plus my-float">
-<img src={{ URL::asset('phone-contact.png') }}>
-</i>
-</a>
+                <a href="{{ route('SEND_EMAIL') }}" class="float">
+                <i class="fa fa-plus my-float">
+                <img src={{ URL::asset('/img/others/email.png') }} style="width: 45px; height:45px;">
+                </i>
+                </a>
 </body>
 </html>

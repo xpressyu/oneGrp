@@ -20,7 +20,7 @@
    <li><a href="##">Contact</a></li>
    <li><a href="#####">Login/Resgister</a></li>
    <li style="float: left; color: aliceblue; font-family:Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black,' sans-serif'; font-size: 30px;" >OneGroup</li>
- 
+
 </ul>
 </div>
 <nav class="site-header sticky-top py-1">
@@ -36,9 +36,9 @@
         <a class="py-2 d-none d-md-inline-block" href="#">Social Service</a>
       </div>
     </nav>
-    
+
 <div class="imgRoll" style="padding-top:20px; width: 100%">
-  <img class="mySlides" src={{ URL::asset('/img/meriton/pagewood5Allium/Terraceentrance.jpg') }} style="width:100%"> 
+  <img class="mySlides" src={{ URL::asset('/img/meriton/pagewood5Allium/Terraceentrance.jpg') }} style="width:100%">
   <img class="mySlides" src={{ URL::asset('/img/meriton/pagewood5Allium/POOL.jpg') }} style="width:100%">
   <img class="mySlides" src={{ URL::asset('/img/meriton/pagewood5Allium/PodiumGardens.jpg') }} style="width:100%">
   <img class="mySlides" src={{ URL::asset('/img/meriton/pagewood5Allium/Penthouseliving.jpg') }} style="width:100%">
@@ -52,7 +52,7 @@
 
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-  
+
   <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
@@ -78,14 +78,14 @@ function plusDivs(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
+  if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+     x[i].style.display = "none";
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
 }
-	
+
 var slideIndex = 0;
 carousel();
 
@@ -93,15 +93,15 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
+      x[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
     setTimeout(carousel, 3000); // Change image every 2 seconds
 }
-	
-	
+
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -117,17 +117,17 @@ function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
+  if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+     x[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
      dots[i].className = dots[i].className.replace(" w3-white", "");
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-white";
-}	
+}
 </script>
 
 <div class="w3-content w3-display-container" style="padding-top: 25px;">
@@ -145,7 +145,7 @@ function showDivs(n) {
 <img src={{ URL::asset('/img/meriton/pagewood5Allium/PagewoodExterior.jpg') }} style="width: 550px;">
 <div class="float-right" style="width: 430px; padding-left: 20px;padding-top: 50px;">
 <h3> AN ICONIC NEW NEIGHBOURHOOD</h3>
-<p class="text-justify" style="padding-top: 20px;">	
+<p class="text-justify" style="padding-top: 20px;">
 Pagewood Green is poised to offer a unique opportunity to step into luxury and lifestyle in Sydney’s eastern suburbs.
 The master planned park-like community will be home to grand residences offering optimum sizes up to 197sqm with superior finishes in a premium location.
 </p>
@@ -153,7 +153,7 @@ The master planned park-like community will be home to grand residences offering
 <h3>AN ARCHITECTURAL MASTERPIECE</h3>
 <p class="text-justify" style="padding-top: 20px;">The first stage at Pagewood Green, Allium,
 will rise to new heights of up to 20 storeys showcasing uninterrupted views of the city, championship golf courses and surrounding parklands from exceptionally large apartments up to 197sqm.</p>
-</div>	
+</div>
 </div>
 <hr class="new1">
 <img src={{ URL::asset('/img/meriton/pagewood5Allium/map.png') }} style="width: 1000px;">
@@ -177,12 +177,12 @@ Throughout the seasons, these expansive landscaped gardens will be wonderful spa
 <p class="text-justify">
 Pagewood Green’s first stage, Allium, brings a unique offering of 487 grand residences in four designer towers soaring to 20 storeys and with views from every angle of the city, championship golf courses, surrounding parklands and the east coast.
 Neighbouring Westfield Eastgardens and The Lakes Golf Course, this stunning collection of apartments is only moments from world-class beaches and entertainment amenities.
-By virtue of its impeccable location, near top schools, universities and an array of parks and sporting facilities by the bus interchange and the future South East Lightrail, Allium will emerge as the new investment hotspot of Sydney’s East delivering greater rental returns for future investors.	
+By virtue of its impeccable location, near top schools, universities and an array of parks and sporting facilities by the bus interchange and the future South East Lightrail, Allium will emerge as the new investment hotspot of Sydney’s East delivering greater rental returns for future investors.
 </p>
-<hr class="new1">		
-</div>	
+<hr class="new1">
+</div>
 
-	
+
 <div class="w3-content w3-display-container">
 <img src={{ URL::asset('/img/meriton/pagewood5Allium/map1.png') }}>
 <br><br>
@@ -192,36 +192,36 @@ Pagewood Green is poised to offer an enticing and unique opportunity to step int
 Developed in multiple stages with a design competition run for each stage, an esteem panel of experts within the property industry will judge each design submitted by various award-winning architects. The winning design will create this iconic new neighbourhood which will be among the best in the world to live, relax and thrive in, and will be designed to satisfy market demand, providing exceptionally large apartment layouts of house like proportions.
 <br><br>
 Redefining the traditional approach to property development, this new community by Meriton, will feature 10,000sqm of landscaped parklands and a retail civic plaza overlooking the park. At the heart of this exciting new community will be the expansive Central Park. With an abundance of plants and turfed areas, this versatile space will allow residents to reconnect with nature with multiple zones for both solitude and engagement.
-Pagewood Green, just 8km from the CBD, is a flagship venture for Australia’s largest apartment developer, Meriton, an award-winning and passionate company renowned for building large, luxurious apartments of the highest quality.		
+Pagewood Green, just 8km from the CBD, is a flagship venture for Australia’s largest apartment developer, Meriton, an award-winning and passionate company renowned for building large, luxurious apartments of the highest quality.
 </p>
-<hr class="new1">		
-</div>	
+<hr class="new1">
+</div>
 
 <div class="w3-content w3-display-container">
 <div class="float-right">
 <img src={{ URL::asset('/img/meriton/pagewood5Allium/Lobby.jpg') }} style="width: 550px;">
 <div class="float-left" style="width: 430px; padding-right: 50px; padding-top: 70px;">
 <h3> BUILT FOR MODERN LIFE</h3>
-<p class="text-justify" style="padding-top: 50px;">	
+<p class="text-justify" style="padding-top: 50px;">
 Residents will step straight into luxury as they walk through extravagant lobbies and ascend to their exceptionally large one, two, three and four bedroom grand residences – apartments of house like proportions with large balconies or terraces that serve as outdoor rooms with sensational vistas.<br><br>
 Functional, uncomplicated floorplans provide uncluttered expanse for easy living and entertaining. A selection of apartments come with the addition of a full study room to maximise the use of space for your growing family. Choose one of the lower level loft apartments, providing you with the flexibility to orchestrate where and how the elements of your home can complement your living options.<br><br>
 The building’s beautiful, clean lines are executed in only the highest quality materials, enhanced by ultra-modern design and technological details in every interior. The development showcases Meriton’s consistently uncompromising vision of perfection.
 </p>
-</div>	
+</div>
 </div>
 <hr class="new1">
 </div>
 
 
 <div class="w3-content w3-display-container">
-<img src={{ URL::asset('/img/meriton/pagewood5Allium/modelife.png') }} style="width: 980px;">	
+<img src={{ URL::asset('/img/meriton/pagewood5Allium/modelife.png') }} style="width: 980px;">
 <hr class="new1">
 <img src={{ URL::asset('/img/meriton/pagewood5Allium/ReplenishAndRenew.png') }} style="width: 980px">
 <h3>Peplenish And Renew</h3>
 <p class="text-justify">
 Every apartment features a designer kitchen, fully equipped with world-class Miele
 kitchen appliances, stone splashbacks
-and Caesarstone benchtops. 
+and Caesarstone benchtops.
 <br>Frameless, smoky mirrored built-in wardrobes
 in all bedrooms provide ample storage for bedroom necessities while elegant ensuites with
 a freestanding bath create stylish havens in which to unwind with ample concealed and open storage for your bathing essentials.</p>
@@ -258,14 +258,14 @@ Artist impression
 <img src={{ URL::asset('/img/meriton/pagewood5Allium/Kitchen.jpg') }} style="width: 550px;">
 <div class="float-right" style="width: 430px; padding-left: 50px; padding-top: 20px;">
 <h3>SCULPTURED KITCHENS</h3>
-<p class="text-justify">	
+<p class="text-justify">
 The intuitive design of the kitchens at Allium puts everything at your fingertips. These inspiring spaces are the heart of the apartments and your place to gather and share a meal with friends and family. Kitchens are fully equipped with:
 <li>
  MIELE stainless appliances include an integrated dishwasher, four burner cooktop, microwave and oven with black glass and ducted rangehood</li>
 <li>Glass splashbacks and Caesarstone benchtops</li>
 <li> Polyurethane cabinetry, soft-closing drawers and polished chrome fittings complete the design for a premium feel</li>
 </p>
-</div>	
+</div>
 </div>
 <hr class="new1">
 </div>
@@ -275,7 +275,7 @@ The intuitive design of the kitchens at Allium puts everything at your fingertip
 <img src={{ URL::asset('/img/meriton/pagewood5Allium/Bathroom.jpg') }} style="width: 550px;">
 <div class="float-left" style="width: 430px; padding-right: 50px; padding-top: 20px;">
 <h3>RELAXING BATHROOMS</h3>
-<p class="text-justify">	
+<p class="text-justify">
 Take time to pamper and step into your relaxing bathroom that allows you to replenish and renew.
 <li>
  A luxurious free-standing bath serves as a centerpiece in most ensuites</li>
@@ -300,7 +300,7 @@ With easy access to Allium’s ultimate resort facilities, you can ensure your f
 <li> A superior level of service with a dedicated on-site building manager</li>
 <li> Secure undercover resident and visitor parking with lift access</li>
 <li>  Future shopping and dining precinct</li>
-</p>	
+</p>
 </div>
 <hr class="new1">
 <img src={{ URL::asset('/img/meriton/pagewood5Allium/map2.png') }}>
@@ -314,7 +314,7 @@ With easy access to Allium’s ultimate resort facilities, you can ensure your f
 <img src={{ URL::asset('/img/meriton/pagewood5Allium/University.png') }}>
 <div class="float-left" style="width: 700px; padding-right: 70px;">
 <h3>THE FINEST EDUCATIONAL INSTITUTES</h3>
-<p class="text-justify">	
+<p class="text-justify">
 At Pagewood Green you’re within easy reach of Sydney’s best colleges, schools and universities, as well as numerous pre-schools and primary schools for the little ones.
 Take a leisurely 15 minute walk each morning to the local primary school, Pagewood Public School, or drive five minutes to Matraville Public School or St Aidan’s Catholic Primary School.
 Right on your door step are numerous top performing senior schools including Marcellin College, Brigidine College, Waverley College and St Catherine’s. Travel a bit further afield through the eastern beaches to find Cranbrook, Ascham, Kambala, Moriah College, Scots College, and St Vincent’s College amongst many.
@@ -371,18 +371,17 @@ Nowhere in the eastern suburbs will buyers be able to acquire brand new apartmen
 </div>
 </div>
 <div class="down" style="background-color: #000000 ">
-<p style="color: aliceblue ; width: 900px; padding-left: 500px;"> One Group Global Investment&copy;
-<br>One Group Global Invest Company
-Address:  23 xxxxxxxxx wryard NSW AU
-Email: 12345@123.com
-Tel: 0123456788 </p>
-</div>
+        <p style="color: aliceblue ; width: 900px; padding-left: 500px;">One Group Global Investment Pty Ltd&copy;
+                <br>Address: Level 6, 201 Kent Street, Sydney, 2000
+                <br>Email: fiona.l.xing@gmail.com
+                Tel: 0413 384 119 </p>
+                </div>
 
-<a href="#" class="float">
-<i class="fa fa-plus my-float">
-<img src={{ URL::asset('phone-contact.png') }}>
-</i>
-</a>
+                <a href="{{ route('SEND_EMAIL') }}" class="float">
+                <i class="fa fa-plus my-float">
+                <img src={{ URL::asset('/img/others/email.png') }} style="width: 45px; height:45px;">
+                </i>
+                </a>
 
 </body>
 </html>

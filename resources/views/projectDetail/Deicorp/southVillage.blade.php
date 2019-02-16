@@ -20,7 +20,7 @@
    <li><a href="##">Contact</a></li>
    <li><a href="#####">Login/Resgister</a></li>
    <li style="float: left; color: aliceblue; font-family:Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black,' sans-serif'; font-size: 30px;" >OneGroup</li>
- 
+
 </ul>
 </div>
 <nav class="site-header sticky-top py-1">
@@ -36,9 +36,9 @@
         <a class="py-2 d-none d-md-inline-block" href="#">Social Service</a>
       </div>
     </nav>
- 
+
 <div class="imgRoll" style="padding-top:20px; width: 100%">
-  <img class="mySlides" src={{ URL::asset('/img/deicorp/southVillage/BuildingEWestSide.jpg') }} style="width:100%">	
+  <img class="mySlides" src={{ URL::asset('/img/deicorp/southVillage/BuildingEWestSide.jpg') }} style="width:100%">
   <img class="mySlides" src={{ URL::asset('/img/deicorp/southVillage/BuildingEHeroshot.jpg') }} style="width:100%">
   <img class="mySlides" src={{ URL::asset('/img/deicorp/southVillage/Courtyard21Nov.jpg') }} style="width:100%">
   <img class="mySlides" src={{ URL::asset('/img/deicorp/southVillage/Domain_CGI-1600x1200-01.jpg') }} style="width:100%">
@@ -48,11 +48,11 @@
   <img class="mySlides" src={{ URL::asset('/img/deicorp/southVillage/Domain_CGI-1600x1200-06.jpg') }} style="width:100%">
   <img class="mySlides" src={{ URL::asset('/img/deicorp/southVillage/KV_VIG_1_I_Park-FINAL_X_3M-HR_edit.jpg') }} style="width:100%">
   <img class="mySlides" src={{ URL::asset('/img/deicorp/southVillage/SVretailuncompressed(1).jpg') }} style="width:100%">
- 
-   
+
+
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-  
+
   <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
@@ -77,14 +77,14 @@ function plusDivs(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
+  if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+     x[i].style.display = "none";
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
 }
-	
+
 var slideIndex = 0;
 carousel();
 
@@ -92,15 +92,15 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
+      x[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
     setTimeout(carousel, 3000); // Change image every 2 seconds
 }
-	
-	
+
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -116,18 +116,18 @@ function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
+  if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+     x[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
      dots[i].className = dots[i].className.replace(" w3-white", "");
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-white";
-}	
-</script>  
+}
+</script>
 
 <div class="w3-content w3-display-container" style="padding-top: 25px;">
 <h1>Kirrawee, NSW</h1>
@@ -147,14 +147,14 @@ Serving as testament to Deicorp’s experience is an incredibly diligent managem
 <div class="float-left">
 <img src={{ URL::asset('/img/deicorp/southVillage/food.png') }}>
 <div class="float-right" style="width: 480px; padding-left: 20px;padding-top: 20px;">
-<p class="text-justify">	
+<p class="text-justify">
 Live where the community atmosphere meets incomparable convenience. At South Village, your doorstep stretches from the precinct’s new shopping centre to the Royal National Park to the endless blues of beaches and bays; an urban lifestyle amidst Australia’s natural wonders.
 These residences offer convenience like you have never seen before. Within South Village is a new 9,000sqm dedicated park providing abundant community space, a 14,000sqm retail centre and ample parking. Coles and Aldi supermarkets and 27 specialty retailers adorn the buildings alongside private gardens. Only 180m away is Kirrawee Train Station
 to connect you to the CBD in 33 minutes.
 <br><br>
 The Sutherland Shire is bursting with possibilities and Kirrawee is taking centre stage. With new amenities and a leading shopping centre for the residents, South Village will enjoy continued capital growth.
 </p>
-</div>	
+</div>
 </div>
 <hr class="new1">
 <img src={{ URL::asset('/img/deicorp/southVillage/back.png') }}>
@@ -165,19 +165,19 @@ The Sutherland Shire is bursting with possibilities and Kirrawee is taking centr
 <div class="float-right">
 <img src={{ URL::asset('/img/deicorp/southVillage/coles.png') }}>
 <div class="float-left" style="width: 350px; padding-right:20px;padding-top: 150px;">
-<p class="text-justify">	
+<p class="text-justify">
 “I like the idea of having two levels
 of retail underneath including Coles
 and Aldi. It will make living a lot easier.”
 – Samuel, 22, Shire local, Stage 1 purchaser
 </p>
 <br><br><br>
-<p class="text-justify">	
+<p class="text-justify">
 “It’s the Sutherland Shire, the whole area is booming and it’s actually really opening up, with Kirrawee being the biggest beneficiary of the change.”
 – Gary, 50, Stage 1 purchaser
 </p>
 
-</div>	
+</div>
 </div>
 <img src={{ URL::asset('/img/deicorp/southVillage/SouthvilleMap.png') }}>
 <hr class="new1">
@@ -187,12 +187,12 @@ and Aldi. It will make living a lot easier.”
 <div class="float-left">
 <img src={{ URL::asset('/img/deicorp/southVillage/sea.png') }}>
 <div class="float-right" style="width: 350px; padding-left:50px;padding-top: 250px;">
-<p class="text-justify">	
+<p class="text-justify">
 “I’m really excited to be moving into South Village and being part of the community.”<br>
 – Carley, 30, Shire local, Stage 1 purchaser
 </p>
 
-</div>	
+</div>
 </div>
 <hr class="new1">
 </div>
@@ -213,12 +213,12 @@ South Village is a grand residence that is changing the landscape of Kirrawee. E
 <img src={{ URL::asset('/img/deicorp/southVillage/6_Domain_CGI_1600x1200.gif') }}>
 <div class="float-left" style="width: 450px; height: 450px; padding-right:50px;padding-top:20px;">
 <h3>This is convenience in its highest form. Nowhere else compares to South Village.</h3>
-<p class="text-justify">	
+<p class="text-justify">
 Within the village precinct are restaurants that beckon, with an array of cuisines that whet your appetite. Shop for groceries day or night, and be lured by the smell of fresh coffee in the morning
 as your barista makes your favourite. Spend your weekends in the landscaped gardens of South Village and end the night overlooking the colourful vista of Sydney’s skyline.
 A reliable network of buses and trains connect you to every corner of Sydney. From Kirrawee Train Station, you can be at the airport in half an hour with only a change in Wolli Creek, Mascot or Green Square, to Cronulla Beach in twelve minutes, and the CBD in a little over half an hour.
 </p>
-</div>	
+</div>
 </div>
 </div>
 
@@ -280,17 +280,16 @@ Residential car parking is separate to retail parking, providing security and co
 </div>
 </div>
 <div class="down" style="background-color: #000000 ">
-<p style="color: aliceblue ; width: 900px; padding-left: 500px;"> One Group Global Investment&copy;
-<br>One Group Global Invest Company
-Address:  23 xxxxxxxxx wryard NSW AU
-Email: 12345@123.com
-Tel: 0123456788 </p>
-</div>
+        <p style="color: aliceblue ; width: 900px; padding-left: 500px;">One Group Global Investment Pty Ltd&copy;
+                <br>Address: Level 6, 201 Kent Street, Sydney, 2000
+                <br>Email: fiona.l.xing@gmail.com
+                Tel: 0413 384 119 </p>
+                </div>
 
-<a href="#" class="float">
-<i class="fa fa-plus my-float">
-<img src={{ URL::asset('phone-contact.png') }}>
-</i>
-</a>
+                <a href="{{ route('SEND_EMAIL') }}" class="float">
+                <i class="fa fa-plus my-float">
+                <img src={{ URL::asset('/img/others/email.png') }} style="width: 45px; height:45px;">
+                </i>
+                </a>
 </body>
 </html>

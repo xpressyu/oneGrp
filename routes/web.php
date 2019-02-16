@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Auth::routes();
 
@@ -71,7 +71,6 @@ Route::get('/projectDetail/Frasers/putneyHill', function () {
     return view('projectDetail.Frasers.putneyHill');
 });
 
-
 //Meriton
 Route::get('/projectDetail/Meriton/altitudeParramatta', function () {
     return view('projectDetail.Meriton.altitudeParramatta');
@@ -119,7 +118,6 @@ Route::get('/projectDetail/Meriton/vidaMascot', function () {
     return view('projectDetail.Meriton.vidaMascot');
 });
 
-
 //Metro
 Route::get('/projectDetail/Metro/silkTerracesSchofields', function () {
     return view('projectDetail.Metro.silkTerracesSchofields');
@@ -146,7 +144,6 @@ Route::get('/projectDetail/Metro/theNinesNaremburn', function () {
 });
 
 // Greenland
-
 Route::get('/projectDetail/Greenland/parkSydney', function () {
     return view('projectDetail.Greenland.parkSydney');
 });
@@ -165,3 +162,7 @@ Route::get('/projectDetail/Greenland/lg', function () {
 Route::get('/projectDetail/Greenland/centre', function () {
     return view('projectDetail.Greenland.centre');
 });
+
+// Route for enquiry page
+Route::get('/sendemail', 'SendEmailController@index')->name('SEND_EMAIL');
+Route::post('/sendemail/send', 'SendEmailController@send');

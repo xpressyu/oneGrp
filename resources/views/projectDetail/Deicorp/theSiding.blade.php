@@ -21,7 +21,7 @@
    <li><a href="##">Contact</a></li>
    <li><a href="#####">Login/Resgister</a></li>
    <li style="float: left; color: aliceblue; font-family:Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black,' sans-serif'; font-size: 30px;" >OneGroup</li>
- 
+
 </ul>
 </div>
 <nav class="site-header sticky-top py-1">
@@ -37,9 +37,9 @@
         <a class="py-2 d-none d-md-inline-block" href="#">Social Service</a>
       </div>
     </nav>
- 
+
 <div class="imgRoll" style="padding-top:20px; width: 100%">
-  <img class="mySlides" src={{ URL::asset('/img/deicorp/theSiding/J002470_Petersham_AerialMap_FA.jpg') }} style="width:100%">	
+  <img class="mySlides" src={{ URL::asset('/img/deicorp/theSiding/J002470_Petersham_AerialMap_FA.jpg') }} style="width:100%">
   <img class="mySlides" src={{ URL::asset('/img/deicorp/theSiding/Petersham_Courtyard_Exterior.jpg') }} style="width:100%">
   <img class="mySlides" src={{ URL::asset('/img/deicorp/theSiding/Deicorp_Petersham_CGI_J002672_Rooftop.jpg') }} style="width:100%">
   <img class="mySlides" src={{ URL::asset('/img/deicorp/theSiding/Deicorp_Petersham_CGI_J002672_LivingKitchen.jpg') }} style="width:100%">
@@ -51,11 +51,11 @@
   <img class="mySlides" src={{ URL::asset('/img/deicorp/theSiding/Deicorp_Petersham_CGI_J002672_Exterior_Facade_Dusk_With_Flags.jpg') }} style="width:100%">
   <img class="mySlides" src={{ URL::asset('/img/deicorp/theSiding/Deicorp_Petersham_CGI_J002672_EXT_Cutaway.jpg') }} style="width:100%">
 
- 
-   
+
+
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-  
+
   <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
@@ -71,7 +71,7 @@
   </div>
 </div>
 <script>
-	
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -87,17 +87,17 @@ function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
+  if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+     x[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
      dots[i].className = dots[i].className.replace(" w3-white", "");
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-white";
-}	
+}
 </script>
 
 <div class="w3-content w3-display-container" style="padding-top: 25px;">
@@ -112,7 +112,7 @@ Deicorp first entered the Sydney development scene in the trendy suburb of Newto
 Today, Deicorp has developed and worked on over 6,000 apartments, 110,000sqm of retail/commercial suites and has over $1.5 billion of work in the pipeline.<br>
 Serving as testament to Deicorp’s experience is an incredibly diligent management team, dedicated employees and united partnerships. A clear and shared vision of Ambition, Quality, Efficiency and Professionalism is the driving force behind the company’s success.</p>
 <hr class="new1">
-</div>  
+</div>
 
 <div class="w3-content w3-display-container">
 <img src={{ URL::asset('/img/deicorp/theSiding/view.png') }} style="width: 1000px;" >
@@ -121,7 +121,7 @@ Serving as testament to Deicorp’s experience is an incredibly diligent managem
 The Siding stands out as Petersham’s newest precinct. Teeming with greenery and life, it’s home to corner cafés, pocket parks, rooftop terraces, and a lush central lawn for lounging about in the afternoon sun.<br><br>
 Petersham has quietly become the Inner West’s best borough – a place where inner city thrills meet suburban serenity.</p>
 <hr class="new1">
-</div> 
+</div>
 
 <div class="w3-content w3-display-container" style="padding-top: 5px;">
 <div class="left" style="width:500px; heigh:500px;">
@@ -139,11 +139,11 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides-home");
     for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
+       x[i].style.display = "none";
     }
     myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 </script>
@@ -160,9 +160,9 @@ function carousel() {
 3D dislay box
  <div class="w3-content w3-display-container">
  <hr class="new1">
-<iframe src="https://web.snaploader.com/3d/?tag_id=5b51b1096c6208044dac2515&model_id=5b51b16d6c6208044dac2544" style="width: 980px;height: 800px;  padding-top: 25px; ">	
+<iframe src="https://web.snaploader.com/3d/?tag_id=5b51b1096c6208044dac2515&model_id=5b51b16d6c6208044dac2544" style="width: 980px;height: 800px;  padding-top: 25px; ">
 </iframe>
-</div> 
+</div>
 -->
 
 
@@ -205,17 +205,16 @@ function carousel() {
 </div>
 </div>
 <div class="down" style="background-color: #000000 ">
-<p style="color: aliceblue ; width: 900px; padding-left: 500px;"> One Group Global Investment&copy;
-<br>One Group Global Invest Company
-Address:  23 xxxxxxxxx wryard NSW AU
-Email: 12345@123.com
-Tel: 0123456788 </p>
-</div>
+        <p style="color: aliceblue ; width: 900px; padding-left: 500px;">One Group Global Investment Pty Ltd&copy;
+                <br>Address: Level 6, 201 Kent Street, Sydney, 2000
+                <br>Email: fiona.l.xing@gmail.com
+                Tel: 0413 384 119 </p>
+                </div>
 
-<a href="#" class="float">
-<i class="fa fa-plus my-float">
-<img src={{ URL::asset('phone-contact.png') }}>
-</i>
-</a>
+                <a href="{{ route('SEND_EMAIL') }}" class="float">
+                <i class="fa fa-plus my-float">
+                <img src={{ URL::asset('/img/others/email.png') }} style="width: 45px; height:45px;">
+                </i>
+                </a>
 </body>
 </html>

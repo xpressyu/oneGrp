@@ -19,7 +19,7 @@
    <li><a href="##">Contact</a></li>
    <li><a href="#####">Login/Resgister</a></li>
    <li style="float: left; color: aliceblue; font-family:Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black,' sans-serif'; font-size: 30px;" >OneGroup</li>
- 
+
 </ul>
 </div>
 <nav class="site-header sticky-top py-1">
@@ -35,13 +35,13 @@
         <a class="py-2 d-none d-md-inline-block" href="#">Social Service</a>
       </div>
     </nav>
- 
+
     <div class="imgRoll" style="padding-top:20px; width: 100%">
     <img class="mySlides" src={{ URL::asset('/img/bm/vivid/SouthVillage_CGI_INT_Bedroom.jpg') }} style="width:100%">
     <img class="mySlides" src={{ URL::asset('/img/bm/vivid/SouthVillage_CGI_RoofTerrace.jpg') }} style="width:100%">
     <img class="mySlides" src={{ URL::asset('/img/bm/vivid/SouthVillage_CGI_LivingtoBalcony(1).jpg') }} style="width:100%">
 		<img class="mySlides" src={{ URL::asset('/img/bm/vivid/SouthVillage_CGI_INT_Kitchen_Living.jpg') }} style="width:100%">
-	
+
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 
@@ -65,14 +65,14 @@ function plusDivs(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
+  if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+     x[i].style.display = "none";
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
 }
-	
+
 var slideIndex = 0;
 carousel();
 
@@ -80,15 +80,15 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
+      x[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
     setTimeout(carousel, 3000); // Change image every 2 seconds
 }
-	
-	
+
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -104,17 +104,17 @@ function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
+  if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+     x[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
      dots[i].className = dots[i].className.replace(" w3-white", "");
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-white";
-}	
+}
 </script>
 
 <div class="w3-content w3-display-container" style="padding-top: 25px;">
@@ -130,7 +130,7 @@ Serving as testament to Deicorp’s experience is an incredibly diligent managem
 
 
 <div class="w3-content w3-display-container">
-<p class="text-justify">	
+<p class="text-justify">
 To know The Shire is more than just to love it.
 You’ll never want to leave it. South Village, in the heart of Kirrawee at the epicentre of the Sutherland Shire, is an expression of this vitality. It draws on the beauty of its natural surroundings, infusing that with outstanding architectural innovation and new insights into urban living, now and well into the future. It’s a village bordered by the pristine bushland of the Royal National Park and the tranquil waterways of Port Hacking. The white sands of Cronulla Beach are minutes away and the vibrant camaraderie of the Shire is yours to enjoy. Every day.
 <br><br>
@@ -141,7 +141,7 @@ It’s the Sutherland Shire, the whole area is booming and it’s actually reall
 
 <div class="w3-content w3-display-container">
 <img src={{ URL::asset('/img/bm/vivid/walk.png') }} style="width: 980px;">
-<p class="text-justify">	
+<p class="text-justify">
 Every aspect, South Village – your new neighbourhood – has been designed to engender a sense of community. It’s designed to draw you in and quietly encourage you to take a stroll from open spaces to secluded gardens, along broad pedestrian boulevards, past café tables spilling onto leaf dappled laneways. It’s a village in every sense where getting to know your neighbours is a natural happenstance of your daily life. Before you know it you’ll wonder why you would possibly live anywhere else.
 </p>
 <hr class="new1">
@@ -152,10 +152,10 @@ Every aspect, South Village – your new neighbourhood – has been designed to 
 <img src={{ URL::asset('/img/bm/vivid/convenient.png') }} style="width: 550px;">
 <div class="float-right" style="width: 430px; padding-left: 20px;padding-top: 140px;">
 <h3>CONNECTIVITY</h3>
-<p class="text-justify">	
+<p class="text-justify">
 Proximity. It’s the pivotal aspect of urban life, the attribute that influences one of your most precious commodities. Your time. Time to spend with your family, time to simply relax. And less time commuting, no longer wasting hours getting to and from the places you want to or need to be. From your Vivid doorstep you’re surrounded by major bus networks and only 130 metres from Kirrawee train station and that’s just 33 minutes from the Sydney CBD. By car you’re mere minutes from Sydney’s major metropolitan road and freeway networks. And with the airport nearby, the world is at your feet.
 </p>
-</div>	
+</div>
 </div>
 <hr class="new1">
 <img src={{ URL::asset('/img/bm/vivid/SVVIVIDLOCATIONMAP.png') }}>
@@ -165,13 +165,13 @@ Proximity. It’s the pivotal aspect of urban life, the attribute that influence
 <div class="float-right">
 <img src={{ URL::asset('/img/bm/vivid/openSpace.png') }} style="width: 550px;">
 <div class="float-left" style="width: 430px; padding-right: 50px; padding-top: 70px;">
-<p class="text-justify">	
+<p class="text-justify">
 At home at Vivid you’ve got so much more room to
 spread your wings. Expanses of parkland and open spaces infuse light and colour – elements of the very definition
 of vivid – into your everyday life. Whether you’re out for
 a stroll or walking to work, taking your kids to one of their favourite playgrounds or taking time out in your favourite garden nook or café, you’ve all the space in the world. With 9,000sqm of landscaped gardens, plus the vast natural beauty of the Royal National Park and Cronulla Beach so close at hand, life at Vivid is crafted to make the most of the sun drenched climate the Shire is famous for.
 </p>
-</div>	
+</div>
 </div>
 <hr class="new1">
 </div>
@@ -182,7 +182,7 @@ a stroll or walking to work, taking your kids to one of their favourite playgrou
 
 <div class="float-left" style=" padding-right: 20px;">
 <img src={{ URL::asset('/img/bm/vivid/acho.png') }} style="width: 480px; height: 600px; border: 5px solid #CBC6C6 ;">
-</div>	
+</div>
 <hr class="new1">
 </div>
 
@@ -191,12 +191,12 @@ a stroll or walking to work, taking your kids to one of their favourite playgrou
 <img src={{ URL::asset('/img/bm/vivid/fingertips.png') }} style="width: 550px;">
 <div class="float-left" style="width: 430px; padding-right: 50px; padding-top: 70px;">
 <h3>VILLAGE FACILITIES</h3>
-<p class="text-justify">	
+<p class="text-justify">
 It’s a carefully considered approach that delivers
 a wonderfully versatile result. We called it dynamic diversity, a combination of the absolutely practical with the whimsically wonderful. While you’re just minutes from Westfield Miranda, right at your doorstep you can stock the pantry at Aldi or Coles with a daily top up
 of fresh produce and just baked bread at one of your favourite neighbourhood providores, all in your village. With approximately 27 specialist stores, all part of your community, you can find perfect additions to your new home’s décor and small pockets of fashion to embellish your wardrobe. From every perspective it’s a fresh, vivid outlook on life.
 </p>
-</div>	
+</div>
 </div>
 <hr class="new1">
 </div>
@@ -206,7 +206,7 @@ of fresh produce and just baked bread at one of your favourite neighbourhood pro
 <img src={{ URL::asset('/img/bm/vivid/map.png') }} style="width:480px; height: 600px; border: 5px solid #CBC6C6 ;"> </div>
 <div class="float-left" style=" padding-right: 20px;">
 <img src={{ URL::asset('/img/bm/vivid/map2.png') }} style="width: 480px; height: 600px; border: 5px solid #CBC6C6 ;">
-</div>	
+</div>
 <hr class="new1">
 </div>
 
@@ -242,10 +242,10 @@ yet gracefully decorated and warmly welcoming. From your protected underground p
 <img src={{ URL::asset('/img/bm/vivid/SouthVillage_CGI_LivingtoBalcony(1).jpg') }} style="width: 550px; height: 420px">
 <div class="float-left" style="width: 430px; padding-right: 50px; padding-top: 70px;">
 <h3>LIVING SPACES</h3>
-<p class="text-justify">	
+<p class="text-justify">
 Light and space. These are the elements of exceptional living environments. Natural light tumbles through thermally and acoustically treated glass, deflecting summer glare and the hubbub of urban life. Every apartment is articulated to maximise the surrounding vistas, inviting sunshine and cross breezes. This only enhances the feeling of space afforded by clean, uncluttered expanses of textured joinery and polished tile floors. And when weather conditions reach their extremes, silent and efficient climate control keeps your world absolutely perfect.
 </p>
-</div>	
+</div>
 </div>
 <hr class="new1">
 </div>
@@ -257,7 +257,7 @@ Light and space. These are the elements of exceptional living environments. Natu
 <img src={{ URL::asset('/img/bm/vivid/hearth.png') }} style="width: 480px; height: 600px; border: 5px solid #CBC6C6 ;">
 </div>
 <h3>KITCHENS</h3>
-<p class="text-justify">	
+<p class="text-justify">
 Whether it’s a quick breakfast to start your day or preparing dinner with fresh ingredients from your village providores, this is the core of your home’s life and style. Reflecting this importance, your Vivid kitchen integrates designer features and finishes. Lustrous tapware and prestige SMEG appliances are embedded alongside polished stone bench tops and richly grained cabinets that provide storage for all your culinary requirements. Unfolding to your main living areas, inviting family and friends to share in its warmth, your kitchen is the hearth of your home.
 </p>
 <hr class="new1">
@@ -268,11 +268,11 @@ Whether it’s a quick breakfast to start your day or preparing dinner with fres
 <img src={{ URL::asset('/img/bm/vivid/bed1.png') }} style="width: 550px; height: 450px;">
 <div class="float-left" style="width: 430px; padding-right: 50px; padding-top: 70px;">
 <h3>BEDROOMS & BATHROOMS</h3>
-<p class="text-justify">	
+<p class="text-justify">
 As the absolute centre of your oasis, the plush carpeting of your Vivid bedrooms spread across generous proportions to windows that make panoramic views the living artwork of your world. Each bedroom is fully appointed with built-in wardrobes that enhance the colourways of your home. Fulfilling the architects’ resolute attention to quality, beauty and detail, every bathroom includes prestige touches and softly polished surfaces. These elements of your home embody sanctuary and serenity, reflecting
 your distinctive appreciation for beauty and individuality.
 </p>
-</div>	
+</div>
 </div>
 <hr class="new1">
 </div>
@@ -282,11 +282,11 @@ your distinctive appreciation for beauty and individuality.
 <img src={{ URL::asset('/img/bm/vivid/bed2.png') }} style="width: 550px; height: 450px;">
 <div class="float-right" style="width: 430px; padding-left: 50px; padding-top: 70px;">
 <h3>INDOOR / OUTDOOR LIVING</h3>
-<p class="text-justify">	
+<p class="text-justify">
 The balcony of your Vivid apartment is not an adjunct
 to your home, it’s a seamless, sensational and integral element of your living environment. The expanse of these balconies is enhanced by the breadth of the floor to ceiling glass doors that slide back before them. This is where natural light takes centre stage, fluently bringing the interior and exterior spaces together. It’s best measured and admired as you cross the threshold of your apartment. Momentarily pause and take it all in. From there the unique elegance of the home you’ve designed stretches out before you.
 </p>
-</div>	
+</div>
 </div>
 <hr class="new1">
 </div>
@@ -302,14 +302,14 @@ to your home, it’s a seamless, sensational and integral element of your living
 <img src={{ URL::asset('/img/bm/vivid/w1.png') }} style="width:480px; height: 600px; border: 5px solid #CBC6C6 ;"> </div>
 <div class="float-left" style=" padding-right: 20px;">
 <img src={{ URL::asset('/img/bm/vivid/w2.png') }} style="width: 480px; height: 600px; border: 5px solid #CBC6C6 ;">
-</div>	
+</div>
 <hr class="new1">
 <h3>3D Model</h3>
 <div class="w3-content w3-display-container">
  <hr class="new1">
-<iframe src="https://web.snaploader.com/3d/?tag_id=5b51b1096c6208044dac2515&model_id=5b51b16d6c6208044dac2544" style="width: 980px;height: 800px;  padding-top: 25px; ">	
+<iframe src="https://web.snaploader.com/3d/?tag_id=5b51b1096c6208044dac2515&model_id=5b51b16d6c6208044dac2544" style="width: 980px;height: 800px;  padding-top: 25px; ">
 </iframe>
-</div> 
+</div>
 
 
 
@@ -340,18 +340,17 @@ to your home, it’s a seamless, sensational and integral element of your living
 </div>
 </div>
 <div class="down" style="background-color: #000000 ">
-<p style="color: aliceblue ; width: 900px; padding-left: 500px;"> One Group Global Investment&copy;
-<br>One Group Global Invest Company 
-Address:  23 xxxxxxxxx wryard NSW AU
-Email: 12345@123.com
-Tel: 0123456788 </p>
-</div>
+        <p style="color: aliceblue ; width: 900px; padding-left: 500px;">One Group Global Investment Pty Ltd&copy;
+                <br>Address: Level 6, 201 Kent Street, Sydney, 2000
+                <br>Email: fiona.l.xing@gmail.com
+                Tel: 0413 384 119 </p>
+                </div>
 
-<a href="#" class="float">
-<i class="fa fa-plus my-float">
-
-</i>
-</a>
+                <a href="{{ route('SEND_EMAIL') }}" class="float">
+                <i class="fa fa-plus my-float">
+                <img src={{ URL::asset('/img/others/email.png') }} style="width: 45px; height:45px;">
+                </i>
+                </a>
 
 
 </body>

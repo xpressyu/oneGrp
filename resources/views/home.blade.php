@@ -14,7 +14,8 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    You are logged in! <p>
+                    <a href="{{ route('welcome') }}">Click to redirect to home page...</a>
                 </div>
             </div>
         </div>

@@ -26,7 +26,7 @@
    <li><a href="##">Contact</a></li>
    <li><a href="#####">Login/Resgister</a></li>
    <li style="float: left; color: aliceblue; font-family:Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black,' sans-serif'; font-size: 30px;" >OneGroup</li>
- 
+
 </ul>
 </div>
 <nav class="site-header sticky-top py-1">
@@ -42,7 +42,7 @@
         <a class="py-2 d-none d-md-inline-block" href="#">Social Service</a>
       </div>
     </nav>
- 
+
 <div id="sliderFrame">
         <div id="slider">
 <!--
@@ -53,7 +53,7 @@
            </a>
 -->
             <a>
-                <img src={{ URL::asset('/img/meriton/thegalleryRosebery/HeroExterior.jpg') }} alt="" /> 
+                <img src={{ URL::asset('/img/meriton/thegalleryRosebery/HeroExterior.jpg') }} alt="" />
             </a>
             <a>
              <img class="img" src={{ URL::asset('/img/meriton/thegalleryRosebery/ElevatedExterior.jpg') }}>
@@ -79,7 +79,7 @@
 
     </div>
     </div>
-    
+
 <div class="w3-content w3-display-container" style="padding-top: 60px;">
 <h1>Sydney-Rosebery</h1>
 <h2>Gallery,CoCo</h2>
@@ -121,7 +121,7 @@
 <img src={{ URL::asset('/img/meriton/thegalleryRosebery/page16.png') }}>
 		</div>
 
-  
+
 <div class="pricelist" style="padding-top: 50px;">
 <h1>Typical Floor Plan</h1><br>
 <a href="{{ asset('documents/meriton/thegalleryRosebery/FloorPlan.pdf') }}" target="_blank">Building Map.pdf</a>
@@ -160,17 +160,16 @@
 </div>
 </div>
 <div class="down" style="background-color: #000000 ">
-<p style="color: aliceblue ; width: 900px; padding-left: 500px;"> One Group Global Investment&copy;
-<br>One Group Global Invest Company
-Address:  23 xxxxxxxxx wryard NSW AU
-Email: 12345@123.com
-Tel: 0123456788 </p>
-</div>
+        <p style="color: aliceblue ; width: 900px; padding-left: 500px;">One Group Global Investment Pty Ltd&copy;
+                <br>Address: Level 6, 201 Kent Street, Sydney, 2000
+                <br>Email: fiona.l.xing@gmail.com
+                Tel: 0413 384 119 </p>
+                </div>
 
-<a href="#" class="float">
-<i class="fa fa-plus my-float">
-<img src={{ URL::asset('phone-contact.png') }}>
-</i>
-</a>
+                <a href="{{ route('SEND_EMAIL') }}" class="float">
+                <i class="fa fa-plus my-float">
+                <img src={{ URL::asset('/img/others/email.png') }} style="width: 45px; height:45px;">
+                </i>
+                </a>
 </body>
 </html>

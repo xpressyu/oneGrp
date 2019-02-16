@@ -18,7 +18,7 @@
   <li><a href="##">Language</a></li>
   <li><a href="##">FAQ</a></li>
    <li><a href="##">Contact</a></li>
-   <li><a href="#####">Login/Resgister</a></li>
+   <li><a href="{{ route('login') }}">Login/Resgister</a></li>
    <li style="float: left; color: aliceblue; font-family:Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black,' sans-serif'; font-size: 30px;" >OneGroup</li>
 
 </ul>
@@ -33,11 +33,9 @@
         <a class="py-2 d-none d-md-inline-block" href="#">Property</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Our Campany</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Staff</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Activity</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Social Service</a>
       </div>
     </nav>
-
 
 <div class="imgRoll" style="padding-top:20px; width: 100%">
 <img class="mySlides" src={{ URL::asset('/img/deicorp/grandHHurstvlAB/J002551_Deicorp_Hurstville_Grandh_Close_Up_View.jpg') }} style="width:100%">
@@ -239,22 +237,21 @@ The kitchens are fitted with stainless steel Smeg appliances and stone benchtops
 
   <div class="tab-pane fade" id="Schedule" role="tabpanel" aria-labelledby="Schedule-tab">Schedule...</div>
 
-  <div class="tab-pane fade" id="Strate" role="tabpanel" aria-labelledby="Strate-tab">
+  <div class="tab-pane fade" id="Strata" role="tabpanel" aria-labelledby="Strate-tab">
     <a href="{{ asset('documents/deicorp/grandHHurstvlAB/StrataLevy.pdf') }}" target="_blank">Strata Levy Estimate Summary.pdf</a>
   </div>
 </div>
 </div>
 <div class="down" style="background-color: #000000 ">
-<p style="color: aliceblue ; width: 900px; padding-left: 500px;"> One Group Global Investment&copy;
-<br>One Group Global Invest Company
-Address:  23 xxxxxxxxx wryard NSW AU
-Email: 12345@123.com
-Tel: 0123456788 </p>
+<p style="color: aliceblue ; width: 900px; padding-left: 500px;">One Group Global Investment Pty Ltd&copy;
+<br>Address: Level 6, 201 Kent Street, Sydney, 2000
+<br>Email: fiona.l.xing@gmail.com
+Tel: 0413 384 119 </p>
 </div>
 
-<a href="#" class="float">
+<a href="{{ route('SEND_EMAIL') }}" class="float">
 <i class="fa fa-plus my-float">
-<img src={{ URL::asset('phone-contact.png') }}>
+<img src={{ URL::asset('/img/others/email.png') }} style="width: 45px; height:45px;">
 </i>
 </a>
 </body>

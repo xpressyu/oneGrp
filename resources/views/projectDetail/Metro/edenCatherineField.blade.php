@@ -20,7 +20,7 @@
    <li><a href="##">Contact</a></li>
    <li><a href="#####">Login/Resgister</a></li>
    <li style="float: left; color: aliceblue; font-family:Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black,' sans-serif'; font-size: 30px;" >OneGroup</li>
- 
+
 </ul>
 </div>
 <nav class="site-header sticky-top py-1">
@@ -36,19 +36,19 @@
         <a class="py-2 d-none d-md-inline-block" href="#">Social Service</a>
       </div>
     </nav>
-    
+
  <div class="imgRoll" style="padding-top:20px; width: 100%">
- <img class="mySlides" src={{ URL::asset('/img/metro/edenCatherineField/1.jpg') }} style="width:100%"> 
+ <img class="mySlides" src={{ URL::asset('/img/metro/edenCatherineField/1.jpg') }} style="width:100%">
  <img class="mySlides" src={{ URL::asset('/img/metro/edenCatherineField/2.jpg') }} style="width:100%">
  <img class="mySlides" src={{ URL::asset('/img/metro/edenCatherineField/3.jpg') }} style="width:100%">
  <img class="mySlides" src={{ URL::asset('/img/metro/edenCatherineField/4.jpg') }} style="width:100%">
  <img class="mySlides" src={{ URL::asset('/img/metro/edenCatherineField/5.jpg') }} style="width:100%">
  <img class="mySlides" src={{ URL::asset('/img/metro/edenCatherineField/6.jpg') }} style="width:100%">
  <img class="mySlides" src={{ URL::asset('/img/metro/edenCatherineField/7.jpg') }} style="width:100%">
- 
+
  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-  
+
   <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
@@ -71,14 +71,14 @@ function plusDivs(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
+  if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+     x[i].style.display = "none";
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
 }
-	
+
 var slideIndex = 0;
 carousel();
 
@@ -86,15 +86,15 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
+      x[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
     setTimeout(carousel, 3000); // Change image every 2 seconds
 }
-	
-	
+
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -110,17 +110,17 @@ function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
+  if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+     x[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
      dots[i].className = dots[i].className.replace(" w3-white", "");
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-white";
-}	
+}
 </script>
 <div class="w3-content w3-display-container" style="padding-top: 60px;">
 <h1>Sydney-Eden </h1>
@@ -128,7 +128,7 @@ function showDivs(n) {
 <img src={{ URL::asset('/img/metro/silkTerracesSchofields/metro-property-development.png') }}>
 <h2>Metro</h2>
 
-	<p> 
+	<p>
   Sydney Metro will revitalise communities, transform places and make the nation’s only global city more liveable and connected.
 
 Australia’s largest city will be more productive and more attractive globally. Not only will this new mass transit system move more people safely and reliably than ever before, it will unlock the potential of Sydney as a growing global city – creating new and diverse opportunities to support changing communities.
@@ -137,7 +137,7 @@ Joining other great global mass transit development initiatives, the NSW Governm
 </p>
 <hr class="new1">
 	</div>
-	
+
 <div class="w3-content w3-display-container" style="padding-top: 60px;">
 <h3>Lots 1 </h3>
 <img src={{ URL::asset('/img/metro/edenCatherineField/page1.png') }}>
@@ -187,14 +187,14 @@ Joining other great global mass transit development initiatives, the NSW Governm
 <hr class="new1">
 <img src={{ URL::asset('/img/metro/edenCatherineField/map8.png') }}>
 <hr class="new1">
-	</div>	
+	</div>
 
 
 
 
 
 
-	
+
 	<h1>Typical Floor Plan</h1>
 <hr class="new1">
 <h1>Additional Informatiion</h1>
@@ -221,17 +221,16 @@ Joining other great global mass transit development initiatives, the NSW Governm
 </div>
 </div>
 <div class="down" style="background-color: #000000 ">
-<p style="color: aliceblue ; width: 900px; padding-left: 500px;"> One Group Global Investment&copy;
-<br>One Group Global Invest Company 
-Address:  23 xxxxxxxxx wryard NSW AU
-Email: 12345@123.com
-Tel: 0123456788 </p>
-</div>
+        <p style="color: aliceblue ; width: 900px; padding-left: 500px;">One Group Global Investment Pty Ltd&copy;
+                <br>Address: Level 6, 201 Kent Street, Sydney, 2000
+                <br>Email: fiona.l.xing@gmail.com
+                Tel: 0413 384 119 </p>
+                </div>
 
-<a href="#" class="float">
-<i class="fa fa-plus my-float">
-
-</i>
-</a>
+                <a href="{{ route('SEND_EMAIL') }}" class="float">
+                <i class="fa fa-plus my-float">
+                <img src={{ URL::asset('/img/others/email.png') }} style="width: 45px; height:45px;">
+                </i>
+                </a>
 </body>
 </html>
