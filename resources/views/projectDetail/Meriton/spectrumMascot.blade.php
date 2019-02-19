@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Meriton-Spectrum,Mascot</title>
-meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -18,7 +18,7 @@ meta name="viewport" content="width=device-width, initial-scale=1">
   <li><a href="##">Language</a></li>
   <li><a href="##">FAQ</a></li>
    <li><a href="##">Contact</a></li>
-   <li><a href="#####">Login/Resgister</a></li>
+   <li><a href="{{ route('login') }}">Login/Resgister</a></li>
    <li style="float: left; color: aliceblue; font-family:Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black,' sans-serif'; font-size: 30px;" >OneGroup</li>
 
 </ul>
@@ -28,12 +28,11 @@ meta name="viewport" content="width=device-width, initial-scale=1">
         <a class="py-2" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"></svg>
         </a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Home</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Property</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Our Campany</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Staff</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Activity</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Social Service</a>
+        <a class="py-2 d-none d-md-inline-block" href="{{ route('welcome') }}">Home</a>
+        <a class="py-2 d-none d-md-inline-block" href="{{ route('list') }}">Property</a>
+        <a class="py-2 d-none d-md-inline-block" href="{{ route('company') }}">Our Company</a>
+        <a class="py-2 d-none d-md-inline-block" href="{{ route('staff') }}">Staff</a>
+        <a class="py-2 d-none d-md-inline-block" href="{{ route('social') }}">Social Service</a>
       </div>
     </nav>
 
@@ -209,7 +208,7 @@ vibrant inner city neighbourhood.</p>
     <a class="nav-link" id="Schedule-tab" data-toggle="tab" href="#Schedule" role="tab" aria-controls="contact" aria-selected="false">Schedule Finishes</a>
   </li>
    <li class="nav-item">
-    <a class="nav-link" id="Strate-tab" data-toggle="tab" href="#Strate" role="tab" aria-controls="contact" aria-selected="false">Strate Levy</a>
+    <a class="nav-link" id="Strate-tab" data-toggle="tab" href="#Strate" role="tab" aria-controls="contact" aria-selected="false">Strata Levy</a>
   </li>
 </ul>
 <div class="tab-content" id="myTabContent">
@@ -230,7 +229,7 @@ vibrant inner city neighbourhood.</p>
 <div class="down" style="background-color: #000000 ">
         <p style="color: aliceblue ; width: 900px; padding-left: 500px;">One Group Global Investment Pty Ltd&copy;
                 <br>Address: Level 6, 201 Kent Street, Sydney, 2000
-                <br>Email: fiona.l.xing@gmail.com
+                <br>Email: info@onegroupglobal.com.au
                 Tel: 0413 384 119 </p>
                 </div>
 

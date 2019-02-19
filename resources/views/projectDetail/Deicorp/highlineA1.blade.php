@@ -18,7 +18,7 @@
   <li><a href="##">Language</a></li>
   <li><a href="##">FAQ</a></li>
    <li><a href="##">Contact</a></li>
-   <li><a href="#####">Login/Resgister</a></li>
+   <li><a href="{{ route('login') }}">Login/Resgister</a></li>
    <li style="float: left; color: aliceblue; font-family:Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black,' sans-serif'; font-size: 30px;" >OneGroup</li>
 
 </ul>
@@ -28,12 +28,11 @@
         <a class="py-2" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"></svg>
         </a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Home</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Property</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Our Campany</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Staff</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Activity</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Social Service</a>
+        <a class="py-2 d-none d-md-inline-block" href="{{ route('welcome') }}">Home</a>
+        <a class="py-2 d-none d-md-inline-block" href="{{ route('list') }}">Property</a>
+        <a class="py-2 d-none d-md-inline-block" href="{{ route('company') }}">Our Company</a>
+        <a class="py-2 d-none d-md-inline-block" href="{{ route('staff') }}">Staff</a>
+        <a class="py-2 d-none d-md-inline-block" href="{{ route('social') }}">Social Service</a>
       </div>
     </nav>
 
@@ -134,7 +133,7 @@ function showDivs(n) {
 
 <div class="w3-content w3-display-container" style="padding-top: 25px;">
 <h1>Highline<br>Westmead, NSW</h1>
-<h2>Devloper: Deicorp</h2>
+<h2>Developer: Deicorp</h2>
 <br>
 <img src={{ URL::asset('/img/deicorp/highlineA1/develperInfor.png') }} style="width: 1000px;" >
 <br><br>
@@ -263,7 +262,7 @@ stone benchtops, sleek joinery and double sinks. Bathrooms offer floor to ceilin
     <a class="nav-link" id="Schedule-tab" data-toggle="tab" href="#Schedule" role="tab" aria-controls="contact" aria-selected="false">Schedule Finishes</a>
   </li>
    <li class="nav-item">
-    <a class="nav-link" id="Strate-tab" data-toggle="tab" href="#Strate" role="tab" aria-controls="contact" aria-selected="false">Strate Levy</a>
+    <a class="nav-link" id="Strate-tab" data-toggle="tab" href="#Strate" role="tab" aria-controls="contact" aria-selected="false">Strata Levy</a>
   </li>
 </ul>
 <div class="tab-content" id="myTabContent">
@@ -284,7 +283,7 @@ stone benchtops, sleek joinery and double sinks. Bathrooms offer floor to ceilin
 <div class="down" style="background-color: #000000 ">
         <p style="color: aliceblue ; width: 900px; padding-left: 500px;">One Group Global Investment Pty Ltd&copy;
                 <br>Address: Level 6, 201 Kent Street, Sydney, 2000
-                <br>Email: fiona.l.xing@gmail.com
+                <br>Email: info@onegroupglobal.com.au
                 Tel: 0413 384 119 </p>
                 </div>
 
