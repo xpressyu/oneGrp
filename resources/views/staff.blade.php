@@ -38,11 +38,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
 <!-- //googlefonts -->
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
 </head>
 <body>
 
 <!-- Header -->
-
+<nav class="site-header sticky-top py-1">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+          <a class="py-2" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"></svg>
+          </a>
+          <a class="py-2 d-none d-md-inline-block" href="{{ route('welcome') }}">Home</a>
+          <a class="py-2 d-none d-md-inline-block" href="{{ route('list') }}">Property</a>
+          <a class="py-2 d-none d-md-inline-block" href="{{ route('company') }}">Our Company</a>
+      <a class="py-2 d-none d-md-inline-block" href="{{ route('staff') }}">Staff</a>
+      <a class="py-2 d-none d-md-inline-block" href="{{ route('social') }}">Social Service</a>
+        </div>
+      </nav>
 
 <!-- Banner -->
 <div class="banner">
@@ -52,24 +71,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h1>FIONA XING</h1>
 					<h2 class="rw-sentence">
 					<span>Manager</span>
-					<div class="rw-words rw-words-1">
+
 						<span>Chief Consultant </span>
-						<span>Be 100 Property Services</span>
 
-					</div>
+
+
 					</h2>
-					<ul class="social-nav model-3d-0 footer-social w3_agile_social">
-						<li><a href="#" class="facebook">
-							<div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-							<div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a>
-						</li>
-						<li><a href="#" class="twitter">
-							<div class="front"><i class="fa fa-weixin" aria-hidden="true"></i></div>
-							<div class="back"><i class="fa fa-weixin" aria-hidden="true"></i></div></a>
-						</li>
 
-
-					</ul>
 				</div>
 			</div>
 	</div>
@@ -112,7 +120,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li>
 									<ul class="agileits-address-text">
 										<li><b>E-MAIL </b></li>
-										<li><a href="mailto:example@mail.com"> example@email.com</a></li>
+										<li><a href="mailto:example@mail.com"> info@onegroupglobal.com.au</a></li>
 									</ul>
 								</li>
 
@@ -160,7 +168,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="mail-agileits-w3layouts">
 				<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
 				<div class="contact-right">
-					<p>Email</p><a href="mailto:info@example.com">info@example.com</a>
+					<p>Email</p><a href="mailto:info@example.com">info@onegroupglobal.com.au</a>
 				</div>
 				<div class="clear"></div>
 			</div>

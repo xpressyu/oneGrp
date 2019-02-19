@@ -147,7 +147,7 @@ Beautifully framed by the banks of the Parramatta River, Altitude takes centre s
 
 <div class="pricelist" style="padding-top: 50px;">
 <h1>Typical Floor Plan</h1><br>
-<a href="{{ asset('documents/meriton/altitudeParramatta/FloorPlan.pdf') }}" target="_blank">Building  Floor plan.pdf</a>
+<a href="{{ asset('documents/meriton/altitudeParramatta/FloorPlan.pdf') }}" target="_blank">Building Floor plan.pdf</a>
 </div>
 
 <hr class="new1">

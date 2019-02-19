@@ -44,27 +44,7 @@
     </nav>
   <div class="w3-content w3-display-container" style="padding-top: 50px;">
   <marquee direction="scroll">One Group Global Investment PTY LTD Activity </marquee>
-  <table border="1">
-    <tr>
-        <td><img src="{{ URL::asset('/img/company/1.jpg') }}" class="img-thumbnail"></td>
-        <td><img src="{{ URL::asset('img/company/2.jpg') }}" class="img-thumbnail"></td>
-    </tr>
-    <tr>
-        <td><img src="{{ URL::asset('/img/company/3.jpg') }}" class="img-thumbnail"></td>
-        <td><img src="{{ URL::asset('/img/company/4.jpg') }}" class="img-thumbnail"></td>
-    </tr>
-      <tr>
-        <td><img src="{{ URL::asset('/img/company/5.jpg') }}" class="img-thumbnail"></td>
-        <td><img src="{{ URL::asset('/img/company/6.jpg') }}" class="img-thumbnail"></td>
-    </tr>
-</table>
-	</div>
-	<div class="w3-content w3-display-container">
 
-	<p>
-    2019年春节 大家都在准备年货，可是有一些家庭，因为天降的种种“灾难”，与普通人的生活质量拉开了很大的差距，被政府评为了贫困家庭，为此，OneGroup公司准备了一些生活必需物资（其中包括大米、白面，食用油）跟随南孙庄乡党委一同前去慰问贫困家庭，为他们送去春节的问候！1月30日（农历腊月二十五）的上午，天气格外寒冷，公棚用两辆别克车装载好为南孙庄乡十几户贫困家庭准备的生活物资，准备出发去慰问他们！
-	</p>
-	</div>
 	  <div class="w3-content w3-display-container" style="padding-top: 50px;">
 
 	<table border="1">

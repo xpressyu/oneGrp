@@ -100,7 +100,7 @@ function showDivs(n) {
 </script>
 
 <div class="w3-content w3-display-container" style="padding-top: 25px;">
-<h1>Petersham, NSW<br> The Silding</h1>
+<h1>The Silding-Petersham</h1>
 <h2>Developer: Deicorp</h2>
 <br>
 <img src={{ URL::asset('/img/deicorp/theSiding/develperInfor.png') }} style="width: 1000px;" >
@@ -129,29 +129,28 @@ Petersham has quietly become the Inner West’s best borough – a place where i
   <img class="mySlides-home" src={{ URL::asset('/img/deicorp/theSiding/Deicorp_Petersham_CGI_J002672_Bathroom_Shower_Vignette.jpg') }} style="width:500px; height: 500px;">
   <img class="mySlides-home" src={{ URL::asset('/img/deicorp/theSiding/Deicorp_Petersham_CGI_J002672_Bathroom_Tap_Vignette.jpg') }} style="width:500px; height: 500px;">
   <img class="mySlides-home" src={{ URL::asset('/img/deicorp/theSiding/Deicorp_Petersham_Bathroom_Dark_Final-tile.jpg') }} style="width:500px; height: 500px;">
-	</div>
+</div>
 <script>
-var myIndex = 0;
-carousel();
+        var myIndex = 0;
+        carousel();
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides-home");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides-home");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
 <div class="right" style=" padding-left: 20px;">
 <h3>A STEP ABOVE YOUR LAST DIGS</h3>
 	<p class="text-justify">Minimally styled for maximum impact, these living spaces are a contemporary blank canvas for you to add your personal touch.</p>
 
 </div>
-<hr class="new1">
 <img src={{ URL::asset('/img/deicorp/theSiding/decipe.png') }} style="width: 980px;">
 </div>
 

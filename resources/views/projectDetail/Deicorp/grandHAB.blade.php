@@ -108,7 +108,6 @@ Serving as testament to Deicorp’s experience is an incredibly diligent managem
 	<p class="text-justify"> In Hurstvtille’s coveted city centre stands a new residential showpiece worthy of Sydney’s Southern Capital. This prestigious precinct captures the strong community spirit of Hurstville, while introducing an unrivalled standard of cosmopolitan convenience to the neighbourhood.
 A grand life awaits you at GrandH.</p>
 </div>
-<hr class="new1">
 </div>
 
 
@@ -127,7 +126,7 @@ It’s surrounded by key amenities from every angle: schools, hospitals, enterta
 Food reigns here in Hurstville, with a distinct global flavour. The area is well-known for its gastronomic pleasures, especially authentic Chinese cuisine. Join the hordes of hungry locals in the morning for yum cha, then at night for fresh seafood or sizzling plates
 of Sichuan fare. In between restaurant banquets, take your pick from any of Hurstville’s street food options – it’s all delicious.</p>
 </div>
-<hr class="new1">
+
 </div>
 
 
@@ -172,7 +171,7 @@ Westfield Hurstville is tantalisingly close by – only four minutes on foot, in
 The kitchens are fitted with stainless steel Smeg appliances and stone benchtops and splashbacks, elevating the preparation of every home-cooked meal. High quality stone is also used for the bathroom’s benchtops, complementing the semi-frameless shower panel, and lush carpeting throughout the living spaces give the unit a luxurious finishing touch.
  </p>
 </div>
-<hr class="new1">
+
 <img src={{ URL::asset('img/deicorp/grandHHurstvlAB/TheHurstvilleLifestyle.png') }}>
 <hr class="new1">
 <img src={{ URL::asset('img/deicorp/grandHHurstvlAB/EverythingInArmsReach.png') }}>
@@ -237,7 +236,7 @@ The kitchens are fitted with stainless steel Smeg appliances and stone benchtops
 
   <div class="tab-pane fade" id="Schedule" role="tabpanel" aria-labelledby="Schedule-tab">Schedule...</div>
 
-  <div class="tab-pane fade" id="Strata" role="tabpanel" aria-labelledby="Strate-tab">
+  <div class="tab-pane fade" id="Strate" role="tabpanel" aria-labelledby="Strate-tab">
     <a href="{{ asset('documents/deicorp/grandHHurstvlAB/StrataLevy.pdf') }}" target="_blank">Strata Levy Estimate Summary.pdf</a>
   </div>
 </div>

@@ -132,10 +132,40 @@ function showDivs(n) {
 <img src={{ URL::asset('/img/Bm/melroseParkTwo/p3.png') }}>
 <hr class="new1">
 <img src={{ URL::asset('/img/Bm/melroseParkTwo/p4.png') }}>
+<p>Melrose Park has been imagined for
+        the Modern Australian, people who are
+        citizens of the world. Wherever they’re
+        from or wherever they’ve been, Modern
+        Australians appreciate change and
+        adventure, seeking new experiences
+        every day. A development of impressive
+        scale, the masterplan has been
+        thoughtfully envisioned for a robust
+        social fabric, harmonious living and the
+        long-term future.
+</p>
 <hr class="new1">
 <img src={{ URL::asset('/img/Bm/melroseParkTwo/p5.png') }}>
 <hr class="new1">
 <img src={{ URL::asset('/img/Bm/melroseParkTwo/p6.png') }}>
+<br>
+<p>The pulse of your new neighbourhood,
+        Melrose Park will have everything you
+        could need for the life you want to live.
+        A vibrant destination for residents and
+        visitors alike, it will deliver a full-line
+        supermarket, specialty grocers, cafés,
+        restaurants, delis, bakery, gym, dry
+        cleaner, newsagent, pharmacy, a variety
+        of entertainment and personal services.
+        At Melrose Park, employment
+        opportunities need not be far from
+        home, with 15,000m2
+         of new commercial
+        space bringing in over 1,500 full-time
+        jobs. Young families with children will also
+        have access to several childcare centres
+        within Melrose Park.</p>
 <hr class="new1">
 <img src={{ URL::asset('/img/Bm/melroseParkTwo/p7.png') }}>
 <hr class="new1">
@@ -144,8 +174,34 @@ function showDivs(n) {
 <img src={{ URL::asset('/img/Bm/melroseParkTwo/p9.png') }}>
 <hr class="new1">
 <img src={{ URL::asset('/img/Bm/melroseParkTwo/p10.png') }}>
+<br>
+<p>Inspired by the best parks around the world, abundant open
+        spaces combine sweeping lawns and terraced gardens.
+        Bask in the expanses of green at the sprawling Central Park,
+        while The Common delivers lush landscapes along the
+        boulevard. Floral and community gardens also add a sense
+        of neighbourhood throughout Melrose Park.</p>
 <hr class="new1">
 <img src={{ URL::asset('/img/Bm/melroseParkTwo/p11.png') }}>
+<br>
+<p>With the future in mind, Melrose Park takes an
+        astute approach to sustainable urban design
+        with Smart City technology. It will be Sydney’s
+        leading development that incorporates Smart City
+        initiatives from day one. They include advanced
+        technologies to monitor environmental conditions,
+        clever rainwater collection to sustain the precinct’s
+        parklands, new generation street lighting, smart
+        wayfinding poles and electric car charging stations.
+        At home, you will benefit from NBN node-to-home
+        rapid connectivity, while proposed WiFi throughout
+        the neighbourhood offers connectivity on the move
+        via hotspots and device charging stations. Many
+        of these technologies will be powered by renewable
+        energy sources, enriching the environment you live
+        in. As technologies continue to evolve, Melrose Park
+        will continue to improve and implement the latest
+        initiatives as they become available.</p>
 <hr class="new1">
 <img src={{ URL::asset('/img/Bm/melroseParkTwo/p12.png') }}>
 <hr class="new1">
@@ -196,7 +252,7 @@ function showDivs(n) {
     <a class="nav-link" id="Schedule-tab" data-toggle="tab" href="#Schedule" role="tab" aria-controls="contact" aria-selected="false">Schedule Finishes</a>
   </li>
    <li class="nav-item">
-    <a class="nav-link" id="Strate-tab" data-toggle="tab" href="#Strate" role="tab" aria-controls="contact" aria-selected="false">Strate Levy</a>
+    <a class="nav-link" id="Strate-tab" data-toggle="tab" href="#Strate" role="tab" aria-controls="contact" aria-selected="false">Strata Levy</a>
   </li>
 </ul>
 <div class="tab-content" id="myTabContent">

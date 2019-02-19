@@ -37,7 +37,6 @@
 
 <div class="imgRoll" style="padding-top:20px; width: 100%">
   <img class="mySlides" src="{{ URL::asset('/img/home/view1.jpg') }}" style="width:100%">
-  <img class="mySlides" src="{{ URL::asset('/img/home/view2.jpg') }}" style="width:100%">
   <img class="mySlides" src="{{ URL::asset('/img/home/view3.jpg') }}" style="width:100%">
 
 
@@ -47,7 +46,6 @@
   <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
 </div>
 <script>
 var slideIndex = 1;
@@ -115,7 +113,7 @@ function showDivs(n) {
               <a> <img src="{{ URL::asset('/img/home/T6.jpg') }}" style= "width:100%" height="225"></a>
               <rect width="100%" height="100%" fill="#55595c"/><text x="30%" y="50%" fill="#eceeef" dy=".3em"><h3>Greenland Omnia</h3></text>
             <div class="card-body">
-              <p class="card-text">Omnia's distinctive podium draws in the heritage streetscape and delivers its rhythm around the peninsula end of its expansive site.   <br><br>  <br></p>
+              <p class="card-text">Omnia's distinctive podium draws in the heritage streetscape and delivers its rhythm around the peninsula end of its expansive site.   <br><br> </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                     <a href="{{ route('omnia') }}" class="btn btn-sm btn-outline-secondary">View</a>

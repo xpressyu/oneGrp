@@ -204,7 +204,9 @@ Joining other great global mass transit development initiatives, the NSW Governm
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="FAQ" role="tabpanel" aria-labelledby="FAQ-tab">FAQ...</div>
   <div class="tab-pane fade" id="Depreciation" role="tabpanel" aria-labelledby="Depreciation-tab">Depreciation...</div>
-  <div class="tab-pane fade" id="Schedule" role="tabpanel" aria-labelledby="Schedule-tab">Schedule...</div>
+  <div class="tab-pane fade" id="Schedule" role="tabpanel" aria-labelledby="Schedule-tab">
+<a href="{{ asset('documents/Metro/theCCJordanSprings/TheCreationCollection-JordanSprings-TurnkeySpecs&Inclusions.pdf') }}" target="_blank">Schedule.pdf</a>
+  </div>
   <div class="tab-pane fade" id="Strate" role="tabpanel" aria-labelledby="Strate-tab">Strata...</div>
 </div>
 </div>

@@ -177,16 +177,12 @@ function showDivs(n) {
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="FAQ" role="tabpanel" aria-labelledby="FAQ-tab">FAQ...</div>
   <div class="tab-pane fade" id="Depreciation" role="tabpanel" aria-labelledby="Depreciation-tab">
-  <a href="{{ asset('documents/greenland/omnia/1Bed.pdf') }}" target="_blank">1 Bed.pdf</a>
-  <br>
-  <a href="{{ asset('documents/greenland/omnia/2Bed.pdf') }}" target="_blank">2 Bed.pdf</a>
   </div>
 
   <div class="tab-pane fade" id="Schedule" role="tabpanel" aria-labelledby="Schedule-tab">Schedule...</div>
 
   <div class="tab-pane fade" id="Strate" role="tabpanel" aria-labelledby="Strate-tab">
-    <a href="{{ asset('documents/greenland/omnia/StrataLevy.pdf') }}" target="_blank">Strata Levy Estimate Summary.pdf</a>
-  </div>
+    </div>
 </div>
 </div>
 <div class="down" style="background-color: #000000 ">

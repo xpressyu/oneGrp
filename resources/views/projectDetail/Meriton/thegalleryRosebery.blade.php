@@ -3,21 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <title>Meriton-Gallery,coco Rosebery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<link href="themes/6/js-image-slider.css" rel="stylesheet" type="text/css" />
-<script src="themes/6/mcVideoPlugin.js" type="text/javascript"></script>
-<script src="themes/6/js-image-slider.js" type="text/javascript"></script>
-<link href="generic.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript">
-        //don't copy the script below into your page.
-        if (!document.domain) alert("The video will not work properly if opening the page by local path. Please test this page through HTTP on a web or localhost server");
-</script>
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
+
 <body>
 <div class="top">
 <ul>
@@ -42,39 +36,92 @@
       </div>
     </nav>
 
-<div id="sliderFrame">
-        <div id="slider">
-<!--
-           <a>
-           	<video width="600" height="500" controls>
-           	<source src="Meriton-AlliumPagewood /Pagewood Green Campaign Video.mp4" type="video/mp4">
-           	</video>
-           </a>
--->
-            <a>
-                <img src={{ URL::asset('/img/meriton/thegalleryRosebery/HeroExterior.jpg') }} alt="" />
-            </a>
-            <a>
-             <img class="img" src={{ URL::asset('/img/meriton/thegalleryRosebery/ElevatedExterior.jpg') }}>
-            </a>
-            <a>
-              <img class="img" src={{ URL::asset('/img/meriton/thegalleryRosebery/BathroomDarkScheme.jpg') }}>
-			</a>
-       		<a>
-              <img class="img" src={{ URL::asset('/img/meriton/thegalleryRosebery/Bedroom.jpg') }}>
-			</a>
-			<a>
-              <img class="img" src={{ URL::asset('/img/meriton/thegalleryRosebery/Kitchen-bronzemirror.jpg') }}>
-			</a>
-			<a>
-              <img class="img" src={{ URL::asset('/img/meriton/thegalleryRosebery/LivingRoom.jpg') }}>
-			</a>
-			<a>
-              <img class="img" src={{ URL::asset('/img/meriton/thegalleryRosebery/RetailExterior.jpg') }}>
-			</a>
-    	<a>
-              <img class="img" src={{ URL::asset('/img/meriton/thegalleryRosebery/Pool.jpg') }}>
-			</a>
+ <div class="imgRoll" style="padding-top:20px; width: 100%">
+ <img class="mySlides" src={{ URL::asset('/img/meriton/thegalleryRosebery/HeroExterior.jpg') }} style="width:100%">
+ <img class="mySlides" src={{ URL::asset('/img/meriton/thegalleryRosebery/ElevatedExterior.jpg') }} style="width:100%">
+ <img class="mySlides" src={{ URL::asset('/img/meriton/thegalleryRosebery/BathroomDarkScheme.jpg') }} style="width:100%">
+ <img class="mySlides" src={{ URL::asset('/img/meriton/thegalleryRosebery/Bedroom.jpg') }} style="width:100%">
+ <img class="mySlides" src={{ URL::asset('/img/meriton/thegalleryRosebery/Kitchen-bronzemirror.jpg') }} style="width:100%">
+ <img class="mySlides" src={{ URL::asset('/img/meriton/thegalleryRosebery/LivingRoom.jpg') }} style="width:100%">
+ <img class="mySlides" src={{ URL::asset('/img/meriton/thegalleryRosebery/RetailExterior.jpg') }} style="width:100%">
+ <img class="mySlides" src={{ URL::asset('/img/meriton/thegalleryRosebery/Pool.jpg') }} style="width:100%">
+
+ <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
+  </div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
 
     </div>
     </div>

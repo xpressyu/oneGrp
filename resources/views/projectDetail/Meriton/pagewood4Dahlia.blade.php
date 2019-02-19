@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Meriton-Pagewood 3,Dahlia</title>
+<title>Meriton-Pagewood, Dahlia</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -128,7 +128,7 @@ function showDivs(n) {
 
 
 <div class="w3-content w3-display-container" style="padding-top: 60px;">
-<h1>Sydney-Pagewood 3</h1>
+<h1>Meriton-Pagewood, Dahlia</h1>
 <h2>Dahlia</h2>
 <img src={{ URL::asset('/img/meriton/LighthouseDeeW/page1.png') }} alt="width: 980px;">
 <br><br>

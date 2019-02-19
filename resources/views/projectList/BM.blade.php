@@ -83,19 +83,20 @@ function showDivs(n) {
           <div class="col-lg-4">
             <img class="rounded-circle" src="{{ URL::asset('/img/bm/vivid/view1.png')}} " width="140" height="140">
             <h2>Vivid</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p>Redefining the best of Sydney urban living against the backdrop of pristine beaches and parkland.
+                    Welcome, to Vivid.</p>
           <p><a class="btn btn-secondary" href="{{ route('vivid') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="{{ URL::asset('img/bm/theAlbanyOne/Coner.png')}} " width="140" height="140">
             <h2>TheAlbanyOne</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <p>Luxury in the marking, Find yourself at Home in The Village - The Albany One </p><br>
           <p><a class="btn btn-secondary" href="{{ route('theAlbanyOne') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="{{ URL::asset('img/bm/melroseParkTwo/BOM0871_MelrosePark_S110_INT_LookingIn2N_Dark_2000.jpg') }}" alt="Generic placeholder image" width="140" height="140">
             <h2>Melrose Park</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p>Celcbrating a multi-faceted and multi-cultural lifestyle, Melrose park will excite, inspire and connect.</p>
           <p><a class="btn btn-secondary" href="{{ route('melrosePark') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 	</div>

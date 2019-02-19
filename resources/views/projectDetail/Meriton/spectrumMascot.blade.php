@@ -146,23 +146,23 @@ and comfort in a natural yet vibrant neighbourhood. Without doubt, Spectrum will
 <hr class="new1">
 	</div>
 
-<div class="w3-content w3-display-container" style="padding-top: 5px;">
+<div class="w3-content w3-display-container" >
 <div class="left">
 <img src={{ URL::asset('/img/meriton/spectrumMascot/page1.png') }}>
 	</div>
-<div class="right" style="padding-top: 50px;">
+<div class="right">
 <h3>A Grand North Facing 1200SQM Central Park</h3>
-
-<p style="padding-top: 30px;">“URBIS WILL TRANSFORM THE PRECINCT INTO A PEACEFUL HAVEN. WE WANT TO CREATE A UNIQUE DEVELOPMENT THAT WILL RESPECT, COMPLIMENT AND ENHANCE THE ENVIRONMENT, LEAVING A POSITIVE IMPRESSION FOR THE AREA, SOMETHING FOR THE FUTURE.”
+<p style="padding-top: 15px;">“URBIS WILL TRANSFORM THE PRECINCT INTO A PEACEFUL HAVEN. WE WANT TO CREATE A UNIQUE DEVELOPMENT THAT WILL RESPECT, COMPLIMENT AND ENHANCE THE ENVIRONMENT, LEAVING A POSITIVE IMPRESSION FOR THE AREA, SOMETHING FOR THE FUTURE.”
 URBIS, landscape architects
 <br><br>Arrive home to a grand, north facing 1,200sqm central park lined with trees, native plants, and leafy walkways linking each of the buildings. This lush landscaped park brings a wonderful burst of green to the heart of Spectrum. It’s your oasis retreat within city limits offering tranquillity and an inviting sense of community and connection.
 Featuring pockets of shade for quiet time, open spaces for social gatherings and plentiful bench seating, this extensively landscaped park brings
 a wonderful natural aspect to this secluded oasis within Mascot’s
 vibrant inner city neighbourhood.</p>
 	</div>
-	  <hr class="new1">
-	</div>
-<div class="w3-content w3-display-container" style="padding-top: 5px;">
+
+    </div>
+
+<div class="w3-content w3-display-container" style="padding-top: 520px;">
 <img src={{ URL::asset('/img/meriton/spectrumMascot/page2.png') }}>
 <hr class="new1">
 <img src={{ URL::asset('/img/meriton/spectrumMascot/page3.png') }}>

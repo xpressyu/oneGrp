@@ -100,28 +100,47 @@ function showDivs(n) {
           <div class="col-lg-4">
             <img class="rounded-circle" src="{{ URL::asset('/img/deicorp/grandHHurstvlAB/J002551_Deicorp_Hurstville_Grandh_Close_Up_View.jpg') }}" width="140" height="140">
             <h2>GrandH</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p>In Hurstvtille’s coveted city centre stands a new residential showpiece  worthy of Sydney’s Southern Capital.</p> <br>
           <p><a class="btn btn-secondary" href="{{ route('grandH') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="{{ URL::asset('/img/deicorp/highlineA1/Highline_RoofGarden_15k_HR.jpg') }}" width="140" height="140">
             <h2>Highline</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <p>Inspired by The High Line, New York’s urban masterpiece,  Highline Westmead’s master-planned residential
+                    community is unlike anything Western Sydney has ever
+                    seen. </p>
             <p><a class="btn btn-secondary" href="{{ route('highline') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="{{ URL::asset('/img/deicorp/southVillage/Domain_CGI-1600x1200-07.jpg') }}" alt="Generic placeholder image" width="140" height="140">
-            <h2>South village</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <h2>South Village</h2>
+            <p>Set in the idyllic surrounds of the Sutherland Shire, South Village is poised to bring a new and unique
+                community into sydney's South.
+            </p><br>
             <p><a class="btn btn-secondary" href="{{ route('southVillage') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="{{ URL::asset('img/deicorp/theSiding/Deicorp_Petersham_CGI_J002672_EXT_Cutaway.jpg') }}" alt="Generic placeholder image" width="140" height="140">
             <h2>The Silding</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p>The Siding stands out as Petersham’s newest
+                    precinct. Teeming with greenery and life, </p> <br>
           <p><a class="btn btn-secondary" href="{{ route('theSiding') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
+
+
+        <div class="col-lg-4">
+                <img class="rounded-circle" src="{{ URL::asset('/img/deicorp/tntApa/Lawson_Living_View04Scheme04_R5_crop.jpg') }}" width="140" height="140">
+                <h2>The TNT</h2>
+                <p>As the former headquarters of the TNT company, these two iconic
+                        buildings have been a part of the city skyline since the 1970s. </p>
+                <p><a class="btn btn-secondary" href="{{ route('tntApa') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
+              </div><!-- /.col-lg-4 -->
+
+
+            </div><!-- /.row -->
+
+
+
 
 </body>
 </html>

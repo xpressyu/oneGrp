@@ -158,7 +158,7 @@ modern and refined. Each evening, green entries welcome you home. So you can lea
 
 <div class="pricelist" style="padding-top: 50px;">
 <h1>Typical Floor Plan</h1><br>
-<a href="{{ asset('documents/deicorp/highlineA1/BuildingA_L01-08.pdf') }}" target="_blank">Building A Level01-08.pdf</a>
+<a href="{{ asset('documents/bm/theAlbanyOne/FloorPlatesVBM1.pdf') }}" target="_blank">FloorPlatesVBM1.pdf</a>
 </div>
 
 <hr class="new1">
@@ -181,9 +181,6 @@ modern and refined. Each evening, green entries welcome you home. So you can lea
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="FAQ" role="tabpanel" aria-labelledby="FAQ-tab">FAQ...</div>
   <div class="tab-pane fade" id="Depreciation" role="tabpanel" aria-labelledby="Depreciation-tab">
-  <a href="{{ asset('documents/deicorp/highlineA1/1Bed.pdf') }}" target="_blank">1 Bed.pdf</a>
-  <br>
-  <a href="{{ asset('documents/deicorp/highlineA1/2Bed.pdf') }}" target="_blank">2 Bed.pdf</a>
   </div>
 
   <div class="tab-pane fade" id="Schedule" role="tabpanel" aria-labelledby="Schedule-tab">Schedule...</div>

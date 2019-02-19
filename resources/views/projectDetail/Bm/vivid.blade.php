@@ -149,18 +149,17 @@ Every aspect, South Village – your new neighbourhood – has been designed to 
 <div class="w3-content w3-display-container">
 <div class="float-left">
 <img src={{ URL::asset('/img/bm/vivid/convenient.png') }} style="width: 550px;">
-<div class="float-right" style="width: 430px; padding-left: 20px;padding-top: 140px;">
+<div class="float-right" style="width: 430px; padding-left: 20px;padding-top: 40px;">
 <h3>CONNECTIVITY</h3>
 <p class="text-justify">
 Proximity. It’s the pivotal aspect of urban life, the attribute that influences one of your most precious commodities. Your time. Time to spend with your family, time to simply relax. And less time commuting, no longer wasting hours getting to and from the places you want to or need to be. From your Vivid doorstep you’re surrounded by major bus networks and only 130 metres from Kirrawee train station and that’s just 33 minutes from the Sydney CBD. By car you’re mere minutes from Sydney’s major metropolitan road and freeway networks. And with the airport nearby, the world is at your feet.
 </p>
 </div>
 </div>
-<hr class="new1">
 <img src={{ URL::asset('/img/bm/vivid/SVVIVIDLOCATIONMAP.png') }}>
 </div>
 
-<div class="w3-content w3-display-container">
+<div class="w3-content w3-display-container" style="padding-top: 25px;">
 <div class="float-right">
 <img src={{ URL::asset('/img/bm/vivid/openSpace.png') }} style="width: 550px;">
 <div class="float-left" style="width: 430px; padding-right: 50px; padding-top: 70px;">
@@ -172,7 +171,6 @@ a stroll or walking to work, taking your kids to one of their favourite playgrou
 </p>
 </div>
 </div>
-<hr class="new1">
 </div>
 
 <div class="w3-content w3-display-container">
@@ -182,7 +180,6 @@ a stroll or walking to work, taking your kids to one of their favourite playgrou
 <div class="float-left" style=" padding-right: 20px;">
 <img src={{ URL::asset('/img/bm/vivid/acho.png') }} style="width: 480px; height: 600px; border: 5px solid #CBC6C6 ;">
 </div>
-<hr class="new1">
 </div>
 
 <div class="w3-content w3-display-container">
@@ -197,7 +194,7 @@ of fresh produce and just baked bread at one of your favourite neighbourhood pro
 </p>
 </div>
 </div>
-<hr class="new1">
+
 </div>
 
 <div class="w3-content w3-display-container">
@@ -206,7 +203,7 @@ of fresh produce and just baked bread at one of your favourite neighbourhood pro
 <div class="float-left" style=" padding-right: 20px;">
 <img src={{ URL::asset('/img/bm/vivid/map2.png') }} style="width: 480px; height: 600px; border: 5px solid #CBC6C6 ;">
 </div>
-<hr class="new1">
+
 </div>
 
 <div class="w3-content w3-display-container">
@@ -239,14 +236,13 @@ yet gracefully decorated and warmly welcoming. From your protected underground p
 <div class="w3-content w3-display-container">
 <div class="float-right">
 <img src={{ URL::asset('/img/bm/vivid/SouthVillage_CGI_LivingtoBalcony(1).jpg') }} style="width: 550px; height: 420px">
-<div class="float-left" style="width: 430px; padding-right: 50px; padding-top: 70px;">
+<div class="float-left" style="width: 430px; padding-right: 50px; padding-top: 40px;">
 <h3>LIVING SPACES</h3>
 <p class="text-justify">
 Light and space. These are the elements of exceptional living environments. Natural light tumbles through thermally and acoustically treated glass, deflecting summer glare and the hubbub of urban life. Every apartment is articulated to maximise the surrounding vistas, inviting sunshine and cross breezes. This only enhances the feeling of space afforded by clean, uncluttered expanses of textured joinery and polished tile floors. And when weather conditions reach their extremes, silent and efficient climate control keeps your world absolutely perfect.
 </p>
 </div>
 </div>
-<hr class="new1">
 </div>
 
 <div class="w3-content w3-display-container">
@@ -265,7 +261,7 @@ Whether it’s a quick breakfast to start your day or preparing dinner with fres
 <div class="w3-content w3-display-container">
 <div class="float-right">
 <img src={{ URL::asset('/img/bm/vivid/bed1.png') }} style="width: 550px; height: 450px;">
-<div class="float-left" style="width: 430px; padding-right: 50px; padding-top: 70px;">
+<div class="float-left" style="width: 430px; padding-right: 50px; padding-top: 40px;">
 <h3>BEDROOMS & BATHROOMS</h3>
 <p class="text-justify">
 As the absolute centre of your oasis, the plush carpeting of your Vivid bedrooms spread across generous proportions to windows that make panoramic views the living artwork of your world. Each bedroom is fully appointed with built-in wardrobes that enhance the colourways of your home. Fulfilling the architects’ resolute attention to quality, beauty and detail, every bathroom includes prestige touches and softly polished surfaces. These elements of your home embody sanctuary and serenity, reflecting
@@ -273,7 +269,7 @@ your distinctive appreciation for beauty and individuality.
 </p>
 </div>
 </div>
-<hr class="new1">
+<hr class="new1" style="padding-top: 500px;">
 </div>
 
 <div class="w3-content w3-display-container">
@@ -302,7 +298,7 @@ to your home, it’s a seamless, sensational and integral element of your living
 <div class="float-left" style=" padding-right: 20px;">
 <img src={{ URL::asset('/img/bm/vivid/w2.png') }} style="width: 480px; height: 600px; border: 5px solid #CBC6C6 ;">
 </div>
-<hr class="new1">
+
 <h3>3D Model</h3>
 <div class="w3-content w3-display-container">
  <hr class="new1">
@@ -338,8 +334,9 @@ to your home, it’s a seamless, sensational and integral element of your living
   <div class="tab-pane fade" id="Strate" role="tabpanel" aria-labelledby="Strate-tab">Strata...</div>
 </div>
 </div>
+
 <div class="down" style="background-color: #000000 ">
-        <p style="color: aliceblue ; width: 900px; padding-left: 500px;">One Group Global Investment Pty Ltd&copy;
+        <p style="color: aliceblue ; width: 900px; padding-left: 320px;">One Group Global Investment Pty Ltd&copy;
                 <br>Address: Level 6, 201 Kent Street, Sydney, 2000
                 <br>Email: info@onegroupglobal.com.au
                 Tel: 0413 384 119 </p>

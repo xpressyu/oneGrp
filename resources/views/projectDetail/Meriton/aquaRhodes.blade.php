@@ -19,7 +19,7 @@
   <li><a href="##">FAQ</a></li>
    <li><a href="##">Contact</a></li>
    <li><a href="{{ route('login') }}">Login/Resgister</a></li>
-   <li style="float: left; color: aliceblue; font-family:Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black,' sans-serif'; font-size: 30px;" >OneGroup</li>
+   <li style="float: left; color: aliceblue; font-family:Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black,' sans-serif'; font-size: 30px;" ><img src="{{ URL::asset('/img/home/logo-nav.png') }}" style="width:100px; height:100px ";></li>
 
 </ul>
 </div>
@@ -38,7 +38,7 @@
 
 <div class="imgRoll" style="padding-top:20px; width: 100%">
             <img  class="mySlides" src={{ URL::asset('/img/meriton/aquaRhodes/Aqua_Watrerside_5_1920X803-1920x800.jpg') }} style="width:100%">
-             <img class="mySlides" src={{ URL::asset('/img/meriton/aquaRhodes/Aqua_Waterpak_Daytime_6_1920X800.jpg') }} style="width:100%">
+            <img  class="mySlides" src={{ URL::asset('/img/meriton/aquaRhodes/Aqua_Waterpak_Daytime_6_1920X800.jpg') }} style="width:100%">
             <img class="mySlides"  src={{ URL::asset('/img/meriton/aquaRhodes/Aqua_Full_1920X800.jpg') }} style="width:100%">
             <img class="mySlides"  src={{ URL::asset('/img/meriton/aquaRhodes/Aqua_Full_1920X800_Sunset-1920x800.jpg') }} style="width:100%">
             <img class="mySlides"  src={{ URL::asset('/img/meriton/aquaRhodes/Aqua_Balcony_Daytime_1920X802-1920x800.jpg') }} style="width:100%">

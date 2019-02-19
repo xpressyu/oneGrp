@@ -139,7 +139,7 @@ function showDivs(n) {
               </h3>
               <br>
 
-              <p class="card-text mb-auto">The team at Boston Marketing has worked with some of Australia’s leading property developers. <br></p>
+              <p class="card-text mb-auto">The team at Boston Marketing has worked with some of Australia’s leading property developers. <br><br></p>
               <a href="{{ route('bm') }}">View More</a>
             </div>
             <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap" src="{{ URL::asset('/img/property/bm.png') }}">
@@ -184,7 +184,7 @@ function showDivs(n) {
                 <a class="text-dark" href="#">Developer: Meriton</a>
               </h3>
               <br>
-              <p class="card-text mb-auto">For over 50 years, Meriton Group has grown to become Australia’s largest and most successful residential developer<br> </p>
+              <p class="card-text mb-auto">For over 50 years, Meriton Group has grown to become Australia’s largest and most successful residential developer<br><br> </p>
               <a href="{{ route('meriton') }}">View More</a>
             </div>
             <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap" src="{{ URL::asset('/img/property/meriton.jpg') }}">
@@ -198,7 +198,7 @@ function showDivs(n) {
                 <a class="text-dark" href="#">Developer: Greenland</a>
               </h3>
               <br>
-              <p class="card-text mb-auto">Greenland Holdings Group has ranked number one on the recently published Forbes 2018 Global Growth Champions list.<br>  </p>
+              <p class="card-text mb-auto">Greenland Holdings Group has ranked number one on the recently published Forbes 2018 Global Growth Champions list.</p>
               <a href="{{ route('greenland') }}">View More</a>
             </div>
             <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap" src="{{ URL::asset('/img/property/greenland.jpg') }}">

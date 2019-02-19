@@ -129,7 +129,7 @@ function showDivs(n) {
 </script>
 
 <div class="w3-content w3-display-container" style="padding-top: 25px;">
-<h1>Kirrawee, NSW</h1>
+<h1>SouthVillage, NSW</h1>
 <h2>Developer: Deicorp</h2>
 <br>
 <img src={{ URL::asset('/img/deicorp/southVillage/develperInfor.png') }} style="width: 1000px;" >
@@ -155,7 +155,6 @@ The Sutherland Shire is bursting with possibilities and Kirrawee is taking centr
 </p>
 </div>
 </div>
-<hr class="new1">
 <img src={{ URL::asset('/img/deicorp/southVillage/back.png') }}>
 <hr class="new1">
 </div>
@@ -193,7 +192,7 @@ and Aldi. It will make living a lot easier.”
 
 </div>
 </div>
-<hr class="new1">
+
 </div>
 
 <div class="w3-content w3-display-container" style="padding-top: 25px;">

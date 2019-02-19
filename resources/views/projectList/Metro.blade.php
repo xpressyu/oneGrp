@@ -101,13 +101,13 @@ function showDivs(n) {
           <div class="col-lg-4">
             <img class="rounded-circle" src="{{ URL::asset('/img/metro/silkTerracesSchofields/154043896697811407-rsc.jpg') }}" width="140" height="140">
             <h2>Silk Terraces, Schofields</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p>Well-know as both an Investment Hot Spot and A Desirable Lifestyle Address.</p>
           <p><a class="btn btn-secondary" href="{{ route('silkTerraces') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="{{ URL::asset('/img/metro/sierraResidencesKellyville/1.jpg') }}" width="140" height="140">
             <h2>Sierra Residences Kellyville</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <p>Sierra Residences delivers a limited collection of boutique house and land packages in one of the North-West’s booming centres of growth.</p>
             <p><a class="btn btn-secondary" href="{{ route('sierraResidence') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
@@ -131,27 +131,27 @@ function showDivs(n) {
           <div class="col-lg-4">
             <img class="rounded-circle" src="{{ URL::asset('/img/metro/theNinesNaremburn/n-vHSwkE.jpg') }}" alt="Generic placeholder image" width="140" height="140">
             <h2>The Nines,Naremburn</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p>Curated to the very last detail with space for the family to gather — this is where meals become memories.</p>
             <p><a class="btn btn-secondary" href="{{ route('theNinesNaremburn') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
                     <div class="col-lg-4">
             <img class="rounded-circle" src="{{ URL::asset('/img/metro/fairwayResidence/LEfiMf_8.jpg') }}" alt="Generic placeholder image" width="140" height="140">
             <h2>Fairway Residences Starthfield</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p>Established community aspects are within easy reach, perfect for young professionals, growing families, down-sizing retirees or astute investors.</p>
             <p><a class="btn btn-secondary" href="{{ route('fairway') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 
             <div class="col-lg-4">
             <img class="rounded-circle" src="{{ URL::asset('/img/metro/theGables/T1.png') }}" alt="Generic placeholder image" width="140" height="140">
             <h2>The Gables-Precinct H, BoxHill</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p>True value in construction is a result of outstanding quality, at an affordable price.</p>
             <p><a class="btn btn-secondary" href="{{ route('theGables') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 
           <div class="col-lg-4">
             <img class="rounded-circle" src="{{ URL::asset('/img/metro/orchard/mGGcJ9Pq.jpg') }}" alt="Generic placeholder image" width="140" height="140">
             <h2>Orchard Heights, Spring </h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p>Within a welcoming community and recreational paradise, Orchard Heights offers the perfect fusion of rural tranquillity and urban vibrancy.</p>
             <p><a class="btn btn-secondary" href="{{ route('orchard') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 
