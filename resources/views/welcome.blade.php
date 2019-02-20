@@ -17,16 +17,16 @@
   <li><a href="##">Language</a></li>
   <li><a href="##">FAQ</a></li>
    <li><a href="##">Contact</a></li>
-<li><a href="{{ route('login') }}">Login/Resgister</a></li>
+<li><a href="{{ route('login') }}">Login/Register</a></li>
    <li style="float: left; color: aliceblue; font-family:Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black,' sans-serif'; font-size: 30px;" >OneGroup</li>
 
 </ul>
 </div>
+
 <nav class="site-header sticky-top py-1">
-      <div class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="py-2" href="#">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"></svg>
-        </a>
+
+      <div class="container-fluid d-flex flex-row justify-content-between align-items-center">
+        <a class="py-2 d-flex" href="{{ route('welcome') }}"><img src="{{ URL::asset('/img/home/logo-2.png') }}" style="width: 250px; height:130px;"/></a>
         <a class="py-2 d-none d-md-inline-block" href="{{ route('welcome') }}">Home</a>
         <a class="py-2 d-none d-md-inline-block" href="{{ route('list') }}">Property</a>
         <a class="py-2 d-none d-md-inline-block" href="{{ route('company') }}">Our Company</a>
@@ -83,9 +83,9 @@ function showDivs(n) {
       <div class="row">
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <a><img src="{{ URL::asset('/img/home/BuildingEWestSide.jpg') }}" style=" width: 100%" height="225"></a><rect width="100%" height="100%" fill="#55595c"/><text x="30%" y="50%" fill="#eceeef" dy=".3em" ><h3>Deicorp Sourthvillage</h3></text>
+            <a><img src="{{ URL::asset('/img/home/BuildingEWestSide.jpg') }}" style=" width: 100%" height="250"></a><rect width="100%" height="100%" fill="#55595c"/><text x="30%" y="50%" fill="#eceeef" dy=".3em" ><h4>Deicorp Sourthvillage</h4></text>
             <div class="card-body">
-              <p class="card-text">At South Village, your doorstep stretches from the precinct’s new shopping centre to the National Park to the endless blues of beaches and bays; an urban lifestyle amidst Australia’s natural wonders. </p>
+              <p class="card-text">At South Village, your doorstep stretches from the precinct’s new shopping centre to the National Park to the endless blues of beaches and bays; an urban lifestyle amidst Australia’s natural wonders.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                 <a href="{{ route('southVillage') }}" class="btn btn-sm btn-outline-secondary">View</a>
@@ -96,10 +96,10 @@ function showDivs(n) {
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <a> <img src="{{ URL::asset('/img/home/n-vHSwkE.jpg') }}" style= "width:100%" height="225"></a>
-            <rect width="100%" height="100%" fill="#55595c"/><text x="30%" y="50%" fill="#eceeef" dy=".3em"><h3>Metro TheNinesNaremburn</h3></text>
+            <a> <img src="{{ URL::asset('/img/home/n-vHSwkE.jpg') }}" style= "width:100%" height="250"></a>
+            <rect width="100%" height="100%" fill="#55595c"/><text x="30%" y="50%" fill="#eceeef" dy=".3em"><h4>Metro TheNinesNaremburn</h4></text>
             <div class="card-body">
-              <p class="card-text">where the ordinary becomes extraordinary, and everyday life is richer than ever. A boutique collection of nine 3-storey residences, The Nines is perfected living for every generation..</p>
+              <p class="card-text"> Where the ordinary becomes extraordinary, and everyday life is richer than ever. A boutique collection of nine 3-storey residences.<br><br></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                 <a href="{{ route('theNinesNaremburn') }}" class="btn btn-sm btn-outline-secondary">View</a>
@@ -110,10 +110,10 @@ function showDivs(n) {
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-              <a> <img src="{{ URL::asset('/img/home/T6.jpg') }}" style= "width:100%" height="225"></a>
-              <rect width="100%" height="100%" fill="#55595c"/><text x="30%" y="50%" fill="#eceeef" dy=".3em"><h3>Greenland Omnia</h3></text>
+              <a> <img src="{{ URL::asset('/img/home/T6.jpg') }}" style= "width:100%" height="250"></a>
+              <rect width="100%" height="100%" fill="#55595c"/><text x="30%" y="50%" fill="#eceeef" dy=".3em"><h4>Greenland Omnia</h4></text>
             <div class="card-body">
-              <p class="card-text">Omnia's distinctive podium draws in the heritage streetscape and delivers its rhythm around the peninsula end of its expansive site.   <br><br> </p>
+              <p class="card-text">Omnia's distinctive podium draws in the heritage streetscape and delivers its rhythm around the peninsula end of its expansive site. <br><br><br> </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                     <a href="{{ route('omnia') }}" class="btn btn-sm btn-outline-secondary">View</a>
@@ -126,6 +126,14 @@ function showDivs(n) {
 
     </div>
           </div>
+<div id="btn">
+       <a href="{{ route('list') }}" class="btn btn-outline-dark">Find out more</a>
+</div>
+        </div>
+
+
+        <div class="section-title text-center">
+                <p style="color: crimson; font-family:Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial,' sans-serif'; font-size: 24px;" >  WE GUARANTEE : THE BEST Purchase Price in the Market.</p>
         </div>
 
         <div class="w3-content w3-display-container">
@@ -159,7 +167,7 @@ function showDivs(n) {
 					<h5>WHO WE ARE  TRUST 	HONESTY    EXCELLENCE     DELICATION     COLLABORATION </h5>
 						<p>ONE GROUP GLOBAL INVESTMENT PTY LTD is a premium, Professional, Prestigious Property Investment Consulting Company based in Sydney CBD. We ONLY work with the BEST Developers, the BEST Projects with the Best Price in the BEST Location. </p>
                           <h5>WHAT WE DO</h5>
-                           <p>To build your WEALTH fast through Secure, Effective and Efficient Property Investment activities in order to achieve Financial Freedom   WE GUARANTEE : the BEST Purchase Price in the Market (add a stamp next to it) </p>
+                           <p>To build your WEALTH fast through Secure, Effective and Efficient Property Investment activities in order to achieve Financial Freedom . </p>
 
                    </div>
 				</div>
