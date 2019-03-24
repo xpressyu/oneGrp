@@ -224,9 +224,13 @@ Route::get('/staff', function () {
 })->name('staff');
 
 //Route for company
-Route::get('/ourCompany', function () {
+Route::get('/company', function () {
     return view('company');
 })->name('company');
+//Route for sydney
+Route::get('/sydney', function () {
+    return view('sydney');
+})->name('sydney');
 
 //Route for project list
 Route::get('/projectList/Metro', function () {
@@ -256,3 +260,21 @@ Route::get('/projectList/Frasers', function () {
 Route::get('/projectList', function () {
     return view('projectList.PropertyList');
 })->name('list');
+
+
+// Route for north
+Route::get('/sydney/north', function () {
+    return view('sydney.north');
+})->name('north');
+// Route for south
+Route::get('/sydney/south', function () {
+    return view('sydney.south');
+})->name('south');
+// Route for west
+Route::get('/sydney/west', function () {
+    return view('sydney.west');
+})->name('west');
+// Route for east
+Route::get('/sydney/east', function () {
+    return view('sydney.east');
+})->name('east');

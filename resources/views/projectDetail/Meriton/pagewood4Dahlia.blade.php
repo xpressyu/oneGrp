@@ -1,41 +1,81 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Meriton-Pagewood, Dahlia</title>
+<meta charset="utf-8">
+<title>Dahlia</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+
+
+
+<!-- css -->
+<link href="{{ asset('css/newCSS/bootstrap.min.css') }}" rel="stylesheet" />
+<link href="{{ asset('css/newCSS/fancybox/jquery.fancybox.css') }}" rel="stylesheet"> 
+<link href="{{ asset('css/newCSS/flexslider.css') }}" rel="stylesheet" /> 
+<link href="{{ asset('css/newCSS/style.css') }}" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<style>
+ .mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}    
+</style>
 </head>
-
 <body>
-<div class="top">
-<ul>
-  <li><a href="##">Language</a></li>
-  <li><a href="##">FAQ</a></li>
-   <li><a href="##">Contact</a></li>
-   <li><a href="{{ route('login') }}">Login/Resgister</a></li>
-   <li style="float: left; color: aliceblue; font-family:Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black,' sans-serif'; font-size: 30px;" >OneGroup</li>
-
-</ul>
-</div>
-<nav class="site-header sticky-top py-1">
-      <div class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="py-2" href="#">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"></svg>
-        </a>
-        <a class="py-2 d-none d-md-inline-block" href="{{ route('welcome') }}">Home</a>
-        <a class="py-2 d-none d-md-inline-block" href="{{ route('list') }}">Property</a>
-        <a class="py-2 d-none d-md-inline-block" href="{{ route('company') }}">Our Company</a>
-        <a class="py-2 d-none d-md-inline-block" href="{{ route('staff') }}">Staff</a>
-        <a class="py-2 d-none d-md-inline-block" href="{{ route('social') }}">Social Service</a>
+<div id="wrapper" class="home-page">
+<div class="topbar navbar-fixed-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      <p class="pull-left hidden-xs"><i class="fa fa-clock-o"></i><span>Monday - Sunday &nbsp 24  / 7 Services</span> </p>
+        <p class="pull-right"><i class="fa fa-phone"></i>(+61) 413 384 119</p>
       </div>
-    </nav>
+    </div>
+  </div>
+</div>
 
+	<!-- start header -->
+	<header class="navbar-fixed-top" style="padding-top: 30px;">
+        <div class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="{{ URL::asset('/img/newHome/slides/logo.png') }}" alt="logo"/></a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="{{ route('welcome') }}">Home</a></li> 
+							 <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Property <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{ route('sydney')}}">Sydney</a></li>
+                            <li><a href="{{ route('list') }}">Developers</a></li>
+                            
+                        </ul>
+                    </li>
+						<li><a href="{{ route('company') }}">Our Company</a></li> 
+                        <li><a href="{{ route('staff') }}">Staff</a></li>
+                        <li><a href="{{ route('social') }}">Event</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<div class="w3-content w3-display-container" style="max-width:100%">
 <div class="imgRoll" style="padding-top:20px; width: 100%">
  <img class="mySlides" src={{ URL::asset('/img/meriton/pagewood4Dahlia/DAHLIA_Bathroom.jpg') }}  style="width:100%">
  <img class="mySlides" src={{ URL::asset('/img/meriton/pagewood4Dahlia/DAHLIA_Bedroom.jpg') }}  style="width:100%">
@@ -47,9 +87,9 @@
  <img class="mySlides" src={{ URL::asset('/img/meriton/pagewood4Dahlia/DAHLIA_Terrace.jpg') }} style="width:100%"  >
 
 
- <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
- <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-
+ <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+  
   <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
@@ -60,43 +100,25 @@
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
 
-  </div>
+   </div>
 </div>
-
+  
+	</div>
 <script>
-var slideIndex = 1;
-showDivs(slideIndex);
+    var myIndex = 0;
+    carousel();
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-
-var slideIndex = 0;
-carousel();
-
-function carousel() {
+    function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
+        x[i].style.display = "none";  
     }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1}
-    x[slideIndex-1].style.display = "block";
-    setTimeout(carousel, 3000); // Change image every 2 seconds
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 2 seconds
 }
-
 
 var slideIndex = 1;
 showDivs(slideIndex);
@@ -116,49 +138,84 @@ function showDivs(n) {
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
+    x[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
+    dots[i].className = dots[i].className.replace(" w3-white", "");
   }
-  x[slideIndex-1].style.display = "block";
+  x[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " w3-white";
 }
+
 </script>
-
-
-<div class="w3-content w3-display-container" style="padding-top: 60px;">
-<h1>Meriton-Pagewood, Dahlia</h1>
-<h2>Dahlia</h2>
-<img src={{ URL::asset('/img/meriton/LighthouseDeeW/page1.png') }} alt="width: 980px;">
-<br><br>
-<h2>Meriton</h2>
-	<p class="text-justify">Established in 1963, Meriton has made a significant impact on the Australian landscape. We have designed, developed and built an estimated one in 10 apartments in Sydney, along with some of the tallest residential towers in Sydney, Brisbane and the Gold Coast. The private company has designed, developed and built more than 75,000 apartments across the east coast of Australia. Meriton offers sales, leasing and property management services, as well as the luxury accommodation brand Meriton Suites with more than 17 locations nationwide. Meriton has spearheaded the apartment revolution with sophisticated, high-quality apartments. Its founder and managing director, billionaire property entrepreneur Harry Triguboff, is still passionately involved in the design and construction of all projects.</p>
-<hr class="new1">
-	</div>
+<h1 style="padding-left:20%; font-size: 48px; font-family: Times New Roman; color: #1e3e49; "> <span class="coloured">Meriton: </span>Dahlia-Pagewood NSW</h1>
 
 <div class="w3-content w3-display-container" style="padding-top: 10px;">
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Page1.png') }}>
+<br><br>
+<P class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Redefining the traditional approach to property development, this new development  by  Meriton  will  have  tree-lined  boulevards  and  feature  10,000sqm of landscaped parklands and a full line supermarket. 
+  Rising to the eighth floor, a superb selection of 167 luxury apartments with  generous  floor-to-ceiling  picture  windows,  and  open  corner  balconies  that  showcase  uninterrupted  views  of  the  surrounding  landscape,
+   out to the eastern coast line.Dahlia  at  Pagewood  Green  has  been  exceptionally  designed  to satisfy market demand, providing secure parking for all apartments and the largest layouts in the area with sizes up to 186m2  of  internal  and external living combined.Pagewood Green is an island development neighbouring championship golf courses and Westfield Eastgardens shopping centre. 
+   Located 8km from  the  CBD  and  under  5km  to  Sydney's  iconic  eastern  beaches,  Australia's top performing universities and Sydney Airport's domestic and international terminals. </P>
 <hr class="new1">
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Page2.png') }}>
+<br><br>
+<p  class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Inside and out, seamless living is the star of these impressive boutique homes. 
+  The  intelligent  architecture  by  award  winning  Nettleton  Tribe  creates  an environment where everything is effortless. 
+  Dahlia is crowned by top floor, two and three bedroom split level penthouse apartments,  with  enormous  rooftop  terraces  up  to  50m2. 
+   This  stunning  collection of premium apartments have been skilfully designed to the highest standards for a lifetime of quality and comfort.
+   Expertly designed with attention to every detail, Dahlia will offer finishes that echo the natural textures of the area. The stone feature façade with timber accents  and  a  grand  entry  arbor  to  the  internal  courtyard  gardens  reflect  the character of this groundbreaking community.</p>
 <hr class="new1">
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Page3.png') }}>
+<br><br>
+<p class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Over 60% of apartments feature a study room the same size  as a bedroom, complete with a window and air-conditioning<br>
+  Many apartments boast north and east aspects through  floor-to-ceiling glazed windows§Large format limestone look tiles deliver low maintenance  style throughout the open plan living, bathroom and kitchen  areas that accentuate the enormous, flowing floorplans 
+  <br>Provisions for super-fast broadband and pay TV  with fibre optic cabling in the living area and bedrooms§Internal laundry with dryer and cabinetry
+  <br>Comprehensive security including intercom and CCTV cameras<br>Sustainable features such as LED downlights and water  saving fixtures</p>
 <hr class="new1">
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Page4.png') }}>
+<br><br>
+<p class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Dahlia’s spacious gourmet kitchens are made for easy entertaining and daily life.
+   Their quality finishes, fittings and appliances have been chosen for both their timeless style and performance.
+  <br>High-end stainless steel appliances including a ducted  rangehood, gas cooktop, oven, microwave with black glass  and semi-integrated dishwasher.
+  <br>Smoked mirror splashback and barback.
+   <br>40mm polished pencil-edge Caesarstone benchtops  with under-bench sink §Polished chrome tapware and fittings§Full-height satin finish polyurethane cabinetry  with soft-closing drawers</p>
 <hr class="new1">
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Page5.png') }}>
+<h4  style="font-family: Times New Roman; color: #1e3e49;">The chic colour palettes used throughout the bathrooms create a zen-like calm. </h4>
+ <p class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;"> These are beautiful and relaxing places to refresh or unwind at the start or end of a busy day.
+   <br>Frameless glass showers with polished chrome fixtures.
+   <br>Contemporary herringbone wall tiles and marble inspired floor tiles deliver timeless modern appeal.
+   <br>Generous mirrored wall-hung cabinetry with Caesarstone vanity  shelf top for added storage.
+   <br>Wall-mounted floating basin and toilet suites with concealed cistern.</p>
 <hr class="new1">
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Page6.png') }}>
+<br><br>
+<h4  style="font-family: Times New Roman; color: #1e3e49;">Two  luxurious  colour  schemes  –  neutral  and  contrast  –  create  a  wonderful  blank  canvas  ready  to  add  your  own  personal  touches. The neutral scheme is expressed in warm beige notes, while the contrast scheme is a warm grey colour palette.</h4>
+<p class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Shown here in the peaceful bedrooms, Dahlia’s sophisticated natural palettes deliver a timeless contemporary feel. 
+  <br>Generous mirrored built-in wardrobes offer plentiful storage.
+  <br>Feel the luxurious wool-blend carpet under your feet.
+  <br>Enjoy direct access to the balcony spaces from the bedrooms.</p>
 <hr class="new1">
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Page7.png') }}>
+<br><br>
+<h4 style="font-family: Times New Roman; color: #1e3e49;">Designed  to  connect  with  nature,  an  exceptional,  landscaped  rooftop  garden  and  yoga  lawn  on  level  six  envelopes  your  new  home  –  a  calming  retreat  and  place  to  gather  with  family  and friends.</h4>
+<p class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Custom outdoor dining furniture, leafy planting, extensive turfed space, gleaming barbeque facilities, a community-run organic vegetable patch and timber lounge seating create multiple areas to relax or entertain while in the comfort of your own home.
+  These  inviting  gardens  are  uplifting  whether  enjoyed  from  within  or viewed from your luxury apartment.</p>
 <hr class="new1">
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Page8.png') }}>
+<br><br>
+<h4 style="font-family: Times New Roman; color: #1e3e49;">The grand 8,000sqm communal park at the heart of Pagewood Green comes complete with: </h4>
+  <p class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Play equipment for children including swing set  and climbing structure.
+  <br>Multi-purpose sports lawn and outdoor exercise equipment.
+  <br>Table tennis facilities§Barbeque and picnic area.
+  <br>Large lawns with shady groves§Pedestrian and cycle pathways that weave around  the park and buildings.
+  <br>This enviable location comes to life with a thriving café and dining culture, retail and leisure experiences</p>
 <hr class="new1">
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Page9.png') }}>
 <hr class="new1">
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Page10.png') }}>
-<hr class="new1">
-<img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Page11.png') }}>
+
 <hr class="new1">
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/UNSW.png') }}>
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/beaches.png') }}>
@@ -166,58 +223,76 @@ function showDivs(n) {
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Fingertips.png') }}>
 	</div>
 
+ 
 
 
-
- <div class="pricelist" style="padding-top: 50px;">
-<h1>Typical Floor Plan</h1><br>
-<a href="{{ asset('documents/meriton/pagewood4Dahlia/FloorPlan.pdf') }}" target="_blank">Building Map.pdf</a>
-</div>
-
-<hr class="new1">
-<h1>Additional Informatiion</h1>
+<div class="w3-content w3-display-container" style="padding-top:30px;">
+<h1 style="font-family: Times New Roman; color: #1e3e49;">Additional Informatiion</h1>
 <div class="w3-content w3-display-container" >
-<ul class="nav nav-tabs" id="myTab" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active" id="FAQ-tab" data-toggle="tab" href="#FAQ" role="tab" aria-controls="home" aria-selected="true">FAQ</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="Depreciation-tab" data-toggle="tab" href="#Depreciation" role="tab" aria-controls="profile" aria-selected="false">Depreciation</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="Schedule-tab" data-toggle="tab" href="#Schedule" role="tab" aria-controls="contact" aria-selected="false">Schedule Finishes</a>
-  </li>
-   <li class="nav-item">
-    <a class="nav-link" id="Strate-tab" data-toggle="tab" href="#Strate" role="tab" aria-controls="contact" aria-selected="false">Strata Levy</a>
-  </li>
-</ul>
+<div class="w3-row">
+<a href="javascript:void(0)" onclick="openCity(event, 'Floor Plan');" style="font-family: Times New Roman; color: #1e3e49;">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">FloorPlan</div>
+</a>
+  </div>
 <div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="FAQ" role="tabpanel" aria-labelledby="FAQ-tab">FAQ...</div>
-  <div class="tab-pane fade" id="Depreciation" role="tabpanel" aria-labelledby="Depreciation-tab">
+<div id="Floor Plan" class="w3-container city" style="display:none">
+<a href="{{ asset('documents/meriton/pagewood4Dahlia/FloorPlan.pdf') }}" target="_blank">Building Map.pdf</a>
+  <br>
   <a href="{{ asset('documents/meriton/pagewood4Dahlia/1Bed.pdf') }}" target="_blank">1 Bed.pdf</a>
   <br>
   <a href="{{ asset('documents/meriton/pagewood4Dahlia/2Bed.pdf') }}" target="_blank">2 Bed.pdf</a>
-  </div>
-
-  <div class="tab-pane fade" id="Schedule" role="tabpanel" aria-labelledby="Schedule-tab">Schedule...</div>
-
-  <div class="tab-pane fade" id="Strate" role="tabpanel" aria-labelledby="Strate-tab">
-    <a >      </a>
-  </div>
 </div>
 </div>
+</div>
+</div>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-border-yellow", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-border-yellow";
+}
+</script>
 <div class="down" style="background-color: #000000 ">
-        <p style="color: aliceblue ; width: 900px; padding-left: 500px;">One Group Global Investment Pty Ltd&copy;
-                <br>Address: Level 6, 201 Kent Street, Sydney, 2000
-                <br>Email: info@onegroupglobal.com.au
-                Tel: 0413 384 119 </p>
-                </div>
 
-                <a href="{{ route('SEND_EMAIL') }}" class="float">
-                <i class="fa fa-plus my-float">
-                <img src={{ URL::asset('/img/others/email.png') }} style="width: 45px; height:45px;">
-                </i>
-                </a>
+<p style="color: aliceblue ; width: 900px; padding-left:27%;">One Group Global Investment Pty Ltd&copy;
+<br>Ground Floor Level 6,201 Kent Street Sydney NSW 2000
+<br> D: + 61 29019 1889  &nbsp &nbsp    M: 0413384119
+<br> E: fiona@onegroupglbal.com.au  &nbsp info@onegroupglobal.com.au
+</p>
+</div>
 
+<!-- float button =contact us -->
+<a href="{{ route('SEND_EMAIL') }}" class="float">
+<i class=" my-float">
+<img src={{ URL::asset('/img/others/email.png') }} style="width: 45px; height:45px;">
+</i>
+</a>
+
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{{ URL::asset('js/newJS/jquery.js')}}"></script>
+<script src="{{ URL::asset('js/newJS/jquery.easing.1.3.js') }}"></script>
+<script src="{{ URL::asset('js/newJS/bootstrap.min.js') }}"></script>
+<script src="{{ URL::asset('js/newJS/jquery.fancybox.pack.js') }}"></script>
+<script src="{{ URL::asset('js/newJS/jquery.fancybox-media.js') }}"></script>  
+<script src="{{ URL::asset('js/newJS/jquery.flexslider.js') }}"></script>
+<script src="{{ URL::asset('js/newJS/animate.js') }}"></script>
+<!-- Vendor Scripts -->
+<script src="{{ URL::asset('js/newJS/modernizr.custom.js') }}"></script>
+<script src="{{ URL::asset('js/newJS/jquery.isotope.min.js') }}"></script>
+<script src="{{ URL::asset('js/newJS/jquery.magnific-popup.min.js') }}"></script>
+<script src="{{ URL::asset('js/newJS/animate.js') }}"></script>
+<script src="{{ URL::asset('js/newJS/custom.js') }}"></script> 
 </body>
 </html>
