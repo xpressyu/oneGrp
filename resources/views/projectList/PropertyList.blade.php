@@ -8,15 +8,15 @@
 <meta name="author" content="" />
 <!-- css -->
 <link href="{{ asset('/css/newCSS/bootstrap.min.css') }}" rel="stylesheet" />
-<link href="{{ asset('/css/newCSS/fancybox/jquery.fancybox.css') }}" rel="stylesheet"> 
+<link href="{{ asset('/css/newCSS/fancybox/jquery.fancybox.css') }}" rel="stylesheet">
 <link href="{{ asset('/css/newCSS/flexslider.css') }}" rel="stylesheet" />
 <!-- Vendor Styles -->
-<link href="{{ URL::asset('/css/newCSS/magnific-popup.css') }}" rel="stylesheet"> 
+<link href="{{ URL::asset('/css/newCSS/magnific-popup.css') }}" rel="stylesheet">
 <!-- Block Styles -->
 <link href="{{ asset('css/newCSS/style.css') }}" rel="stylesheet" />
 <link href="{{ asset('/css/newCSS/gallery-1.css') }}" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
- 
+
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
@@ -52,20 +52,20 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="{{ URL::asset('/img/newHome/slides/logo.png') }}" alt="logo"/></a>
+                    <a class="navbar-brand" href="{{ route('welcome')}}"><img src="{{ URL::asset('/img/newHome/slides/logo.png') }}" alt="logo"/></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="{{ route('welcome') }}">Home</a></li> 
+                        <li class="active"><a href="{{ route('welcome') }}">Home</a></li>
 							 <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">Property <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="{{route('sydney')}}">Sydney</a></li>
                             <li><a href="{{ route('list') }}">Developers</a></li>
-                            
+
                         </ul>
                     </li>
-						<li><a href="{{ route('company')}}">Our Company</a></li> 
+						<li><a href="{{ route('company')}}">Our Company</a></li>
                         <li><a href="{{ route('staff') }}">Staff</a></li>
                         <li><a href="{{ route('social') }}">Event</a></li>
                     </ul>
@@ -86,7 +86,7 @@
 <section id="gallery-1" class="content-block section-wrapper gallery-1" style="paddint-top:50px;">
     	 	<div class="container">
 
-	
+
             <!-- deicorp -->
             <div class="row" style="padding-top:50px;">
                 <div id="isotope-gallery-container">
@@ -203,15 +203,15 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
                 <!-- /.isotope-gallery-container -->
             </div>
-            <!-- /.row --> 
+            <!-- /.row -->
         <!-- /.container -->
 		</div>
     </section>
-    <!--// End Gallery 1-2 -->  
+    <!--// End Gallery 1-2 -->
 	</div>
     <div class="down" style="background-color: #000000 ">
 
@@ -222,8 +222,8 @@
 </p>
 </div>
 	</div>
- 
-   
+
+
 
 
     <a href="{{ route('SEND_EMAIL') }}" class="float">
@@ -237,7 +237,7 @@
 <script src="{{ URL::asset('js/newJS/jquery.easing.1.3.js')}}"></script>
 <script src="{{ URL::asset('js/newJS/bootstrap.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.fancybox.pack.js') }}"></script>
-<script src="{{ URL::asset('js/newJS/jquery.fancybox-media.js') }}"></script>  
+<script src="{{ URL::asset('js/newJS/jquery.fancybox-media.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.flexslider.js') }}"></script>
 <!-- Vendor Scripts -->
 <script src="{{ URL::asset('js/newJS/modernizr.custom.js') }}"></script>
@@ -245,6 +245,6 @@
 <script src="{{ URL::asset('js/newJS/jquery.magnific-popup.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/animate.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/custom.js')}}"></script>
- 
+
 </body>
 </html>

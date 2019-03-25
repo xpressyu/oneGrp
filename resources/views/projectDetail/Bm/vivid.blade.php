@@ -11,8 +11,8 @@
 
 <!-- css -->
 <link href="{{ asset('css/newCSS/bootstrap.min.css') }}" rel="stylesheet" />
-<link href="{{ asset('css/newCSS/fancybox/jquery.fancybox.css') }}" rel="stylesheet"> 
-<link href="{{ asset('css/newCSS/flexslider.css') }}" rel="stylesheet" /> 
+<link href="{{ asset('css/newCSS/fancybox/jquery.fancybox.css') }}" rel="stylesheet">
+<link href="{{ asset('css/newCSS/flexslider.css') }}" rel="stylesheet" />
 <link href="{{ asset('css/newCSS/style.css') }}" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -27,7 +27,7 @@
 <style>
  .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}    
+.w3-badge {height:13px;width:13px;padding:0}
 </style>
 </head>
 <body>
@@ -53,20 +53,20 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="{{ URL::asset('/img/newHome/slides/logo.png') }}" alt="logo"/></a>
+                    <a class="navbar-brand" href="{{ route('welcome')}}"><img src="{{ URL::asset('/img/newHome/slides/logo.png') }}" alt="logo"/></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="{{ route('welcome') }}">Home</a></li> 
+                        <li class="active"><a href="{{ route('welcome') }}">Home</a></li>
 							 <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">Property <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="{{ route('sydney')}}">Sydney</a></li>
                             <li><a href="{{ route('list') }}">Developers</a></li>
-                            
+
                         </ul>
                     </li>
-						<li><a href="{{ route('company') }}">Our Company</a></li> 
+						<li><a href="{{ route('company') }}">Our Company</a></li>
                         <li><a href="{{ route('staff') }}">Staff</a></li>
                         <li><a href="{{ route('social') }}">Event</a></li>
                     </ul>
@@ -84,7 +84,7 @@
 
     <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-  
+
   <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
@@ -92,7 +92,7 @@
 
    </div>
 </div>
-  
+
 	</div>
 <script>
     var myIndex = 0;
@@ -102,11 +102,11 @@
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";  
+        x[i].style.display = "none";
     }
     myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
     setTimeout(carousel, 5000); // Change image every 2 seconds
 }
 
@@ -128,12 +128,12 @@ function showDivs(n) {
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+    x[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" w3-white", "");
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-white";
 }
 
@@ -142,17 +142,17 @@ function showDivs(n) {
 
 <section id="content">
 	<div class="container">
-	
-						<div class="row" style="font-size: 18px; font-family: Times New Roman;color:#1e3e49; padding-left:15%"> 
+
+						<div class="row" style="font-size: 18px; font-family: Times New Roman;color:#1e3e49; padding-left:15%">
 							<div class="col-md-12">
 								<div class="about-logo">
-                  <h2 style="color: #1e3e49;">Redefining the Best of Sydney urban Living Against The Backdrop of Pristine Beaches and PARKLAND</h2> 
-                </div>  
+                  <h2 style="color: #1e3e49;">Redefining the Best of Sydney urban Living Against The Backdrop of Pristine Beaches and PARKLAND</h2>
+                </div>
 							</div>
-						</div> 
-						
+						</div>
+
 	</div>
-  </section>	
+  </section>
 
 <div class="w3-content w3-display-container" style="padding-top: 25px;">
 <img src={{ URL::asset('/img/bm/vivid/SouthVillage_CGI_Exterior(1)SMALL.jpg') }} style="width: 1000px;" >
@@ -238,7 +238,7 @@ yet gracefully decorated and warmly welcoming. From your protected underground p
 <hr class="new1">
 </div>
 
-<div class="w3-content w3-display-container">
+<div class="w3-content w3-display-container" style="height:480px;">
 <div class="left">
 <img src={{ URL::asset('/img/bm/vivid/SouthVillage_CGI_LivingtoBalcony(1).jpg') }} style="width: 550px; height: 420px">
 </div>
@@ -248,12 +248,11 @@ yet gracefully decorated and warmly welcoming. From your protected underground p
 Light and space. These are the elements of exceptional living environments. Natural light tumbles through thermally and acoustically treated glass, deflecting summer glare and the hubbub of urban life. Every apartment is articulated to maximise the surrounding vistas, inviting sunshine and cross breezes. This only enhances the feeling of space afforded by clean, uncluttered expanses of textured joinery and polished tile floors. And when weather conditions reach their extremes, silent and efficient climate control keeps your world absolutely perfect.
 </p>
 </div>
-<hr class="new1">
 </div>
 
-<div class="w3-content w3-display-container" >
+<div class="w3-content w3-display-container" style="height:500px;">
 <div class="left">
-<img src={{ URL::asset('/img/bm/vivid/clear.png') }} style="width:480px; border: 5px solid #CBC6C6 ;"> 
+<img src={{ URL::asset('/img/bm/vivid/clear.png') }} style="width:480px; border: 5px solid #CBC6C6 ;">
 </div>
 <div class="right" style=" padding-right: 50px;">
 <h3  style="font-family: Times New Roman; color: #1e3e49;">KITCHENS</h3>
@@ -261,11 +260,10 @@ Light and space. These are the elements of exceptional living environments. Natu
 Whether it’s a quick breakfast to start your day or preparing dinner with fresh ingredients from your village providores, this is the core of your home’s life and style. Reflecting this importance, your Vivid kitchen integrates designer features and finishes. Lustrous tapware and prestige SMEG appliances are embedded alongside polished stone bench tops and richly grained cabinets that provide storage for all your culinary requirements. Unfolding to your main living areas, inviting family and friends to share in its warmth, your kitchen is the hearth of your home.
 </p>
 </div>
-<hr class="new1" >
 </div>
 
 
-<div class="w3-content w3-display-container" >
+<div class="w3-content w3-display-container" style="height:450px;">
 <div class="left" style="padding-top:20px;">
 <img src={{ URL::asset('/img/bm/vivid/bed1.png') }} style="width: 550px; height: 450px;">
 </div>
@@ -276,10 +274,9 @@ As the absolute centre of your oasis, the plush carpeting of your Vivid bedrooms
 your distinctive appreciation for beauty and individuality.
 </p>
 </div>
-<hr class="new1">
 </div>
 
-<div class="w3-content w3-display-container">
+<div class="w3-content w3-display-container" style="height:450px;">
 <div class="left">
 <img src={{ URL::asset('/img/bm/vivid/bed2.png') }} style="width: 550px; height: 450px;">
 </div>
@@ -290,7 +287,6 @@ The balcony of your Vivid apartment is not an adjunct
 to your home, it’s a seamless, sensational and integral element of your living environment. The expanse of these balconies is enhanced by the breadth of the floor to ceiling glass doors that slide back before them. This is where natural light takes centre stage, fluently bringing the interior and exterior spaces together. It’s best measured and admired as you cross the threshold of your apartment. Momentarily pause and take it all in. From there the unique elegance of the home you’ve designed stretches out before you.
 </p>
 </div>
-<hr class="new1">
 </div>
 
 <div class="w3-content w3-display-container"><br>
@@ -338,7 +334,7 @@ to your home, it’s a seamless, sensational and integral element of your living
 <script src="{{ URL::asset('js/newJS/jquery.easing.1.3.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/bootstrap.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.fancybox.pack.js') }}"></script>
-<script src="{{ URL::asset('js/newJS/jquery.fancybox-media.js') }}"></script>  
+<script src="{{ URL::asset('js/newJS/jquery.fancybox-media.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.flexslider.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/animate.js') }}"></script>
 <!-- Vendor Scripts -->
@@ -346,6 +342,6 @@ to your home, it’s a seamless, sensational and integral element of your living
 <script src="{{ URL::asset('js/newJS/jquery.isotope.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.magnific-popup.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/animate.js') }}"></script>
-<script src="{{ URL::asset('js/newJS/custom.js') }}"></script> 
+<script src="{{ URL::asset('js/newJS/custom.js') }}"></script>
 </body>
 </html>

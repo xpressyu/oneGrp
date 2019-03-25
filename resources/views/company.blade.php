@@ -8,11 +8,11 @@
 <meta name="author" content="" />
 <!-- css -->
 <link href="{{ asset('css/newCSS/bootstrap.min.css') }}" rel="stylesheet" />
-<link href="{{ asset('css/newCSS/fancybox/jquery.fancybox.css') }}" rel="stylesheet"> 
-<link href="{{ asset('css/newCSS/flexslider.css') }}" rel="stylesheet" /> 
+<link href="{{ asset('css/newCSS/fancybox/jquery.fancybox.css') }}" rel="stylesheet">
+<link href="{{ asset('css/newCSS/flexslider.css') }}" rel="stylesheet" />
 <link href="{{ asset('css/newCSS/style.css') }}" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
+
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -42,20 +42,20 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="{{ URL::asset('/img/newHome/slides/logo.png') }}" alt="logo"/></a>
+                    <a class="navbar-brand" href="{{ route('welcome')}}"><img src="{{ URL::asset('/img/newHome/slides/logo.png') }}" alt="logo"/></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="{{ route('welcome') }}">Home</a></li> 
+                        <li class="active"><a href="{{ route('welcome') }}">Home</a></li>
 							 <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">Property <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="{{ route('sydney')}}">Sydney</a></li>
                             <li><a href="{{ route('list') }}">Developers</a></li>
-                            
+
                         </ul>
                     </li>
-						<li><a href="{{ route('company') }}">Our Company</a></li> 
+						<li><a href="{{ route('company') }}">Our Company</a></li>
                         <li><a href="{{ route('staff') }}">Staff</a></li>
                         <li><a href="{{ route('social') }}">Event</a></li>
                     </ul>
@@ -84,8 +84,8 @@
 				<div class="col-md-6">
 					<div class="about-text">
 						<h2 style="color: #1e3e49; "><span class="coloured">About</span> ONE GROUP</h2>
-						<p style="font-size: 18px; font-family: Times New Roman; color: #1e3e49; text-align: justify ; line-height:200%" > <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">ONE GROUP GLOBAL INVESTMENT PTY LTD </span> is a premium, Professional, Prestigious Property Investment Consulting Company based in Sydney CBD. 
-            We only work with the <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;"> BEST</span> Developers, the<span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;"> BEST</span> Projects with the 
+						<p style="font-size: 18px; font-family: Times New Roman; color: #1e3e49; text-align: justify ; line-height:200%" > <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">ONE GROUP GLOBAL INVESTMENT PTY LTD </span> is a premium, Professional, Prestigious Property Investment Consulting Company based in Sydney CBD.
+            We only work with the <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;"> BEST</span> Developers, the<span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;"> BEST</span> Projects with the
             <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">BEST</span> Price in the  <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">BEST</span> Location .
 					  To build your wealth fast through Secure, <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">Effective </span> and <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">Efficient </span> property investment activities in order to achieve Financial Freedom.</p>
 					</div>
@@ -94,10 +94,10 @@
 		</div>
 	</section>
 	<div class="container">
-					
+
 					<div class="about">
-				
-						
+
+
 						<div class="row">
 							<div class="col-md-4">
 								<!-- Heading and para -->
@@ -109,11 +109,11 @@
 							<div class="col-md-4">
 								<div class="block-heading-two">
 									<h3 style="color: #1e3e49;"><span>One Group, One Vision</span></h3>
-								</div>		
+								</div>
 								<!-- Accordion starts -->
 								<div class="panel-group" id="accordion-alt3">
 								 <!-- Panel. Use "panel-XXX" class for different colors. Replace "XXX" with color. -->
-								  <div class="panel" >	
+								  <div class="panel" >
 									<!-- Panel heading -->
 									 <div class="panel-heading" style="color: #1e3e49;">
 										<h4 class="panel-title" >
@@ -133,45 +133,45 @@
 									 <div class="panel-heading" >
 										<h4 class="panel-title">
 										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseTwo-alt3" style="color: #1e3e49;">
-											<i class="fa fa-angle-right" ></i> WHAT WE DO 
+											<i class="fa fa-angle-right" ></i> WHAT WE DO
 										  </a>
 										</h4>
 									 </div>
 									 <div id="collapseTwo-alt3" class="panel-collapse collapse">
 										<div class="panel-body" style="color: #1e3e49;">
-										 To build your wealth fast through Secure, Effective and Efficient property investment activities in order to achieve Financial Freedom   
+										 To build your wealth fast through Secure, Effective and Efficient property investment activities in order to achieve Financial Freedom
 										</div>
 									 </div>
 								  </div>
 								  <div class="panel">
 									 <div class="panel-heading">
 										<h4 class="panel-title">
-										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseThree-alt3" style="color: #1e3e49;"> 
-											<i class="fa fa-angle-right"></i>  HOW WE DO 
+										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseThree-alt3" style="color: #1e3e49;">
+											<i class="fa fa-angle-right"></i>  HOW WE DO
 										  </a>
 										</h4>
 									 </div>
 									 <div id="collapseThree-alt3" class="panel-collapse collapse">
 										<div class="panel-body" style="color: #1e3e49;">
-										ONE GROUP of Professionals work and assist with each client providing ONE STOP 360 SERVICE to secure each investment property purchase and sell.  
+										ONE GROUP of Professionals work and assist with each client providing ONE STOP 360 SERVICE to secure each investment property purchase and sell.
 										<br>
-										<br> - Customise Individual Property Investment Analyses and Solutions 
-										<br> - Assist Financial Advise Services 
+										<br> - Customise Individual Property Investment Analyses and Solutions
+										<br> - Assist Financial Advise Services
 										<br> - Provide Legal Services and Support
 										<br> - Property Management
 										</div>
 									 </div>
 								  </div>
-								 
+
 								</div>
 								<!-- Accordion ends -->
-								
+
 							</div>
-							
+
 							<div class="col-md-4">
 								<div class="block-heading-two">
 									<h3 style="color: #1e3e49;"><span>Our Expertise</span></h3>
-								</div>								
+								</div>
 								<h6>Consaltation</h6>
 								<div class="progress pb-sm">
 								  <!-- White color (progress-bar-white) -->
@@ -198,15 +198,15 @@
 								  </div>
 								</div>
 							</div>
-							
+
 						</div>
-						
-						 	
+
+
 						<!-- Our team ends -->
-					  
-						
+
+
 					</div>
-									
+
 				</div>
 	</section>
 	<div class="down" style="background-color: #000000 ">
@@ -229,7 +229,7 @@
 <script src="{{ URL::asset('js/newJS/jquery.easing.1.3.js')}}"></script>
 <script src="{{ URL::asset('js/newJS/bootstrap.min.js')}}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.fancybox.pack.js')}}"></script>
-<script src="{{ URL::asset('js/newJS/jquery.fancybox-media.js')}}"></script> 
+<script src="{{ URL::asset('js/newJS/jquery.fancybox-media.js')}}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.flexslider.js')}}"></script>
 <script src="{{ URL::asset('js/newJS/animate.js')}}"></script>
 <!-- Vendor Scripts -->

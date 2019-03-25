@@ -11,8 +11,8 @@
 
 <!-- css -->
 <link href="{{ asset('css/newCSS/bootstrap.min.css') }}" rel="stylesheet" />
-<link href="{{ asset('css/newCSS/fancybox/jquery.fancybox.css') }}" rel="stylesheet"> 
-<link href="{{ asset('css/newCSS/flexslider.css') }}" rel="stylesheet" /> 
+<link href="{{ asset('css/newCSS/fancybox/jquery.fancybox.css') }}" rel="stylesheet">
+<link href="{{ asset('css/newCSS/flexslider.css') }}" rel="stylesheet" />
 <link href="{{ asset('css/newCSS/style.css') }}" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -27,7 +27,7 @@
 <style>
  .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}    
+.w3-badge {height:13px;width:13px;padding:0}
 </style>
 </head>
 <body>
@@ -53,20 +53,20 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="{{ URL::asset('/img/newHome/slides/logo.png') }}" alt="logo"/></a>
+                    <a class="navbar-brand" href="{{ route('welcome')}}"><img src="{{ URL::asset('/img/newHome/slides/logo.png') }}" alt="logo"/></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="{{ route('welcome') }}">Home</a></li> 
+                        <li class="active"><a href="{{ route('welcome') }}">Home</a></li>
 							 <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">Property <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="{{ route('sydney')}}">Sydney</a></li>
                             <li><a href="{{ route('list') }}">Developers</a></li>
-                            
+
                         </ul>
                     </li>
-						<li><a href="{{ route('company') }}">Our Company</a></li> 
+						<li><a href="{{ route('company') }}">Our Company</a></li>
                         <li><a href="{{ route('staff') }}">Staff</a></li>
                         <li><a href="{{ route('social') }}">Event</a></li>
                     </ul>
@@ -76,9 +76,9 @@
     </header>
 <div class="w3-content w3-display-container" style="max-width:100%">
 <div class="imgRoll" style="padding-top:80px; width: 100%">
-<img class="mySlides" src="{{ URL::asset('/img/develop-logo/greenlandInfor.jpg') }}" style="width:100%">	
-<img class="mySlides" src="{{ URL::asset('/img/greenland/parkSydney/GREE9413_Ashmore_EA03_Park.jpg') }}" style="width:100%">	
-<img class="mySlides" src="{{ URL::asset('/img/greenland/nbh/T1.jpg') }}" style="width:100%">	
+<img class="mySlides" src="{{ URL::asset('/img/develop-logo/greenlandInfor.jpg') }}" style="width:100%">
+<img class="mySlides" src="{{ URL::asset('/img/greenland/parkSydney/GREE9413_Ashmore_EA03_Park.jpg') }}" style="width:100%">
+<img class="mySlides" src="{{ URL::asset('/img/greenland/nbh/T1.jpg') }}" style="width:100%">
 <img class="mySlides" src="{{ URL::asset('/img/greenland/lucent/T1.png') }}" style="width:100%">
 <img class="mySlides" src="{{ URL::asset('/img/greenland/lg/shot-09-courtyard-north-FINAL.jpg') }}	" style="width:100%">
 
@@ -95,9 +95,9 @@
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
   </div>
 </div>
-  
+
 	</div>
-	
+
     <script>
     var myIndex = 0;
     carousel();
@@ -106,11 +106,11 @@
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";  
+        x[i].style.display = "none";
     }
     myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
     setTimeout(carousel, 5000); // Change image every 2 seconds
 }
 
@@ -132,12 +132,12 @@ function showDivs(n) {
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+    x[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" w3-white", "");
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-white";
 }
 
@@ -148,19 +148,19 @@ function showDivs(n) {
 
 <section id="content">
 	<div class="container">
-	
-						<div class="row" style="font-size: 18px; font-family: Times New Roman;color:#1e3e49;"> 
+
+						<div class="row" style="font-size: 18px; font-family: Times New Roman;color:#1e3e49;">
 							<div class="col-md-12">
 								<div class="about-logo">
-									<h2 style="color: #1e3e49;"><span class="coloured">Developer:</span>Greenland</h2> 
+									<h2 style="color: #1e3e49;"><span class="coloured">Developer:</span>Greenland</h2>
                   <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;"> <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;"> Greenland Holdings Group</span> has ranked number one on the recently published Forbes <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;"> 2018 Global Growth Champions list</span>.
-                   Greenland Holdings Group made <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;"> USD$44.8 billion in sales</span> and<span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">  UDD$1.5 billion </span> in profit in the last year and has jumped to the number one spot since the release of Forbes’ 2017 Global Growth Champions list. 
+                   Greenland Holdings Group made <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;"> USD$44.8 billion in sales</span> and<span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">  UDD$1.5 billion </span> in profit in the last year and has jumped to the number one spot since the release of Forbes’ 2017 Global Growth Champions list.
                    Additionally, the company also <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;"> ranked 252 </span> on the recently released <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">2018 Fortune Global 500 </span>list. Since debuting on the <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">Fortune 500 list in 2012 </span>as the <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">first Chinese developer</span>, Greenland Holdings Group has been included on the list for seven consecutive years.</p>
-                </div>  
-              
+                </div>
+
 							</div>
-						</div> 
-						
+						</div>
+
 	</div>
 	</section>
 
@@ -219,7 +219,7 @@ function showDivs(n) {
 <br> E: fiona@onegroupglbal.com.au  &nbsp info@onegroupglobal.com.au
 </p>
 </div>
-  
+
   <!-- javascript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
@@ -227,7 +227,7 @@ function showDivs(n) {
 <script src="{{ URL::asset('js/newJS/jquery.easing.1.3.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/bootstrap.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.fancybox.pack.js') }}"></script>
-<script src="{{ URL::asset('js/newJS/jquery.fancybox-media.js') }}"></script>  
+<script src="{{ URL::asset('js/newJS/jquery.fancybox-media.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.flexslider.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/animate.js') }}"></script>
 <!-- Vendor Scripts -->
@@ -235,7 +235,7 @@ function showDivs(n) {
 <script src="{{ URL::asset('js/newJS/jquery.isotope.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.magnific-popup.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/animate.js') }}"></script>
-<script src="{{ URL::asset('js/newJS/custom.js') }}"></script> 
+<script src="{{ URL::asset('js/newJS/custom.js') }}"></script>
 
 </body>
 </html>

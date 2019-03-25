@@ -11,8 +11,8 @@
 
 <!-- css -->
 <link href="{{ asset('css/newCSS/bootstrap.min.css') }}" rel="stylesheet" />
-<link href="{{ asset('css/newCSS/fancybox/jquery.fancybox.css') }}" rel="stylesheet"> 
-<link href="{{ asset('css/newCSS/flexslider.css') }}" rel="stylesheet" /> 
+<link href="{{ asset('css/newCSS/fancybox/jquery.fancybox.css') }}" rel="stylesheet">
+<link href="{{ asset('css/newCSS/flexslider.css') }}" rel="stylesheet" />
 <link href="{{ asset('css/newCSS/style.css') }}" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -26,8 +26,10 @@
     <![endif]-->
 <style>
  .mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}    
+.w3-left, .w3-right, .w3-badge {
+    cursor:pointer
+}
+.w3-badge {height:13px;width:13px;padding:0}
 </style>
 </head>
 
@@ -54,20 +56,20 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="{{ URL::asset('/img/newHome/slides/logo.png') }}" alt="logo"/></a>
+                    <a class="navbar-brand" href="{{ route('welcome')}}"><img src="{{ URL::asset('/img/newHome/slides/logo.png') }}" alt="logo"/></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="{{ route('welcome') }}">Home</a></li> 
+                        <li class="active"><a href="{{ route('welcome') }}">Home</a></li>
 							 <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">Property <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="{{ route('sydney') }}">Sydney</a></li>
                             <li><a href="{{ route('list') }}">Developers</a></li>
-                            
+
                         </ul>
                     </li>
-					            	<li><a href="{{ route('company') }}">Our Company</a></li> 
+					            	<li><a href="{{ route('company') }}">Our Company</a></li>
                         <li><a href="{{ route('staff') }}">Staff</a></li>
                         <li><a href="{{ route('social') }}">Event</a></li>
                     </ul>
@@ -77,11 +79,11 @@
 	</header>
 
 
-<div class="w3-content w3-display-container"  style="padding-top:200px;">
+<div class="w3-content w3-display-container"  style="padding-top:150px; height:750px;">
  <div class="left">
  <img src="{{ URL::asset('/img/staff/Fiona-1.jpeg') }}" style="width:350px; height:500px;">
  </div>
- <div class="right" style="width: 450px;" >
+ <div class="w3-right" style="width: 450px; " >
  <h2 style="font-family: Times New Roman; color:  #F1C108;">About me</h2>
  <p  class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;font-size:18px; ;">
  I aspire to excel in the real estate industry by working as a professioanl property consultant and contribute my honest efforts and expertise in property investment and customer service to enhance your wealth and achieve your financial freedom.
@@ -98,10 +100,11 @@
 
 </p>
 </div>
-<hr class="new1">
+<div>
 </div>
 
 
+</div>
 
 
 <div class="down" style="background-color: #000000 ">
@@ -128,7 +131,7 @@
 <script src="{{ URL::asset('js/newJS/jquery.easing.1.3.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/bootstrap.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.fancybox.pack.js') }}"></script>
-<script src="{{ URL::asset('js/newJS/jquery.fancybox-media.js') }}"></script>  
+<script src="{{ URL::asset('js/newJS/jquery.fancybox-media.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.flexslider.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/animate.js') }}"></script>
 <!-- Vendor Scripts -->
@@ -136,6 +139,6 @@
 <script src="{{ URL::asset('js/newJS/jquery.isotope.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.magnific-popup.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/animate.js') }}"></script>
-<script src="{{ URL::asset('js/newJS/custom.js') }}"></script> 
+<script src="{{ URL::asset('js/newJS/custom.js') }}"></script>
 </body>
 </html>

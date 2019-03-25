@@ -11,8 +11,8 @@
 
 <!-- css -->
 <link href="{{ asset('css/newCSS/bootstrap.min.css') }}" rel="stylesheet" />
-<link href="{{ asset('css/newCSS/fancybox/jquery.fancybox.css') }}" rel="stylesheet"> 
-<link href="{{ asset('css/newCSS/flexslider.css') }}" rel="stylesheet" /> 
+<link href="{{ asset('css/newCSS/fancybox/jquery.fancybox.css') }}" rel="stylesheet">
+<link href="{{ asset('css/newCSS/flexslider.css') }}" rel="stylesheet" />
 <link href="{{ asset('css/newCSS/style.css') }}" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -27,7 +27,7 @@
 <style>
  .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}    
+.w3-badge {height:13px;width:13px;padding:0}
 </style>
 </head>
 <body>
@@ -53,20 +53,20 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="{{ URL::asset('/img/newHome/slides/logo.png') }}" alt="logo"/></a>
+                    <a class="navbar-brand" href="{{ route('welcome')}}"><img src="{{ URL::asset('/img/newHome/slides/logo.png') }}" alt="logo"/></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="{{ route('welcome') }}">Home</a></li> 
+                        <li class="active"><a href="{{ route('welcome') }}">Home</a></li>
 							 <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">Property <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="{{ route('sydney')}}">Sydney</a></li>
                             <li><a href="{{ route('list') }}">Developers</a></li>
-                            
+
                         </ul>
                     </li>
-						<li><a href="{{ route('company') }}">Our Company</a></li> 
+						<li><a href="{{ route('company') }}">Our Company</a></li>
                         <li><a href="{{ route('staff') }}">Staff</a></li>
                         <li><a href="{{ route('social') }}">Event</a></li>
                     </ul>
@@ -92,7 +92,7 @@
 
   <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
 <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-  
+
   <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
@@ -106,7 +106,7 @@
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(10)"></span>
    </div>
 </div>
-  
+
 	</div>
 <script>
     var myIndex = 0;
@@ -116,11 +116,11 @@
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";  
+        x[i].style.display = "none";
     }
     myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
     setTimeout(carousel, 5000); // Change image every 2 seconds
 }
 
@@ -142,12 +142,12 @@ function showDivs(n) {
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+    x[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" w3-white", "");
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-white";
 }
 
@@ -158,17 +158,17 @@ function showDivs(n) {
 
 <section id="content">
 	<div class="container">
-	
-						<div class="row" style="font-size: 18px; font-family: Times New Roman;color:#1e3e49; padding-left:30%"> 
+
+						<div class="row" style="font-size: 18px; font-family: Times New Roman;color:#1e3e49; padding-left:30%">
 							<div class="col-md-12">
 								<div class="about-logo">
-                  <h2 style="color: #1e3e49;">WELCOME TO YOUR FUTURE</h2> 
-                </div>  
+                  <h2 style="color: #1e3e49;">WELCOME TO YOUR FUTURE</h2>
+                </div>
 							</div>
-						</div> 
-						
+						</div>
+
 	</div>
-  </section>	
+  </section>
 
   <div class="w3-content w3-display-container" style="padding-top: 25px;">
 
@@ -183,14 +183,13 @@ function showDivs(n) {
 <h3 style="font-family: Times New Roman; color: #1e3e49;">WELCOME TO YOUR GROUNDS</h3>
 <br>
 <p class="text-justify" class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">
-Your Highline residence will be nestled within a beautifully landscaped fig tree and native eucalypt- surrounded sanctuary. 
+Your Highline residence will be nestled within a beautifully landscaped fig tree and native eucalypt- surrounded sanctuary.
 The sense of botanical splendour will be composed of plantings providing year- round colour and ambiance, creating a series of lush intimate spaces for relaxation and socialising.
- The landscape will be enhanced by both the large existing trees and new tree plantings which will provide shade and amenity, whilst low shrubs and ground covers will act as points of interest and discovery throughout the captivating landscape. 
+ The landscape will be enhanced by both the large existing trees and new tree plantings which will provide shade and amenity, whilst low shrubs and ground covers will act as points of interest and discovery throughout the captivating landscape.
  The central luxury pool, sundeck, cabanas and outdoor lounge area will beckon, as will the outdoor BBQ and dining area. Further enhancing your grounds will be a feature grove with seating, a passive green space, winding pathways with mass “jungle” style plantings and a communal landscape podium.
 ARTIST’S IMPRESSION
 </p>
 </div>
-<hr class="new1">
 </div>
 
 <div class="w3-content w3-display-container">
@@ -201,19 +200,19 @@ ARTIST’S IMPRESSION
 <h3 style="font-family: Times New Roman; color: #1e3e49;">YOUR EXCLUSIVE RESORT</h3>
 <br>
 <p class="text-justify"  style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">
-Highline’s pristine lap and lounge pool provide for year round rest and recreation. Surrounded by lush landscaping, warm timber sun deck, BBQ and outdoor dining area, 
-this space acts as the development’s outdoor centrepiece and oasis. Bespoke canopies and cabanas provide shade and protection, and an adjacent community room offers a space for residents to host functions and events or gather and meet friends and family. 
+Highline’s pristine lap and lounge pool provide for year round rest and recreation. Surrounded by lush landscaping, warm timber sun deck, BBQ and outdoor dining area,
+this space acts as the development’s outdoor centrepiece and oasis. Bespoke canopies and cabanas provide shade and protection, and an adjacent community room offers a space for residents to host functions and events or gather and meet friends and family.
 Highline’s landscaping is abundant and numerous secluded areas are positioned within the exquisite gardens creating plenty of places to enjoy privately for relaxation and contemplation.
 </p>
 </div>
-<hr class="new1">
+
 </div>
 
 <div class="w3-content w3-display-container" >
 <img src={{ URL::asset('/img/deicorp/highlineA1/MAKEASPLASH.png') }}>
 <h3 style="font-family: Times New Roman; color: #1e3e49;">MAKE A SPLASH</h3>
 <p class="text-justify"  style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Highline’s resort-style facilities will be the envy of all your friends and provide
-you with fantastic places to relax and unwind or get social. Part of the Highline vision is that its common areas become a cultural and social hub for residents, embracing the local heritage through the use of celebratory materiality and bespoke public art that complement the site’s history and provide a sense of place and belonging. 
+you with fantastic places to relax and unwind or get social. Part of the Highline vision is that its common areas become a cultural and social hub for residents, embracing the local heritage through the use of celebratory materiality and bespoke public art that complement the site’s history and provide a sense of place and belonging.
 Oakes Lane will offer you a shared space and public meeting place, anchored by the amazing backdrop of the heritage university campus and feature public art entrance. Or wander down to Bayley’s Grove - the perfect chilled out place where you can sit under the Ornamental Pear Tree Grove or on the raised lawn whilst enjoying the afternoon sun.</p>
 <hr class="new1">
 </div>
@@ -267,7 +266,6 @@ plan living and dining areas that flow seamlessly to spacious balconies, taking 
 and cupboards, reverse cycle air conditioning, audio intercom and secure undercover car spaces.
 </p>
 </div>
-<hr class="new1">
 </div>
 
 <div class="w3-content w3-display-container">
@@ -278,6 +276,7 @@ and cupboards, reverse cycle air conditioning, audio intercom and secure underco
 Interior designers have sourced superior finishes and fittings to ensure these apartments are not only beautiful, but built to last. Quality timber floors line the living areas and elegant ceramic tiling paves the wet areas and balconies, while sumptuous carpet insulates the bedrooms. Kitchens feature stainless steel Smeg appliances including gas cooktop, multi-function oven, range hood, dishwasher and microwave, stone splashbacks, polished
 stone benchtops, sleek joinery and double sinks. Bathrooms offer floor to ceiling ceramic tiles, mirrored wall-mounted cabinets and integrated toilet. So create the mood with your choice of designer finish – the lighter ‘Soho’ or the striking ‘Manhattan’ scheme - and the backdrop will be set to complement your own furniture or artwork and harmoniously integrate your favourite colours and textures.
 </p>
+<hr class="new1">
 </div>
 
 
@@ -352,7 +351,7 @@ function openCity(evt, cityName) {
 <script src="{{ URL::asset('js/newJS/jquery.easing.1.3.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/bootstrap.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.fancybox.pack.js') }}"></script>
-<script src="{{ URL::asset('js/newJS/jquery.fancybox-media.js') }}"></script>  
+<script src="{{ URL::asset('js/newJS/jquery.fancybox-media.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.flexslider.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/animate.js') }}"></script>
 <!-- Vendor Scripts -->
@@ -360,6 +359,6 @@ function openCity(evt, cityName) {
 <script src="{{ URL::asset('js/newJS/jquery.isotope.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.magnific-popup.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/animate.js') }}"></script>
-<script src="{{ URL::asset('js/newJS/custom.js') }}"></script> 
+<script src="{{ URL::asset('js/newJS/custom.js') }}"></script>
 </body>
 </html>

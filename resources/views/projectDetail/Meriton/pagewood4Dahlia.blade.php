@@ -11,8 +11,8 @@
 
 <!-- css -->
 <link href="{{ asset('css/newCSS/bootstrap.min.css') }}" rel="stylesheet" />
-<link href="{{ asset('css/newCSS/fancybox/jquery.fancybox.css') }}" rel="stylesheet"> 
-<link href="{{ asset('css/newCSS/flexslider.css') }}" rel="stylesheet" /> 
+<link href="{{ asset('css/newCSS/fancybox/jquery.fancybox.css') }}" rel="stylesheet">
+<link href="{{ asset('css/newCSS/flexslider.css') }}" rel="stylesheet" />
 <link href="{{ asset('css/newCSS/style.css') }}" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -27,7 +27,7 @@
 <style>
  .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}    
+.w3-badge {height:13px;width:13px;padding:0}
 </style>
 </head>
 <body>
@@ -53,20 +53,20 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="{{ URL::asset('/img/newHome/slides/logo.png') }}" alt="logo"/></a>
+                    <a class="navbar-brand" href="{{ route('welcome')}}"><img src="{{ URL::asset('/img/newHome/slides/logo.png') }}" alt="logo"/></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="{{ route('welcome') }}">Home</a></li> 
+                        <li class="active"><a href="{{ route('welcome') }}">Home</a></li>
 							 <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">Property <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="{{ route('sydney')}}">Sydney</a></li>
                             <li><a href="{{ route('list') }}">Developers</a></li>
-                            
+
                         </ul>
                     </li>
-						<li><a href="{{ route('company') }}">Our Company</a></li> 
+						<li><a href="{{ route('company') }}">Our Company</a></li>
                         <li><a href="{{ route('staff') }}">Staff</a></li>
                         <li><a href="{{ route('social') }}">Event</a></li>
                     </ul>
@@ -89,7 +89,7 @@
 
  <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-  
+
   <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
@@ -102,7 +102,7 @@
 
    </div>
 </div>
-  
+
 	</div>
 <script>
     var myIndex = 0;
@@ -112,11 +112,11 @@
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";  
+        x[i].style.display = "none";
     }
     myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
     setTimeout(carousel, 5000); // Change image every 2 seconds
 }
 
@@ -138,12 +138,12 @@ function showDivs(n) {
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+    x[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" w3-white", "");
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-white";
 }
 
@@ -153,23 +153,23 @@ function showDivs(n) {
 <div class="w3-content w3-display-container" style="padding-top: 10px;">
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Page1.png') }}>
 <br><br>
-<P class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Redefining the traditional approach to property development, this new development  by  Meriton  will  have  tree-lined  boulevards  and  feature  10,000sqm of landscaped parklands and a full line supermarket. 
+<P class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Redefining the traditional approach to property development, this new development  by  Meriton  will  have  tree-lined  boulevards  and  feature  10,000sqm of landscaped parklands and a full line supermarket.
   Rising to the eighth floor, a superb selection of 167 luxury apartments with  generous  floor-to-ceiling  picture  windows,  and  open  corner  balconies  that  showcase  uninterrupted  views  of  the  surrounding  landscape,
-   out to the eastern coast line.Dahlia  at  Pagewood  Green  has  been  exceptionally  designed  to satisfy market demand, providing secure parking for all apartments and the largest layouts in the area with sizes up to 186m2  of  internal  and external living combined.Pagewood Green is an island development neighbouring championship golf courses and Westfield Eastgardens shopping centre. 
+   out to the eastern coast line.Dahlia  at  Pagewood  Green  has  been  exceptionally  designed  to satisfy market demand, providing secure parking for all apartments and the largest layouts in the area with sizes up to 186m2  of  internal  and external living combined.Pagewood Green is an island development neighbouring championship golf courses and Westfield Eastgardens shopping centre.
    Located 8km from  the  CBD  and  under  5km  to  Sydney's  iconic  eastern  beaches,  Australia's top performing universities and Sydney Airport's domestic and international terminals. </P>
 <hr class="new1">
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Page2.png') }}>
 <br><br>
-<p  class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Inside and out, seamless living is the star of these impressive boutique homes. 
-  The  intelligent  architecture  by  award  winning  Nettleton  Tribe  creates  an environment where everything is effortless. 
-  Dahlia is crowned by top floor, two and three bedroom split level penthouse apartments,  with  enormous  rooftop  terraces  up  to  50m2. 
+<p  class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Inside and out, seamless living is the star of these impressive boutique homes.
+  The  intelligent  architecture  by  award  winning  Nettleton  Tribe  creates  an environment where everything is effortless.
+  Dahlia is crowned by top floor, two and three bedroom split level penthouse apartments,  with  enormous  rooftop  terraces  up  to  50m2.
    This  stunning  collection of premium apartments have been skilfully designed to the highest standards for a lifetime of quality and comfort.
    Expertly designed with attention to every detail, Dahlia will offer finishes that echo the natural textures of the area. The stone feature façade with timber accents  and  a  grand  entry  arbor  to  the  internal  courtyard  gardens  reflect  the character of this groundbreaking community.</p>
 <hr class="new1">
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Page3.png') }}>
 <br><br>
 <p class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Over 60% of apartments feature a study room the same size  as a bedroom, complete with a window and air-conditioning<br>
-  Many apartments boast north and east aspects through  floor-to-ceiling glazed windows§Large format limestone look tiles deliver low maintenance  style throughout the open plan living, bathroom and kitchen  areas that accentuate the enormous, flowing floorplans 
+  Many apartments boast north and east aspects through  floor-to-ceiling glazed windows§Large format limestone look tiles deliver low maintenance  style throughout the open plan living, bathroom and kitchen  areas that accentuate the enormous, flowing floorplans
   <br>Provisions for super-fast broadband and pay TV  with fibre optic cabling in the living area and bedrooms§Internal laundry with dryer and cabinetry
   <br>Comprehensive security including intercom and CCTV cameras<br>Sustainable features such as LED downlights and water  saving fixtures</p>
 <hr class="new1">
@@ -192,7 +192,7 @@ function showDivs(n) {
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Page6.png') }}>
 <br><br>
 <h4  style="font-family: Times New Roman; color: #1e3e49;">Two  luxurious  colour  schemes  –  neutral  and  contrast  –  create  a  wonderful  blank  canvas  ready  to  add  your  own  personal  touches. The neutral scheme is expressed in warm beige notes, while the contrast scheme is a warm grey colour palette.</h4>
-<p class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Shown here in the peaceful bedrooms, Dahlia’s sophisticated natural palettes deliver a timeless contemporary feel. 
+<p class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Shown here in the peaceful bedrooms, Dahlia’s sophisticated natural palettes deliver a timeless contemporary feel.
   <br>Generous mirrored built-in wardrobes offer plentiful storage.
   <br>Feel the luxurious wool-blend carpet under your feet.
   <br>Enjoy direct access to the balcony spaces from the bedrooms.</p>
@@ -223,7 +223,7 @@ function showDivs(n) {
 <img src={{ URL::asset('/img/meriton/pagewood4Dahlia/Fingertips.png') }}>
 	</div>
 
- 
+
 
 
 <div class="w3-content w3-display-container" style="padding-top:30px;">
@@ -285,7 +285,7 @@ function openCity(evt, cityName) {
 <script src="{{ URL::asset('js/newJS/jquery.easing.1.3.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/bootstrap.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.fancybox.pack.js') }}"></script>
-<script src="{{ URL::asset('js/newJS/jquery.fancybox-media.js') }}"></script>  
+<script src="{{ URL::asset('js/newJS/jquery.fancybox-media.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.flexslider.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/animate.js') }}"></script>
 <!-- Vendor Scripts -->
@@ -293,6 +293,6 @@ function openCity(evt, cityName) {
 <script src="{{ URL::asset('js/newJS/jquery.isotope.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/jquery.magnific-popup.min.js') }}"></script>
 <script src="{{ URL::asset('js/newJS/animate.js') }}"></script>
-<script src="{{ URL::asset('js/newJS/custom.js') }}"></script> 
+<script src="{{ URL::asset('js/newJS/custom.js') }}"></script>
 </body>
 </html>
