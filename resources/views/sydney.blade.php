@@ -175,6 +175,7 @@
                             	</div>
 
                             </div>
+                            <div class="gallery-item">
                             <div class="gallery-thumb">
                                 <img src="{{ URL::asset('/img/newHome/east.jpg') }}" class="img-responsive" alt="2nd gallery Thumb">
                                 <div class="image-overlay"></div>
