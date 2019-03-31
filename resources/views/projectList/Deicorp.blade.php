@@ -167,20 +167,20 @@ function showDivs(n) {
  <div class="row" style="width:100%; padding-top: 50px;  padding-left: 100px">
  <div class="col-lg-4">
       <a href="{{ route('grandH') }}"><img class="w3-circle"  src="{{ URL::asset('/img/deicorp/grandHHurstvlAB/J002551_Deicorp_Hurstville_Grandh_Close_Up_View.jpg') }}" width="240" height="240"></a>
-      <a href="{{ route('grandH') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">GrandH</h2></a>
+      <a href="{{ route('grandH') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Hurstville</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">In Hurstvtille’s coveted city centre stands a new residential showpiece  worthy of Sydney’s Southern Capital.</p> <br>
           <p><a class="btn btn-secondary" href="{{ route('grandH') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
   </div><!-- /.col-lg-4 -->
   <div class="col-lg-4">
       <a href="{{ route('highline') }}"><img class="w3-circle" src="{{ URL::asset('/img/deicorp/highlineA1/Highline_RoofGarden_15k_HR.jpg') }}" width="240" height="240"></a>
-      <a href="{{ route('highline') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Highline</h2></a>
+      <a href="{{ route('highline') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Westmead</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Inspired by The High Line, New York’s urban masterpiece,  Highline Westmead’s master-planned residential
                     community is unlike anything Western Sydney has ever seen. </p>
             <p><a class="btn btn-secondary" href="{{ route('highline') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
   </div><!-- /.col-lg-4 -->
   <div class="col-lg-4">
       <a href="{{ route('southVillage') }}"><img class="w3-circle" src="{{ URL::asset('/img/deicorp/southVillage/Domain_CGI-1600x1200-07.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-      <a href="{{ route('southVillage') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">South Village</h2></a>
+      <a href="{{ route('southVillage') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Kirrawee</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Set in the idyllic surrounds of the Sutherland Shire, South Village is poised to bring a new and unique
                 community into sydney's South.
             </p> <br>
@@ -188,15 +188,15 @@ function showDivs(n) {
   </div><!-- /.col-lg-4 -->
   <div class="col-lg-4" style="padding-top:50px;">
       <a href="{{ route('theSiding') }}"><img class="w3-circle" src="{{ URL::asset('img/deicorp/theSiding/Deicorp_Petersham_CGI_J002672_EXT_Cutaway.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-      <a href="{{ route('theSiding') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">The Silding</h2></a>
+      <a href="{{ route('theSiding') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Petersham</h2></a>
             <p style=" font-family: Times New Roman; color: #1e3e49; text-align: justify ;">The Siding stands out as Petersham’s newest precinct. Teeming with greenery and life, </p> <br>
           <p><a class="btn btn-secondary" href="{{ route('theSiding') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
   <div class="col-lg-4"  style="padding-top:50px;">
-       <a href="{{ route('theSiding') }}"><img class="w3-circle"  src="{{ URL::asset('/img/deicorp/tntApa/Lawson_Living_View04Scheme04_R5_crop.jpg') }}" width="240" height="240"></a>
-       <a href="{{ route('theSiding') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">The TNT</h2></a>
+       <a href="{{ route('tntApa') }}"><img class="w3-circle"  src="{{ URL::asset('/img/deicorp/tntApa/Lawson_Living_View04Scheme04_R5_crop.jpg') }}" width="240" height="240"></a>
+       <a href="{{ route('tntApa') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Redfern</h2></a>
                 <p style=" font-family: Times New Roman; color: #1e3e49; text-align: justify ;">As the former headquarters of the TNT company, these two iconic
-                        buildings have been a part of the city skyline since the 1970s. </p><br>
+                        buildings have been a part of the city skyline since the 1970s. </p>
                 <p><a class="btn btn-secondary" href="{{ route('tntApa') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
               </div><!-- /.col-lg-4 -->
 

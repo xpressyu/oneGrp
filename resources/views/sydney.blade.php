@@ -18,6 +18,10 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -153,7 +157,7 @@
                     <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper apartments villas">
                     <div class="gallery-details">
                             	<div class="editContent" style="padding-left:40%;">
-									<a href="{{route('west')}}">  <h3 style="color:#F1C108; font-weight: bold;">Western</h3></a>
+									<a href="{{route('west')}}"> <h3 style="color:#F1C108; font-weight: bold;">West</h3></a>
                             	</div>
                             </div>
                         <div class="gallery-item">

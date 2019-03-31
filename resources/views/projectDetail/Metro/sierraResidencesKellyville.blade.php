@@ -146,19 +146,7 @@ function showDivs(n) {
 <h1 style="padding-left:15%; font-size: 48px; font-family: Times New Roman; color: #1e3e49; "> <span class="coloured">Deicorp: </span>Sierra Residences-Kellyville NSW
 </h1>
 
-<section id="content">
-	<div class="container">
 
-						<div class="row" style="font-size: 18px; font-family: Times New Roman;color:#1e3e49; padding-left:30%">
-							<div class="col-md-12">
-								<div class="about-logo">
-                  <h2 style="color: #1e3e49;">envisage your future</h2>
-                </div>
-							</div>
-						</div>
-
-	</div>
-  </section>
 
 <div class="w3-content w3-display-container" style="padding-top: 30px;">
 <img src={{ URL::asset('/img/metro/sierraResidencesKellyville/page1.png') }}>

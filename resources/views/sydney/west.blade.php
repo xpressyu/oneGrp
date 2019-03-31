@@ -148,7 +148,7 @@ function showDivs(n) {
 <div class="row" style="width:100%; padding-top: 50px; padding-left: 30px">
 <div class="col-lg-4">
             <a href="{{ route('highline') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/west/highline.jpg') }}" width="240" height="240"></a>
-            <a href="{{ route('highline') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Highline</h2></a>
+            <a href="{{ route('highline') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Westmead</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Inspired by The High Line, New York’s urban masterpiece,  Highline Westmead’s master-planned residential
              community is unlike anything Western Sydney has ever
                     seen.</p>
@@ -156,7 +156,7 @@ function showDivs(n) {
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" >
           <a href="{{ route('theSiding') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/west/theSiding.jpg') }}" width="240" height="240"></a>
-          <a href="{{ route('theSiding') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">The Siding</h2></a>
+          <a href="{{ route('theSiding') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Petersham</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">The Siding stands out as Petersham’s newest
                     precinct. Teeming with greenery and life.</p><br>
             <p><a class="btn btn-secondary" href="{{route('theSiding')}}" role="button" style="background: #C38145">View details &raquo;</a></p>
@@ -169,74 +169,74 @@ function showDivs(n) {
           </div><!-- /.col-lg-4 -->
            <div class="col-lg-4" style="padding-top:50px;">
            <a href="{{ route('altitudeParramatta') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/west/altitude.jpg') }}" width="240" height="240"></a>
-           <a href="{{ route('altitudeParramatta') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Altitude</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Altitude-Parramatts. A new height in luxury begins at the perfect Altitude.</p><br><br>
+           <a href="{{ route('altitudeParramatta') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Parramatta</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Altitude-Parramatts. A new height in luxury begins at the perfect Altitude.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('altitudeParramatta') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('aquaRhodes') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/west/aqua.jpg') }}" width="240" height="240"></a>
-          <a href="{{ route('aquaRhodes') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Aqua-Rhodes</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Reaching out to the waterfront, Aqua’s remarkable setting is inspirational whatever the time of year. Flowing indoor–outdoor designs let you enjoy the breathtaking vistas from the comfort of your beautifully–appointed home.</p>
+          <a href="{{ route('aquaRhodes') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Rhodes - Aqua</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Reaching out to the waterfront, Aqua’s remarkable setting is inspirational whatever the time of year.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('aquaRhodes') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('botania') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/west/botania.jpg') }}" width="240" height="240"></a>
-          <a href="{{ route('botania') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Botania</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Just 15kms West of Sydney CBD and minutes from world-class sporting and entertaining facilities, BOTANIA will complement Sydney Olympic Park’s reputation as an emerging neighbourhood and investment hotspot.</p>
+          <a href="{{ route('botania') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Olympic Park - Bontania</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Just 15kms West of Sydney CBD and minutes from world-class sporting and entertaining facilities.</p>
             <p><a class="btn btn-secondary" href="{{ route('botania') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 
            <div class="col-lg-4" style="padding-top:50px;">
            <a href="{{ route('riverviewRhodes') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/west/riverview.jpg') }}" width="240" height="240"></a>
-           <a href="{{ route('riverviewRhodes') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Riverview</h2></a>
+           <a href="{{ route('riverviewRhodes') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Rhodes - Riverview</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">In a premium location opposite Mill Park, Riverview is the only north facing waterfront residence on the Rhodes Peninsula.</p> <br>
             <p><a class="btn btn-secondary" href="{{ route('riverviewRhodes') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('theRetreat') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/west/theRetreat.jpg') }}" width="240" height="240"></a>
-          <a href="{{ route('theRetreat') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;" >The Retreat</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Soaring 22 storeys alongside idyllic landscaped parklands,  The Retreat will be home to an unrivalled collection  of 278 oversized apartments crowned by split-level luxury penthouses and superbly crafted townhouses below.</p>
+          <a href="{{ route('theRetreat') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;" >Olympic Park - Retreat</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">An unrivalled collection  of 278 oversized apartments crowned by split-level luxury penthouses.</p>
             <p><a class="btn btn-secondary" href="{{ route('theRetreat') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('lg') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/west/lg.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('lg') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">LG</h2></a>
+          <a href="{{ route('lg') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Leichhardt</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">A choice of Stylish apartment designed for Village style living in the heart of Sydeny.</p><br><br>
             <p><a class="btn btn-secondary" href="{{ route('lg') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('silkTerraces') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/west/silkTerraces.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('silkTerraces') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">SilkTerraces</h2></a>
+          <a href="{{ route('silkTerraces') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Schofields</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Well-know as both an Investment Hot Spot and A Desirable Lifestyle Address.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('silkTerraces') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('theCCJordan') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/west/theCreationCollectionJodanSprings.png') }}" width="240" height="240"></a>
-          <a href="{{ route('theCCJordan') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">The Creation Collection</h2></a>
+          <a href="{{ route('theCCJordan') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Jordan Springs</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Positioned just 1km east of the established Jordan Springs Community.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('theCCJordan') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4"  style="padding-top:50px;">
           <a href="{{ route('theCCClaymore') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/west/theCreationCollectionClaymore.jpg') }}"  width="240" height="240"></a>
-          <a href="{{ route('theCCClaymore') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">The Creation Collection</h2></a>
+          <a href="{{ route('theCCClaymore') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Claymore</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">The Creation Collection" is a limited selection of well-appointed double story, terrace residences, located centrally within the Claymore Community.</p>
-            <p><a class="btn btn-secondary" href="#" role="{{ route('theCCClaymore') }}" style="background: #C38145">View details &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="{{ route('theCCClaymore') }}" role="{{ route('theCCClaymore') }}" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
            <div class="col-lg-4" style="padding-top:50px;">
            <a href="{{ route('fairway') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/west/fairwayResidence.jpg') }}" width="240" height="240"></a>
-           <a href="{{ route('fairway') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Fairway Residences</h2></a>
+           <a href="{{ route('fairway') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Strathfield</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Established community aspects are within easy reach, perfect for young professionals, growing families, down-sizing retirees or astute investors.</p>
             <p><a class="btn btn-secondary" href="{{ route('fairway') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4"  style="padding-top:50px;">
           <a href="{{ route('leppington') }}"> <img class="w3-circle" src="{{ URL::asset('/img/sydney/west/leppingtonliving.jpg') }}" width="240" height="240"></a>
-          <a href="{{ route('leppington') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Leppington living</h2></a>
+          <a href="{{ route('leppington') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Leppington</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">connected community in the south-east corner of leppington.</p><br><br>
             <p><a class="btn btn-secondary" href="{{ route('leppington') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('escada') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/west/escadaORiordan.jpg') }}" width="240" height="240"></a>
-          <a href="{{ route('escada') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Escada O'Riordan</h2></a>
+          <a href="{{ route('escada') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Mascot</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">CBD and the domestic and international airports, Mascot is a vibrant lifestyle hub where the culinary and retail scene is one of Sydney’s most visited hotspots.</p>
             <p><a class="btn btn-secondary" href="{{ route('escada') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->

@@ -167,38 +167,38 @@ function showDivs(n) {
 <div class="row" style="width:100%; padding-top: 50px;  padding-left: 100px">
           <div class="col-lg-4">
           <a href="{{ route('parkSydney') }}"><img class="w3-circle" src="{{ URL::asset('/img/greenland/parkSydney/GREE9413_Ashmore_EA03_Park.jpg') }}"  width="240" height="240"></a>
-          <a href="{{ route('parkSydney') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">ParkSydney</h2></a>
+          <a href="{{ route('parkSydney') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Erskineville</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Make it a part of the city <br> Make it your space to read</p>
           <p><a class="btn btn-secondary" href="{{ route('parkSydney') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 
           <div class="col-lg-4">
           <a href="{{ route('omnia') }}"><img class="w3-circle" src="{{ URL::asset('/img/greenland/omnia/T1.jpg') }}" width="240" height="240"></a>
-          <a href="{{ route('omnia') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Omnia</h2></a>
+          <a href="{{ route('omnia') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Potts Point</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">With the beautifully wrapped edges, this remarkable buiding can be admired from any angle.</p>
           <p><a class="btn btn-secondary" href="{{ route('omnia')}} " role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-          <a href="{{ route('omnia') }}"><img class="w3-circle" src="{{ URL::asset('/img/greenland/nbh/T1.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('omnia') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Nbh</h2></a>
+          <a href="{{ route('nbh') }}"><img class="w3-circle" src="{{ URL::asset('/img/greenland/nbh/T1.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
+          <a href="{{ route('nbh') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Macquarie Park</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">NBH is much more than an address <br> NBH is where you belong</p>
           <p><a class="btn btn-secondary" href="{{ route('nbh') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
            <div class="col-lg-4" style="padding-top:50px;">
            <a href="{{ route('lucent') }}"><img class="w3-circle" src="{{ URL::asset('/img/greenland/lucent/T1.png') }}"  width="240" height="240"></a>
-           <a href="{{ route('lucent') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Lucent</h2></a>
+           <a href="{{ route('lucent') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">North Sydney</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Just Minutes by Train or Taxiform Sydney's Vibrant CBD, Norh Sydeny offers The best all worlds.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('lucent') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('lg') }}"><img class="w3-circle" src="{{ URL::asset('/img/greenland/lg/shot-09-courtyard-north-FINAL.jpg') }}"  width="240" height="240"></a>
-          <a href="{{ route('lg') }}"><h2  style=" font-family: Times New Roman; color: #1e3e49;">LG</h2></a>
+          <a href="{{ route('lg') }}"><h2  style=" font-family: Times New Roman; color: #1e3e49;">Leichhardt</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">A choice of Stylish apartment designed for Village style living in the heart of Sydeny</p><br>
             <p><a class="btn btn-secondary" href="{{ route('lg') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
        <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('centre') }}"><img class="w3-circle" src="{{ URL::asset('/img/greenland/centre/T1.png') }}" width="240" height="240"></a>
-          <a href="{{ route('centre') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Greenland-Centre</h2></a>
+          <a href="{{ route('centre') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Sydney CBD</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Create beautiful,sutainable buidlings that make a lasting contribution to our cities and forster a better way of life.</p><br>
           <p><a class="btn btn-secondary" href="{{ route('centre') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->

@@ -144,19 +144,19 @@ function showDivs(n) {
 <div class="row" style="width:100%; padding-top: 50px; padding-left: 30px">
 <div class="col-lg-4">
 <a href="{{ route('lighthouse') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/east/lighthouse.jpg') }}" width="240" height="240"></a>
-<a href="{{ route('lighthouse') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Lighthouse</h2></a>
-    <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Right in the heart of Dee Why’s town centre transformation and only 800m from Dee Why Beach, Lighthouse is a new architectural landmark soaring high above the surrounding streetscape.</p>
+<a href="{{ route('lighthouse') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Dee Why</h2></a>
+    <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Right in the heart of Dee Why’s town centre transformation and only 800m from Dee Why Beach.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('lighthouse') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
  <a href="{{ route('omnia') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/east/omnia.jpg') }}" width="240" height="240"></a>
- <a href="{{ route('omnia') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Omnia</h2></a>
+ <a href="{{ route('omnia') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Potts Point</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">With the beautifully wrapped edges, this remarkable buiding can be admired from any angle.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('omnia') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
  <a href="{{ route('theNinesNaremburn') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/east/theNines.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
- <a href="{{ route('theNinesNaremburn') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">The Nines Naremburn</h2></a>
+ <a href="{{ route('theNinesNaremburn') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Naremburn</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Curated to the very last detail with space for the family to gather — this is where meals become memories.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('theNinesNaremburn') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->

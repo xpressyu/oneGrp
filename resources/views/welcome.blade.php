@@ -13,6 +13,9 @@
 <link href="{{ asset('css/newCSS/style.css') }}" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -112,7 +115,7 @@
 		<span class="icons c4"><i class="fa fa-group"></i></span> <div class="box-area">
 		<h3>Social Acitivity</h3> <p style="text-align: justify">We Contribute 1% of our Time to local Charities and Communities.<br>
  We contribute 1% of our Profit to local Charities and Communities.<br>
- We contribute 1% of our Product to local Charities and Communities</p>
+ We contribute 1% of our Product to local Charities and Communities.</p>
  <br>
 		</div></div>
 		</div></div>
@@ -145,7 +148,7 @@
 							<li style=" color: #1e3e49; font-size: 15px;"><span class="fa fa-angle-right"></span> We Contribute <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">1% of our Time</span> to local Charities and Communities. </li>
               <li style=" color: #1e3e49; font-size: 15px; "><span class="fa fa-angle-right"></span> We contribute <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">1% of our Profit</span> to local Charities and Communities.</li>
 
-              <li style=" color: #1e3e49;  font-size: 15px;"><span class="fa fa-angle-right"></span> We contribute <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">1% of our Product</span> to local Charities and Communities</li>
+              <li style=" color: #1e3e49;  font-size: 15px;"><span class="fa fa-angle-right"></span> We contribute <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">1% of our Product</span> to local Charities and Communities.</li>
             </ul>
             <br>
 						<a href="{{ route('company') }}" class="btn btn-primary" style="background-color: #F1C108

@@ -146,7 +146,7 @@ function showDivs(n) {
 
 </script>
 
-<h1 style="padding-left:20%; font-size: 48px; font-family: Times New Roman; color: #1e3e49; "> <span class="coloured">BM: </span>TheAlbanyOne-Surry Hill NSW</h1>
+<h1 style="padding-left:20%; font-size: 48px; font-family: Times New Roman; color: #1e3e49; "> <span class="coloured">BM: </span>TheAlbanyOne - Crows Nest NSW</h1>
 
 <section id="content">
 	<div class="container">

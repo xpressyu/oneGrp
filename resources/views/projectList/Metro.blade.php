@@ -173,66 +173,66 @@ function showDivs(n) {
 <div class="row" style="width:100%; padding-top: 50px;  padding-left: 100px">
           <div class="col-lg-4">
           <a href="{{ route('silkTerraces') }}"> <img class="w3-circle" src="{{ URL::asset('/img/metro/silkTerracesSchofields/154043896697811407-rsc.jpg') }}" width="240" height="240"></a>
-          <a href="{{ route('silkTerraces') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Silk Terraces, Schofields</h2></a>
+          <a href="{{ route('silkTerraces') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Schofields</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Well-know as both an Investment Hot Spot and A Desirable Lifestyle Address.</p> <br>
           <p><a class="btn btn-secondary" href="{{ route('silkTerraces') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
           <a href="{{ route('sierraResidence') }}"><img class="w3-circle" src="{{ URL::asset('/img/metro/sierraResidencesKellyville/2.jpg') }}" width="240" height="240"></a>
-          <a href="{{ route('sierraResidence') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Sierra Residences Kellyville</h2></a>
+          <a href="{{ route('sierraResidence') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Kellyville</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Sierra Residences delivers a limited collection of boutique house and land packages in one of the North-West’s booming centres of growth.</p>
             <p><a class="btn btn-secondary" href="{{ route('sierraResidence') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
           <a href="{{ route('eden') }}"> <img class="w3-circle" src="{{ URL::asset('/img/metro/edenCatherineField/1.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('eden') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Eden,Catherine Field</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">stylish interiors offering three preselected colour schemes<br>
+          <a href="{{ route('eden') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Catherine Field</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Stylish interiors offering three preselected colour schemes;
                 20mm reconstituted stone kitchen bench with waterfall edges</p>
             <p><a class="btn btn-secondary" href="{{ route('eden') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('theCCJordan') }}"> <img class="w3-circle" src="{{ URL::asset('/img/metro/theCCJordanSprings/p1.png') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('theCCJordan') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">The Creation Collection, Jordan Spring</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Positioned just 1km east of the established Jordan Springs Community</p>
+          <a href="{{ route('theCCJordan') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Jordan Spring</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Positioned just 1km east of the established Jordan Springs Community</p><br>
             <p><a class="btn btn-secondary" href="{{ route('theCCJordan') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('theCCClaymore') }}"> <img class="w3-circle" src="{{ URL::asset('/img/metro/theCCClaymore/J-ywgh6A.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('theCCClaymore') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">The Creation Collection,Claymore</h2></a>
+          <a href="{{ route('theCCClaymore') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Claymore</h2></a>
             <p  style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">The Creation Collection" is a limited selection of well-appointed double story, terrace residences, located centrally within the Claymore Community.</p>
             <p><a class="btn btn-secondary" href="{{ route('theCCClaymore') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('theNinesNaremburn') }}">  <img class="w3-circle" src="{{ URL::asset('/img/metro/theNinesNaremburn/n-vHSwkE.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('theNinesNaremburn') }}">  <h2 style=" font-family: Times New Roman; color: #1e3e49;">The Nines,Naremburn</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Curated to the very last detail with space for the family to gather — this is where meals become memories.</p><br><br>
+          <a href="{{ route('theNinesNaremburn') }}">  <h2 style=" font-family: Times New Roman; color: #1e3e49;">Naremburn</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Curated to the very last detail with space for the family to gather — this is where meals become memories.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('theNinesNaremburn') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
              <div class="col-lg-4" style="padding-top:50px;">
              <a href="{{ route('fairway') }}">  <img class="w3-circle" src="{{ URL::asset('/img/metro/fairwayResidence/LEfiMf_8.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-             <a href="{{ route('fairway') }}">   <h2 style=" font-family: Times New Roman; color: #1e3e49;">Fairway Residences Starthfield</h2></a>
+             <a href="{{ route('fairway') }}">   <h2 style=" font-family: Times New Roman; color: #1e3e49;">Strathfield</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Established community aspects are within easy reach, perfect for young professionals, growing families, down-sizing retirees or astute investors.</p>
             <p><a class="btn btn-secondary" href="{{ route('fairway') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 
             <div class="col-lg-4" style="padding-top:50px;">
             <a href="{{ route('theGables') }}"><img class="w3-circle" src="{{ URL::asset('/img/metro/theGables/T1.png') }}" alt="Generic placeholder image" width="240" height="240"></a>
-            <a href="{{ route('theGables') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">The Gables-Precinct H, BoxHill</h2></a>
+            <a href="{{ route('theGables') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Box Hill</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">True value in construction is a result of outstanding quality, at an affordable price.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('theGables') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('orchard') }}"> <img class="w3-circle" src="{{ URL::asset('/img/metro/orchard/mGGcJ9Pq.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('orchard') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Orchard Heights, Spring </h2></a>
-          <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Within a welcoming community and recreational paradise, Orchard Heights offers the perfect fusion of rural tranquillity and urban vibrancy.</p><br>
+          <a href="{{ route('orchard') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Spring Farm</h2></a>
+          <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Within a welcoming community and recreational paradise, Orchard Heights offers the perfect fusion of rural tranquillity and urban vibrancy.</p>
             <p><a class="btn btn-secondary" href="{{ route('orchard') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 
             <div class="col-lg-4" style="padding-top:50px;">
             <a href="{{ route('leppington') }}"> <img class="w3-circle" src="{{ URL::asset('/img/metro/leppington/B51aVV6.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-            <a href="{{ route('leppington') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Leppington living,Leppington </h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">connected community in the south-east corner of leppington.</p>
+            <a href="{{ route('leppington') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Leppington </h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Connected community in the south-east corner of leppington.</p>
             <p><a class="btn btn-secondary" href="{{ route('leppington') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 

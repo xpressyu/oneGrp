@@ -53,7 +53,7 @@
 							 <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">Property <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="">Sydney</a></li>
+                            <li><a href="{{ route('sydney') }}">Sydney</a></li>
                             <li><a href="{{ route('list') }}">Developers</a></li>
 
                         </ul>

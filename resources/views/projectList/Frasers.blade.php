@@ -174,13 +174,13 @@ function showDivs(n) {
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
           <a href="{{ route('northRyde') }}"><img class="w3-circle" src="{{ URL::asset('/img/frasers/northRyde/T1.png') }}" width="240" height="240"></a>
-          <a href="{{ route('northRyde') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">NorthRyde</h2></a>
+          <a href="{{ route('northRyde') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">North Ryde</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Enjoy great Shopping, Dining, Leisure and Entertainment </p> <br>
             <p><a class="btn btn-secondary" href="{{ route('northRyde') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
           <a href="{{ route('putneyHill') }}"> <img class="w3-circle" src="{{ URL::asset('/img/frasers/putneyHill/T8.png') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('putneyHill') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">PutneyHill</h2></a>
+          <a href="{{ route('putneyHill') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Putney Hill</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Inner city lifestyle meets local village charm in this central location.  <br><br></p>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;"><a class="btn btn-secondary" href="{{ route('putneyHill') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->

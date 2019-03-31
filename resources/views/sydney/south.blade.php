@@ -148,76 +148,76 @@ function showDivs(n) {
 <div class="row" style="width:100%; padding-top: 50px; padding-left: 30px">
     <div class="col-lg-4">
             <a href="{{ route('grandH') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/south/grandH.jpg') }}" width="240" height="240"></a>
-            <a href="{{ route('grandH') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">GrandH</h2></a>
+            <a href="{{ route('grandH') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Hurstville</h2></a>
              <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">In Hurstvtille’s coveted city centre stands a new residential showpiece  worthy of Sydney’s Southern Capital.</p><br>
             <p> <a class="btn btn-secondary" href="{{ route('grandH') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
      </div><!-- /.col-lg-4 -->
      <div class="col-lg-4">
            <a href="{{ route('southVillage') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/south/southVillage.jpg') }}" width="240" height="240"></a>
-           <a href="{{ route('southVillage') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">South Village</h2></a>
+           <a href="{{ route('southVillage') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Kirrawee - SV</h2></a>
            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Set in the idyllic surrounds of the Sutherland Shire, South Village is poised to bring a new and unique
                 community into sydney's South.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('southVillage') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
      </div><!-- /.col-lg-4 -->
      <div class="col-lg-4">
-            <a href="{{ route('southVillage') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/south/vivid.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-            <a href="{{ route('southVillage') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Vivid</h2></a>
+            <a href="{{ route('vivid') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/south/vivid.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
+            <a href="{{ route('vivid') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Kirrawee - Vivid</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Redefining the best of Sydney urban living against the backdrop of pristine beaches and parkland.
                     Welcome, to Vivid.</p><br>
-            <p><a class="btn btn-secondary" href="{{ route('southVillage') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="{{ route('vivid') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
      </div><!-- /.col-lg-4 -->
            <div class="col-lg-4" style="padding-top:50px;">
            <a href="{{ route('pagewood5') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/south/allium.jpg') }}" width="240" height="240"></a>
-           <a href="{{ route('pagewood5') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Allium-Pagewood5</h2></a>
+           <a href="{{ route('pagewood5') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Pagewood - Allium</h2></a>
             <p  style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Pagewood Green is poised to offer a unique opportunity to step into luxury and lifestyle in Sydney’s eastern suburbs.</p> <br>
             <p><a class="btn btn-secondary" href="{{ route('pagewood5') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('pagewood4') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/south/dahlia.jpg') }}" width="240" height="240"></a>
-          <a href="{{ route('pagewood4') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Dahlia</h2></a>
+          <a href="{{ route('pagewood4') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Pagewood - Dahlia</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Introducing Dahlia - a place where luxurious and oversized interiors exist in harmony among cool green spaces.</p> <br>
             <p><a class="btn btn-secondary" href="{{ route('pagewood4') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('kiaraMascot') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/south/kiara.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('kiaraMascot') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Kiara</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">KIARA presents 233 apartments in three boutique residential towers rising 13 levels, with views over the inner city skyline.</p> <br>
+          <a href="{{ route('kiaraMascot') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Mascot - Kiara</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">KIARA presents 233 apartments in three boutique residential towers rising 13 levels, with inner city skyline views.</p> <br>
             <p><a class="btn btn-secondary" href="{{ route('kiaraMascot') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 
            <div class="col-lg-4" style="padding-top:50px;">
            <a href="{{ route('spectrumMascot') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/south/spectrum.jpg') }}" width="240" height="240"></a>
-           <a href="{{ route('spectrumMascot') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Spectrum</h2></a>
+           <a href="{{ route('spectrumMascot') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Mascot - Spectrum</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Arrive home to a grand, north facing 1,200 sqm central park lined with trees, native plants, and leafy walkways linking each of the buildings.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('spectrumMascot') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;" >
           <a href="{{ route('thegalleryRosebery') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/south/theGalleryCoCo.jpg') }}" width="240" height="240"></a>
-          <a href="{{ route('thegalleryRosebery') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">The Gallery COCO</h2></a>
+          <a href="{{ route('thegalleryRosebery') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Roseberry - CoCo</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Introducing Coco Collection, luxury resort-style living within the stylish heart of Roseberry, paces from Green Sqaure's Gunyama Park and Aquatic Centre.</p> <br>
             <p><a class="btn btn-secondary" href="{{ route('thegalleryRosebery') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('thegalleryMint') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/south/theGalleryMint.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('thegalleryMint') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">The Gallery Mint</h2></a>
+          <a href="{{ route('thegalleryMint') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Roseberry - Mint</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Introducing Mint Collection, the first release within 'The Gallery'. Created by SJB, two masterpiece buildings with lush green space on the ground and in the skies.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('thegalleryMint') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;" >
           <a href="{{ route('thegalleryPolo') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/south/theGalleryPolo.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('thegalleryPolo') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">The Gallery Polo</h2></a>
+          <a href="{{ route('thegalleryPolo') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Roseberry - Polo</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; ">Introducing Polo Collection, luxury resort-style living in Roseberry's vibrant heart.</p> <br>
             <p><a class="btn btn-secondary" href="{{ route('thegalleryPolo') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4"  style="padding-top:50px;">
           <a href="{{ route('parkSydney') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/south/parkSydney.jpg') }}" width="240" height="240"></a>
-          <a href="{{ route('parkSydney') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Park Sydney</h2></a>
+          <a href="{{ route('parkSydney') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Erskineville</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Make it a part of the city <br> Make it your space to read</p> <br>
             <p><a class="btn btn-secondary" href="{{ route('parkSydney') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('eden') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/south/edenCathrineField.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('eden') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Eden CathrineField</h2></a>
+          <a href="{{ route('eden') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">CatherineField</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Stylish interiors offering three preselected colour schemes
             <br>20mm reconstituted stone kitchen bench with waterfall edges</p> <br>
             <p><a class="btn btn-secondary" href="{{ route('eden') }}" role="button" style="background: #C38145">View details &raquo;</a></p>

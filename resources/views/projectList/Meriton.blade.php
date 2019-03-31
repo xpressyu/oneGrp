@@ -164,92 +164,92 @@ function showDivs(n) {
 <div class="row" style="width:100%; padding-top: 50px;  padding-left: 100px">
           <div class="col-lg-4">
           <a href="{{ route('pagewood5') }}"> <img class="w3-circle" src="{{ URL::asset('/img/meriton/pagewood5Allium/PagewoodExterior.jpg') }}" width="240" height="240"></a>
-          <a href="{{ route('pagewood5') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Allium,Pagewood Green</h2></a>
+          <a href="{{ route('pagewood5') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Pagewood - Allium</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Pagewood Green is poised to offer a unique opportunity to step into luxury and lifestyle in Sydney’s eastern suburbs.</p>
             <p><a class="btn btn-secondary" href="{{ route('pagewood5') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
           <a href="{{ route('altitudeParramatta') }}">  <img class="w3-circle" src="{{ URL::asset('/img/meriton/altitudeParramatta/AltitudeRiverbankRender.jpeg') }}" width="240" height="240"></a>
-          <a href="{{ route('altitudeParramatta') }}">  <h2 style=" font-family: Times New Roman; color: #1e3e49;">Altitude,Parramatta</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">A new height in luxury begins at the perfect Altitude.</p><br><br><br><br>
+          <a href="{{ route('altitudeParramatta') }}">  <h2 style=" font-family: Times New Roman; color: #1e3e49;">Parramatta</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">A new height in luxury begins at the perfect Altitude.</p><br><br>
             <p><a class="btn btn-secondary" href="{{ route('altitudeParramatta') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
           <a href="{{ route('aquaRhodes') }}"><img class="w3-circle" src="{{ URL::asset('/img/meriton/aquaRhodes/Aqua_Watrerside_5_1920X803-1920x800.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('aquaRhodes') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Aqua,Rhodes</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Reaching out to the waterfront, Aqua’s remarkable setting is inspirational whatever the time of year.</p><br><br><br>
+          <a href="{{ route('aquaRhodes') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Rhodes - Aqua</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Reaching out to the waterfront, Aqua’s remarkable setting is inspirational whatever the time of year.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('aquaRhodes') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
             <div class="col-lg-4" style="padding-top:50px;">
             <a href="{{ route('botania') }}"> <img class="w3-circle" src="{{ URL::asset('/img/meriton/botaniaOlympicP/BuildingAandB.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-            <a href="{{ route('botania') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Botania,Sydney Olympic Park</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Just 15kms West of Sydney CBD and minutes from world-class sporting and entertaining facilities, BOTANIA will complement Sydney Olympic Park’s reputation as an emerging neighbourhood and investment hotspot.</p>
+            <a href="{{ route('botania') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Olympic Park - Bontania</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Just 15kms West of Sydney CBD and minutes from world-class sporting and entertaining facilities.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('botania') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
             <div class="col-lg-4" style="padding-top:50px;">
             <a href="{{ route('pagewood4') }}"><img class="w3-circle" src="{{ URL::asset('/img/meriton/pagewood4Dahlia/DAHLIA_ExteriorHero.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-            <a href="{{ route('pagewood4') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Dahlia,Pagewood New Numbers</h2></a>
+            <a href="{{ route('pagewood4') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Pagewood - Dahlia</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Introducing Dahlia - a place where luxurious and oversized interiors exist in harmony among cool green spaces.</p><br><br>
             <p><a class="btn btn-secondary" href="{{ route('pagewood4') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
             <div class="col-lg-4" style="padding-top:50px;">
             <a href="{{ route('escada') }}"> <img class="w3-circle" src="{{ URL::asset('/img/meriton/escadaORiordan/HeroExteriorDuskLOWRES.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-            <a href="{{ route('escada') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Escada, O'Riordan</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">CBD and the domestic and international airports, Mascot is a vibrant lifestyle hub where the culinary and retail scene is one of Sydney’s most visited hotspots.</p><br><br><br><br>
+            <a href="{{ route('escada') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Mascot - Escada</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">CBD and the domestic and international airports, Mascot is a vibrant lifestyle hub where the culinary and retail scene is one of Sydney’s most visited hotspots.</p><br><br>
             <p><a class="btn btn-secondary" href="{{ route('escada') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
             <div class="col-lg-4" style="padding-top:50px;">
             <a href="{{ route('kiaraMascot') }}"><img class="w3-circle" src="{{ URL::asset('/img/meriton/kiaraMascot/1920px_JJG_1999.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-            <a href="{{ route('kiaraMascot') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Kiara, Mascot</h2></a>
+            <a href="{{ route('kiaraMascot') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Mascot - Kiara</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">KIARA presents 233 apartments in three boutique residential towers rising 13 levels, with views over the inner city skyline.</p>
             <p><a class="btn btn-secondary" href="{{ route('kiaraMascot') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
             <div class="col-lg-4"  style="padding-top:50px;">
             <a href="{{ route('lighthouse') }}"> <img class="w3-circle" src="{{ URL::asset('/img/meriton/lighthouseDeeW/Lighthouse-Cutaway_1920x800.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-            <a href="{{ route('lighthouse') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Lighthouse, DeeWhy</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Right in the heart of Dee Why’s town centre transformation and only 800m from Dee Why Beach, Lighthouse is a new architectural landmark soaring high above the surrounding streetscape.</p>
+            <a href="{{ route('lighthouse') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">DeeWhy</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Right in the heart of Dee Why’s town centre transformation and only 800m from Dee Why Beach.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('lighthouse') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
             <div class="col-lg-4"  style="padding-top:50px;">
             <a href="{{ route('riverviewRhodes') }}"><img class="w3-circle" src="{{ URL::asset('/img/meriton/riverviewRhodes/ThePeninsula-externals-07.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-            <a href="{{ route('riverviewRhodes') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Riverview, Rhodes</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">In a premium location opposite Mill Park, Riverview is the only north facing waterfront residence on the Rhodes Peninsula.</p><br>
+            <a href="{{ route('riverviewRhodes') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Rhodes</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">In a premium location opposite Mill Park, Riverview is the only north facing waterfront residence on the Rhodes Peninsula.</p>
             <p><a class="btn btn-secondary" href="{{ route('riverviewRhodes') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
             <div class="col-lg-4"  style="padding-top:50px;">
             <a href="{{ route('spectrumMascot') }}"> <img class="w3-circle" src="{{ URL::asset('/img/meriton/spectrumMascot/Podium.jpg') }}" width="240" height="240"></a>
-            <a href="{{ route('spectrumMascot') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Spectrum, Mascot</h2></a>
+            <a href="{{ route('spectrumMascot') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Mascot - Spectrum</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Arrive home to a grand, north facing 1,200 sqm central park lined with trees, native plants, and leafy walkways linking each of the buildings.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('spectrumMascot') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
             <div class="col-lg-4" style="padding-top:50px;">
             <a href="{{ route('thegalleryRosebery') }}"><img class="w3-circle" src="{{ URL::asset('/img/meriton/thegalleryRosebery/HeroExterior.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-            <a href="{{ route('thegalleryRosebery') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">The Gallery Coco, Rosebery</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Introducing Coco Collection, luxury resort-style living within the stylish heart of Roseberry, paces from Green Sqaure's Gunyama Park and Aquatic Centre.</p>
+            <a href="{{ route('thegalleryRosebery') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Rosebery - CoCo</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Introducing Coco Collection, luxury resort-style living within the stylish heart of Roseberry, paces from Green Sqaure's Gunyama Park and Aquatic Centre.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('thegalleryRosebery') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
             <div class="col-lg-4" style="padding-top:50px;">
             <a href="{{ route('thegalleryMint') }}"> <img class="w3-circle" src="{{ URL::asset('/img/meriton/thegalleryMintRosebery/MERITON_ROSEBERY_VIEW2_04.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-            <a href="{{ route('thegalleryMint') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">The Gallery Mint, Rosebery</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Introducing Mint Collection, the first release within 'The Gallery'. Created by SJB, two masterpiece buildings with lush green space on the ground and in the skies.</p>
+            <a href="{{ route('thegalleryMint') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Rosebery - Mint</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Introducing Mint Collection, the first release within 'The Gallery'. Created by SJB, two masterpiece buildings with lush green space on the ground and in the skies.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('thegalleryMint') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
             <div class="col-lg-4" style="padding-top:50px;">
             <a href="{{ route('thegalleryPolo') }}"><img class="w3-circle" src="{{ URL::asset('/img/meriton/thegalleryPoloRosebery/DexusPhase3-TheGallery-Exterior-Edited.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-            <a href="{{ route('thegalleryPolo') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">The Gallery Polo,Rosebery</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Introducing Polo Collection, luxury resort-style living in Roseberry's vibrant heart.</p><br><br>
+            <a href="{{ route('thegalleryPolo') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Rosebery - Polo</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Introducing Polo Collection, luxury resort-style living in Roseberry's vibrant heart.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('thegalleryPolo') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
             <div class="col-lg-4" style="padding-top:50px;">
             <a href="{{ route('theRetreat') }}"><img class="w3-circle" src="{{ URL::asset('/img/meriton/theRetreatOlympicP/Cut-away.jpg') }}" width="240" height="240"></a>
-            <a href="{{ route('theRetreat') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">The Retreat,Sydney Olympic Park</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Soaring 22 storeys alongside idyllic landscaped parklands,  The Retreat will be home to an unrivalled collection  of 278 oversized apartments crowned by split-level luxury penthouses and superbly crafted townhouses below.</p>
+            <a href="{{ route('theRetreat') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Olympic Park</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">An unrivalled collection  of 278 oversized apartments crowned by split-level luxury penthouses.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('theRetreat') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
             <div class="col-lg-4" style="padding-top:50px;">
             <a href="{{ route('vidaMascot') }}"> <img class="w3-circle" src="{{ URL::asset('/img/meriton/vidaMascot/VIDA-EXT-HIGH-RES_MEG006-V01A-A-683x1024.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-            <a href="{{ route('vidaMascot') }}"> <h2  style=" font-family: Times New Roman; color: #1e3e49;">Vida,Mascot</h2></a>
-            <p  style=" font-family: Times New Roman; color: #1e3e49;">VIDA, the first release of luxury apartments in Meriton’s Platinum Collection, will showcase carefully planned and designed boutique buildings with the highest quality of finishes and fixtures.</p><br><br><br>
+            <a href="{{ route('vidaMascot') }}"> <h2  style=" font-family: Times New Roman; color: #1e3e49;">Mascot - VIDA</h2></a>
+            <p  style=" font-family: Times New Roman; color: #1e3e49;">Will showcase carefully planned and designed boutique buildings with the highest quality of finishes and fixtures.</p>
             <p><a class="btn btn-secondary" href="{{ route('vidaMascot') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 

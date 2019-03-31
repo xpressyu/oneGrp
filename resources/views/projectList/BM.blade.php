@@ -158,14 +158,14 @@ function showDivs(n) {
 <div class="row" style="width:100%; padding-top: 50px;  padding-left: 100px">
           <div class="col-lg-4">
           <a href="{{ route('vivid') }}"> <img class="w3-circle" src="{{ URL::asset('/img/bm/vivid/view1.png')}} " width="240" height="240"></a>
-          <a href="{{ route('vivid') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Vivid</h2></a>
+          <a href="{{ route('vivid') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Kirrawee</h2></a>
              <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Redefining the best of Sydney urban living against the backdrop of pristine beaches and parkland.
                     Welcome, to Vivid.</p><br>
           <p><a class="btn btn-secondary" href="{{ route('vivid') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
           <a href="{{ route('theAlbanyOne') }}"> <img class="w3-circle" src="{{ URL::asset('img/bm/theAlbanyOne/Coner.png')}} " width="240" height="240"></a>
-          <a href="{{ route('theAlbanyOne') }}">  <h2 style=" font-family: Times New Roman; color: #1e3e49;">TheAlbanyOne</h2></a>
+          <a href="{{ route('theAlbanyOne') }}">  <h2 style=" font-family: Times New Roman; color: #1e3e49;">Crows Nest</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Luxury in the marking, Find yourself at Home in The Village - The Albany One </p><br><br>
           <p><a class="btn btn-secondary" href="{{ route('theAlbanyOne') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->

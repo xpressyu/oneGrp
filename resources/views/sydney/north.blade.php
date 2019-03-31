@@ -149,62 +149,62 @@ function showDivs(n) {
 
           <div class="col-lg-4">
           <a href="{{ route('theAlbanyOne') }}"> <img class="w3-circle"  src="{{ URL::asset('/img/sydney/north/escada,Oriordan.jpg') }}" width="240" height="240"></a>
-          <a href="{{ route('theAlbanyOne') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">The Albany One</h2></a>
+          <a href="{{ route('theAlbanyOne') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Crows Nest</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Luxury in the marking, Find yourself at Home in The Village - The Albany One </p>
             <p><a class="btn btn-secondary" href="{{ route('theAlbanyOne') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
           <a href="{{ route('nbh') }}"><img class="w3-circle"  src="{{ URL::asset('/img/sydney/north/nbh.jpg') }}" width="240" height="240"></a>
-          <a href="{{ route('nbh') }}"> <h2 style="font-family: Times New Roman; color: #1e3e49; ">Nbh</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">NBH is much more than an address <br> NBH is where you belong.</p>
-            <p><a class="btn btn-secondary" href="#" role="button" style="background: #C38145">View details &raquo;</a></p>
+          <a href="{{ route('nbh') }}"> <h2 style="font-family: Times New Roman; color: #1e3e49; ">Macquarie</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">NBH is much more than an address <br> NBH is where you belong.<br> </p>
+            <p><a class="btn btn-secondary" href="{{ route('nbh') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
           <a href="{{ route('lucent') }}"><img class="w3-circle"  src="{{ URL::asset('/img/sydney/north/lucent.png') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('lucent') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Lucent</h2></a>
+          <a href="{{ route('lucent') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">North Sydney</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;"> Just Minutes by Train or Taxiform Sydney's Vibrant CBD, Norh Sydeny offers The best all worlds.</p>
             <p><a class="btn btn-secondary" href="{{ route('lucent')}}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
            <div class="col-lg-4" style="padding-top:50px;">
            <a href="{{ route('sierraResidence') }}"><img class="w3-circle"  src="{{ URL::asset('/img/sydney/north/sierraResidents.jpg') }}" width="240" height="240"></a>
-           <a href="{{ route('sierraResidence') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Sierra Residents</h2></a>
+           <a href="{{ route('sierraResidence') }}"> <h2 style=" font-family: Times New Roman; color: #1e3e49;">Kellyville</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Sierra Residences delivers a limited collection of boutique house and land packages in one of the North-West’s booming centres of growth.</p>
             <p><a class="btn btn-secondary" href="{{ route('sierraResidence')}}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('theGables') }}"><img class="w3-circle"  src="{{ URL::asset('/img/sydney/north/theGablesPrecict.png') }}" width="240" height="240"></a>
-          <a href="{{ route('theGables') }}"> <h2  style=" font-family: Times New Roman; color: #1e3e49;">The Gables Precict</h2></a>
+          <a href="{{ route('theGables') }}"> <h2  style=" font-family: Times New Roman; color: #1e3e49;">Box Hill</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">True value in construction is a result of outstanding quality, at an affordable price.</p><br/>
             <p><a class="btn btn-secondary" href="{{ route('theGables')}}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('theGables') }}"><img class="w3-circle"  src="{{ URL::asset('/img/sydney/north/omnia.jpg') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('theGables') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Omnia</h2></a>
+          <a href="{{ route('theGables') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Potts Point</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">With the beautifully wrapped edges, this remarkable buiding can be admired from any angle.</p><br/>
             <p><a class="btn btn-secondary" href="{{ route('omnia')}}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 
            <div class="col-lg-4" style="padding-top:50px;">
            <a href="{{ route('theNinesNaremburn') }}"><img class="w3-circle"  src="{{ URL::asset('/img/sydney/north/theNines.jpg')}}" width="240" height="240"></a>
-           <a href="{{ route('theNinesNaremburn') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">The Nines Naremburn</h2></a>
+           <a href="{{ route('theNinesNaremburn') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Naremburn</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Curated to the very last detail with space for the family to gather — this is where meals become memories.</p><br>
             <p><a class="btn btn-secondary" href="{{ route('theNinesNaremburn')}}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('escada') }}"><img class="w3-circle"  src="{{ URL::asset('/img/sydney/north/escada,Oriordan.jpg') }}" width="240" height="240"></a>
-          <a href="{{ route('escada') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Escada,O'riordan</h2></a>
+          <a href="{{ route('escada') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Mascot</h2></a>
             <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">CBD and the domestic and international airports, Mascot is a vibrant lifestyle hub where the culinary and retail scene is one of Sydney’s most visited hotspots.</p>
             <p><a class="btn btn-secondary" href="{{ route('escada') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('northRyde') }}"><img class="w3-circle"  src="{{ URL::asset('/img/sydney/north/northRyde.png') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('northRyde') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">NorthRyde</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Enjoy great Shopping, Dining, Leisure and Entertainment. </p><br><br>
+          <a href="{{ route('northRyde') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">North Ryde</h2></a>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Enjoy great Shopping, Dining, Leisure and Entertainment.</p><br><br>
             <p><a class="btn btn-secondary" href="{{ route('northRyde') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
           <a href="{{ route('putneyHill') }}"><img class="w3-circle"  src="{{ URL::asset('/img/sydney/north/putneyHill.png') }}" alt="Generic placeholder image" width="240" height="240"></a>
-          <a href="{{ route('putneyHill') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">putneyHill</h2></a>
+          <a href="{{ route('putneyHill') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Putney Hill</h2></a>
           <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">Inner city lifestyle meets local village charm in this central location. </p><br>
             <p><a class="btn btn-secondary" href="{{ route('putneyHill') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
