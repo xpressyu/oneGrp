@@ -100,23 +100,23 @@
 		<div class="skill-home"> <div class="skill-home-solid clearfix">
 		<div class="col-md-3 col-sm-6 text-center">
 		<span class="icons c1"><i class="fa fa-address-card"></i></span> <div class="box-area">
-		<h3>Who We Are</h3> <p style="text-align: justify">ONE GROUP GLOBAL INVESTMENT PTY LTD is a premium, Professional, Prestigious Property Investment Consulting Company based in Sydney CBD. We ONLY work with the BEST Developers, the BEST Projects with the Best Price in the BEST Location.</p></div>
+		<h3>Who We Are</h3> <p style="text-align: justify">ONE GROUP GLOBAL INVESTMENT is a premium, professional, prestigious Property Investment Consulting Company based in Sydney CBD. We ONLY work with the BEST Developers, the BEST Projects with the Best Price in the BEST Location.</p></div>
 		</div>
 		<div class="col-md-3 col-sm-6 text-center">
 		<span class="icons c2"><i class="fa fa-trophy"></i></span> <div class="box-area">
-		<h3>What We Do</h3> <p style="text-align: justify">To build your WEALTH fast through Secure, Effective and Efficient Property Investment activities in order to achieve Financial Freedom. <br><br><br><br> </p></div>
+		<h3>What We Do</h3> <p style="text-align: justify">To build your WEALTH fast through Secure, Effective and Efficient Property Investment activities in order to achieve your Financial Freedom. <br><br><br><br> </p></div>
 		</div>
 		<div class="col-md-3 col-sm-6 text-center">
 		<span class="icons c3"><i class="fa fa-sticky-note-o"></i></span> <div class="box-area">
-		<h3>How We Do</h3> <p style="text-align: justify">ONE GROUP of Professionals work and assist with each client providing ONE STOP 360 SERVICE to secure each Investment Property Purchase and Sell.
+		<h3>How We Do</h3> <p style="text-align: justify">One group of Professionals work and assist with each client providing ONE STOP 360 SERVICE to secure and enlarge your Investment Portfolio.
 			</p><br><br><br></div>
 		</div>
 		<div class="col-md-3 col-sm-6 text-center">
 		<span class="icons c4"><i class="fa fa-group"></i></span> <div class="box-area">
-		<h3>Social Acitivity</h3> <p style="text-align: justify">We Contribute 1% of our Time to local Charities and Communities.<br>
+		<h3>Social Acitivity</h3> <p style="text-align: justify">We contribute 1% of our Time to local Charities and Communities.<br>
  We contribute 1% of our Profit to local Charities and Communities.<br>
- We contribute 1% of our Product to local Charities and Communities.</p>
- <br>
+ We contribute 1% of our Equity to local Charities and Communities.</p>
+ <br><br>
 		</div></div>
 		</div></div>
 		</div>
@@ -140,15 +140,15 @@
 			<div class="row">
 				<div class="col-md-6 col-sm-6">
 					<div class="about-text">
-            <p style="font-size: 18px; font-family: Times New Roman; color: #1e3e49; text-align: justify ; line-height:200%" > <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">ONE GROUP GLOBAL INVESTMENT PTY LTD </span> is a premium, Professional, Prestigious Property Investment Consulting Company based in Sydney CBD.
+            <p style="font-size: 18px; font-family: Times New Roman; color: #1e3e49; text-align: justify ; line-height:200%" > <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">ONE GROUP GLOBAL INVESTMENT PTY LTD </span> is a Premium, Professional, Prestigious Property Investment Consulting Company based in Sydney CBD.
             We only work with the <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;"> BEST</span> Developers, the<span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;"> BEST</span> Projects with the
             <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">BEST</span> Price in the  <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">BEST</span> Location .</p>
 
 						<ul class="withArrow">
-							<li style=" color: #1e3e49; font-size: 15px;"><span class="fa fa-angle-right"></span> We Contribute <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">1% of our Time</span> to local Charities and Communities. </li>
-              <li style=" color: #1e3e49; font-size: 15px; "><span class="fa fa-angle-right"></span> We contribute <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">1% of our Profit</span> to local Charities and Communities.</li>
+							<li style=" color: #1e3e49; font-size: 15px;"><span class="fa fa-angle-right"></span> We contribute <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">1% of our Time</span> to local Communities. </li>
+              <li style=" color: #1e3e49; font-size: 15px; "><span class="fa fa-angle-right"></span> We contribute <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">1% of our Profit</span> to local Communities.</li>
 
-              <li style=" color: #1e3e49;  font-size: 15px;"><span class="fa fa-angle-right"></span> We contribute <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">1% of our Product</span> to local Charities and Communities.</li>
+              <li style=" color: #1e3e49;  font-size: 15px;"><span class="fa fa-angle-right"></span> We contribute <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">1% of our Equity</span> to local Communities.</li>
             </ul>
             <br>
 						<a href="{{ route('company') }}" class="btn btn-primary" style="background-color: #F1C108
@@ -180,19 +180,19 @@
             <div class="col-sm-3 md-margin-bottom-40">
 
                <a href="{{ route('southVillage') }}"><img class="img-responsive" src="{{ URL::asset('/img/newHome/Deicorp-Southvillage.jpg') }}" alt=""> </a>
-               <a href="{{ route('southVillage') }}"> <h3>SouthVillage-Deicorp</h3></a>
+               <a href="{{ route('southVillage') }}"> <h3>Kirrawee</h3></a>
                 <p>At South Village, your doorstep stretches from the precinct’s new shopping centre to the National Park to the endless blues of beaches and bays; an urban lifestyle amidst Australia’s natural wonders.</p>
             </div>
 <!--           card 2-->
             <div class="col-sm-3 md-margin-bottom-40">
                  <a href="{{ route('omnia') }}"><img class="img-responsive" src="{{ URL::asset('/img/newHome/Greenland-Omnia.jpg') }}" alt="">   </a>
-				         <a href="{{ route('omnia') }}"> <h3>Omnia-Greenland</h3></a>
-                <p>where the ordinary becomes extraordinary, and everyday life is richer than ever. A boutique collection of nine 3-storey residences, The Nines is perfected living for every generation..</p>
+				         <a href="{{ route('omnia') }}"> <h3>Potts Point</h3></a>
+                <p>Where the ordinary becomes extraordinary, and everyday life is richer than ever. A boutique collection of nine 3-storey residences, The Nines is perfected living for every generation..</p>
             </div>
 <!--           card 3-->
             <div class="col-sm-3 md-margin-bottom-40">
 			        	<a href="{{ route('theNinesNaremburn') }}"><img class="img-responsive" src="{{ URL::asset('/img/newHome/Metro-TheNines.jpg') }}" alt="">  </a>
-			        	<a href="{{ route('theNinesNaremburn') }}"><h3>TheNines-Metro</h3></a>
+			        	<a href="{{ route('theNinesNaremburn') }}"><h3>Naremburn</h3></a>
                 <p>Omnia's distinctive podium draws in the heritage streetscape and delivers its rhythm around the peninsula end of its expansive site. </p>
             </div>
 <!--           card 4-->

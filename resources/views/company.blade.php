@@ -91,7 +91,7 @@
 						<p style="font-size: 18px; font-family: Times New Roman; color: #1e3e49; text-align: justify ; line-height:200%" > <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">ONE GROUP GLOBAL INVESTMENT PTY LTD </span> is a premium, Professional, Prestigious Property Investment Consulting Company based in Sydney CBD.
             We only work with the <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;"> BEST</span> Developers, the<span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;"> BEST</span> Projects with the
             <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">BEST</span> Price in the  <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">BEST</span> Location .
-					  To build your wealth fast through Secure, <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">Effective </span> and <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">Efficient </span> property investment activities in order to achieve Financial Freedom.</p>
+					  To build your wealth fast through <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">Secure</span> <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">Effective </span> and <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">Efficient </span> property investment activities in order to achieve Financial Freedom.</p>
 					</div>
 				</div>
 			</div>
@@ -108,7 +108,7 @@
 								<div class="block-heading-two">
 									<h3 style="color: #1e3e49;"><span>Why Choose Us?</span></h3>
 								</div>
-								<p style="color: #1e3e49;">We Contribute <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">1% of our Time</span> to local Communities. <br/><br/>We contribute <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">1% of our Profit</span> to local Communities.<br/><br/>We contribute <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">1% of our Product</span> to local Communities.</p>
+								<p style="color: #1e3e49;">We Contribute <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">1% of our Time</span> to local Communities. <br/><br/>We contribute <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">1% of our Profit</span> to local Communities.<br/><br/>We contribute <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">1% of our Equity</span> to local Communities.</p>
 							</div>
 							<div class="col-md-4">
 								<div class="block-heading-two">
@@ -129,7 +129,7 @@
 									 <div id="collapseOne-alt3" class="panel-collapse collapse">
 										<!-- Panel body -->
 										<div class="panel-body" style="color: #1e3e49;">
-										  ONE GROUP GLOBAL INVESTMENT PTY LTD is a premium, professional, prestigious property investment consulting company based in Sydney CBD. We only work with the BEST developers, the BEST projects with the Best price in the BEST location.
+										  <p style="color: #1e3e49; text-align:justify;">ONE GROUP GLOBAL INVESTMENT PTY LTD is a premium, professional, prestigious property investment consulting company based in Sydney CBD. We only work with the BEST developers, the BEST projects with the Best price in the BEST location.</p>
 										</div>
 									 </div>
 								  </div>
@@ -143,7 +143,7 @@
 									 </div>
 									 <div id="collapseTwo-alt3" class="panel-collapse collapse">
 										<div class="panel-body" style="color: #1e3e49;">
-										 To build your wealth fast through Secure, Effective and Efficient property investment activities in order to achieve Financial Freedom
+                                            <p style="color: #1e3e49; text-align:justify; ">To build your wealth fast through Secure, Effective and Efficient property investment activities in order to achieve Financial Freedom.</p>
 										</div>
 									 </div>
 								  </div>
@@ -157,7 +157,7 @@
 									 </div>
 									 <div id="collapseThree-alt3" class="panel-collapse collapse">
 										<div class="panel-body" style="color: #1e3e49;">
-										ONE GROUP of Professionals work and assist with each client providing ONE STOP 360 SERVICE to secure each investment property purchase and sell.
+                                            <p style="color: #1e3e49; text-align:justify; ">One group of Professionals work and assist with each client providing ONE STOP 360 SERVICE to secure each investment property purchase and sell.</p>
 										<br>
 										<br> - Customise Individual Property Investment Analyses and Solutions
 										<br> - Assist Financial Advise Services
@@ -176,7 +176,7 @@
 								<div class="block-heading-two">
 									<h3 style="color: #1e3e49;"><span>Our Expertise</span></h3>
 								</div>
-								<h6>Consaltation</h6>
+								<h6>Consultation</h6>
 								<div class="progress pb-sm">
 								  <!-- White color (progress-bar-white) -->
 								  <div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
@@ -189,7 +189,7 @@
 									 <span class="sr-only">100% Complete (success)</span>
 								  </div>
 								</div>
-								<h6>Legal Adivce</h6>
+								<h6>Legal Advice</h6>
 								<div class="progress pb-sm">
 								  <div class="progress-bar progress-bar-lblue" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
 									 <span class="sr-only">100% Complete (success)</span>
