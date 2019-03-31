@@ -70,14 +70,14 @@
         <div id="main-slider" class="flexslider">
             <ul class="slides">
               <li>
-                <img src="{{ URL::asset('/img/newHome/view1.jpg') }}" alt="" />
+                <img src="{{ URL::asset('/img/newHome/new1.jpg') }}" alt="" />
                 <div class="flex-caption">
                     <h3>ONE GROUP</h3>
 
                 </div>
               </li>
               <li>
-                <img src="{{ URL::asset('/img/newHome/view2.jpg') }}" alt="" />
+                <img src="{{ URL::asset('/img/newHome/new2.jpg') }}" alt="" />
                 <div class="flex-caption">
                     <h3>ONE VISION</h3>
 
