@@ -256,13 +256,20 @@ function showDivs(n) {
 	</div>
 <!-- footer -->
 <div class="down" style="background-color: #000000 ">
-
-<p style="color: aliceblue ; width: 900px; padding-left:27%;">One Group Global Investment Pty Ltd&copy;
-<br>Ground Floor Level 6,201 Kent Street Sydney NSW 2000
-<br> D: + 61 29019 1889  &nbsp &nbsp    M: 0413384119
-<br> E: fiona@onegroupglbal.com.au  &nbsp info@onegroupglobal.com.au
-</p>
-</div>
+    <br>
+    <p style="color: aliceblue ; width: 900px; padding-left:3%; "> <span style="font-size: 17px; font-family: Times New Roman; color: #F1C108;">One Group Global Investment Pty Ltd </span>&copy;
+    <br>Ground Floor Level 6, &nbsp201 Kent Street Sydney NSW 2000
+    <br> <span style="font-size: 17px; font-family: Times New Roman; color: #F1C108;">D:</span> (+61) &nbsp 2 &nbsp9019 1889  &nbsp &nbsp    <span style="font-size: 17px; font-family: Times New Roman; color: #F1C108;">M:</span> (+61) &nbsp 0413 &nbsp384 &nbsp119
+    <br> <span style="font-size: 17px; font-family: Times New Roman; color: #F1C108;">E: </span> info@onegroupglobal.com.au
+    </p>
+    <br>
+    </div>
+    </div>
+    <a href="{{ route('SEND_EMAIL') }}" class="float">
+    <i class=" my-float">
+    <img src={{ URL::asset('/img/others/email.png') }} style="width: 45px; height:45px;">
+    </i>
+    </a>
 
   <!-- javascript
     ================================================== -->
