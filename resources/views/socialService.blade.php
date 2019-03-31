@@ -99,11 +99,11 @@
         <td><img src={{ URL::asset('/img/socialService/14.png') }} class="img-thumbnail"></td>
     </tr>
     <tr>
-        <td><img src={{ URL::asset('/img/socialService/17.jpeg') }} class="img-thumbnail"></td>
-        <td><img src={{ URL::asset('/img/socialService/18.jpeg') }} class="img-thumbnail"></td>
+        <td><img src={{ URL::asset('/img/socialService/19.jpg') }} class="img-thumbnail"></td>
+        <td><img src={{ URL::asset('/img/socialService/18.jpg') }} class="img-thumbnail"></td>
     </tr>
     <tr>
-        <td><img src={{ URL::asset('/img/socialService/19.jpeg') }} class="img-thumbnail"></td>
+        <td><img src={{ URL::asset('/img/socialService/17.jpg') }} class="img-thumbnail"></td>
         <td><img src={{ URL::asset('/img/socialService/20.png') }} class="img-thumbnail"></td>
     </tr>
 </table>
