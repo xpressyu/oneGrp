@@ -189,7 +189,7 @@ function showDivs(n) {
            <div class="col-lg-4" style="padding-top:50px;">
            <a href="{{ route('riverviewRhodes') }}"><img class="w3-circle" src="{{ URL::asset('/img/sydney/west/riverview.jpg') }}" width="240" height="240"></a>
            <a href="{{ route('riverviewRhodes') }}"><h2 style=" font-family: Times New Roman; color: #1e3e49;">Riverview</h2></a>
-            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">In a premium location opposite Mill Park, Riverview is the only north facing waterfront residence on the Rhodes Peninsula.</p> <br><br>
+            <p style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;">In a premium location opposite Mill Park, Riverview is the only north facing waterfront residence on the Rhodes Peninsula.</p> <br>
             <p><a class="btn btn-secondary" href="{{ route('riverviewRhodes') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" style="padding-top:50px;">
@@ -241,28 +241,20 @@ function showDivs(n) {
             <p><a class="btn btn-secondary" href="{{ route('escada') }}" role="button" style="background: #C38145">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
     </div>
-    <footer>
-	<div class="container">
-		<div class="row">
+    <div class="down" style="background-color: #000000 ">
 
-
-	<div id="sub-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6">
-					<div class="copyright">
-						<p>
-							Copyright &copy; 2019. ONE GROUP GLOBAL INVESTMENT PTY LTD
-						</p>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
-		</div>
-			</div>
-	</footer>
+        <p style="color: aliceblue ; width: 900px; padding-left:27%;">One Group Global Investment Pty Ltd&copy;
+        <br>Ground Floor Level 6,201 Kent Street Sydney NSW 2000
+        <br> D: + 61 29019 1889  &nbsp &nbsp    M: 0413384119
+        <br> E: fiona@onegroupglbal.com.au  &nbsp info@onegroupglobal.com.au
+        </p>
+        </div>
+        </div>
+        <a href="{{ route('SEND_EMAIL') }}" class="float">
+        <i class=" my-float">
+        <img src={{ URL::asset('/img/others/email.png') }} style="width: 45px; height:45px;">
+        </i>
+        </a>
 
 <!-- javascript
     ================================================== -->

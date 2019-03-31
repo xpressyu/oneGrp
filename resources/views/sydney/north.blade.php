@@ -222,24 +222,16 @@ function showDivs(n) {
 	<div class="container">
 		<div class="row">
 
+            <div class="down" style="background-color: #000000 ">
 
-	<div id="sub-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6">
-					<div class="copyright">
-						<p>
-							Copyright &copy; 2019. ONE GROUP GLOBAL INVESTMENT PTY LTD
-						</p>
-					</div>
-				</div>
+                <p style="color: aliceblue ; width: 900px; padding-left:27%;">One Group Global Investment Pty Ltd&copy;
+                <br>Ground Floor Level 6,201 Kent Street Sydney NSW 2000
+                <br> D: + 61 29019 1889  &nbsp &nbsp    M: 0413384119
+                <br> E: fiona@onegroupglbal.com.au  &nbsp info@onegroupglobal.com.au
+                </p>
+                </div>
+                </div>
 
-			</div>
-		</div>
-	</div>
-		</div>
-			</div>
-	</footer>
 
 <!-- javascript
     ================================================== -->
