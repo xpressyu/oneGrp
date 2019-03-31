@@ -109,7 +109,7 @@
 		<div class="col-md-3 col-sm-6 text-center">
 		<span class="icons c3"><i class="fa fa-sticky-note-o"></i></span> <div class="box-area">
 		<h3>How We Do</h3> <p style="text-align: justify">ONE GROUP of Professionals work and assist with each client providing ONE STOP 360 SERVICE to secure each Investment Property Purchase and Sell.
-			</p><br><br></div>
+			</p><br><br><br></div>
 		</div>
 		<div class="col-md-3 col-sm-6 text-center">
 		<span class="icons c4"><i class="fa fa-group"></i></span> <div class="box-area">
