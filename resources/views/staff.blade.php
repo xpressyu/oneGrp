@@ -84,18 +84,18 @@
  <img src="{{ URL::asset('/img/staff/Fiona-1.jpeg') }}" style="width:350px; height:500px;">
  </div>
  <div class="w3-right" style="width: 450px; " >
- <h2 style="font-family: Times New Roman; color:  #F1C108;">About me</h2>
+ <h2 style="font-family: Times New Roman; color:#F1C108; font-weight:bold">About me</h2>
  <p  class="text-justify" style="font-family: Times New Roman; color: #1e3e49; text-align: justify ;font-size:18px; ;">
  I aspire to excel in the real estate industry by working as a professioanl property consultant and contribute my honest efforts and expertise in property investment and customer service to enhance your wealth and achieve your financial freedom.
 <ul>
   <li style="font-family: Times New Roman; color: #1e3e49; font-size:15px;"> 6 years Senior Consultant experiences in Property Investment </li>
-  <li style="font-family: Times New Roman; color: #1e3e49; font-size:15px;"> Professional Property Investment Trainer </li>
+  <li style="font-family: Times New Roman; color: #1e3e49; font-size:15px;"> Professional Property Investment Coach </li>
   <li style="font-family: Times New Roman; color: #1e3e49; font-size:15px;"> Working with all Well Known Developers (e.g. Lend lease, Mirvac, Frasers, Meriton, Crown etc...)</li>
   <li style="font-family: Times New Roman; color: #1e3e49; font-size:15px;"> Serviced more than 100 Clients each year </li>
   <li style="font-family: Times New Roman; color: #1e3e49; font-size:15px;"> 100% Satisfaction Rate from our clients</li>
   <li style="font-family: Times New Roman; color: #1e3e49; font-size:15px;"> 10 years professional HR experiences </li>
-  <li style="font-family: Times New Roman; color: #1e3e49; font-size:15px;"> HR Manager in Big 4 Accounting Firm Ernest & Young </li>
-  <li style="font-family: Times New Roman; color: #1e3e49; font-size:15px;"> Professional Member of AHRI (NO.:318945)</li>
+  <li style="font-family: Times New Roman; color: #1e3e49; font-size:15px;"> HR Manager in Big 4 Accounting Firm - Ernest & Young </li>
+  <li style="font-family: Times New Roman; color: #1e3e49; font-size:15px;"> Professional Member of Australian Human Resource Insititue (NO.318945)</li>
 </ul>
 
 </p>

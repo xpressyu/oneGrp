@@ -130,7 +130,7 @@
 					<div class="section-title text-center">
 					<p> <img src="{{ URL::asset('/img/newHome/guarantee.png') }}"></p>
 						<br>
-						<h2 style="color: #1e3e49;" ><span class="coloured">About</span> Our Company</h2>
+						<h2 style="color: #1e3e49; font-family: Times New Roman; font-weight:bold;"><span class="coloured">About</span> Our Company</h2>
 
 					</div>
 				</div>

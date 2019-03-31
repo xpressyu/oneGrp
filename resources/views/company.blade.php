@@ -87,11 +87,11 @@
 				</div>
 				<div class="col-md-6">
 					<div class="about-text">
-						<h2 style="color: #1e3e49; "><span class="coloured">About</span> ONE GROUP</h2>
+						<h2 style="color: #1e3e49; font-family: Times New Roman; font-weight:bold;"><span class="coloured">About</span> ONE GROUP</h2>
 						<p style="font-size: 18px; font-family: Times New Roman; color: #1e3e49; text-align: justify ; line-height:200%" > <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">ONE GROUP GLOBAL INVESTMENT PTY LTD </span> is a premium, Professional, Prestigious Property Investment Consulting Company based in Sydney CBD.
             We only work with the <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;"> BEST</span> Developers, the<span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;"> BEST</span> Projects with the
             <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">BEST</span> Price in the  <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">BEST</span> Location .
-					  To build your wealth fast through <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">Secure</span> <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">Effective </span> and <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">Efficient </span> property investment activities in order to achieve Financial Freedom.</p>
+					  To build your wealth fast through <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">Secure,</span> <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">Effective </span> and <span style="font-size: 18px; font-family: Times New Roman; color: #F1C108;">Efficient </span> property investment activities in order to achieve Financial Freedom.</p>
 					</div>
 				</div>
 			</div>
